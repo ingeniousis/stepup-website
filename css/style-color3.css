@@ -19,7 +19,7 @@ body {
 }
 section,
 header {
-  padding: 140px 0;
+  padding: 80px 0;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -1086,6 +1086,7 @@ nav.navbar-slide.show-menu {
 }
 .intro-block .container {
   padding-top: 140px;
+  padding-bottom: 40px;
 }
 .intro-block .btn-default {
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -1199,7 +1200,6 @@ nav.navbar-slide.show-menu {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70px;
   background: #fff;
 }
 /*--------- Layout2 ----------*/

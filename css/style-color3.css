@@ -385,19 +385,19 @@ section {
   background-color: #fafafa;
 }
 .bg-color-grad {
-  background: #00dffc;
+  background: #456;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #00dffc 0%, #16abbe 100%);
+  background: -moz-linear-gradient(top, #456 0%, #16abbe 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00dffc), color-stop(100%, #16abbe));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #456), color-stop(100%, #16abbe));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #00dffc 0%, #16abbe 100%);
+  background: -webkit-linear-gradient(top, #456 0%, #16abbe 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #00dffc 0%, #16abbe 100%);
+  background: -o-linear-gradient(top, #456 0%, #16abbe 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #00dffc 0%, #16abbe 100%);
+  background: -ms-linear-gradient(top, #456 0%, #16abbe 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #00dffc 0%, #16abbe 100%);
+  background: linear-gradient(to bottom, #456 0%, #16abbe 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@grad-color2', endColorstr='@grad-color1', GradientType=0);
   /* IE6-9 */

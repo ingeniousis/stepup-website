@@ -19,7 +19,7 @@ body {
 }
 section,
 header {
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -51,7 +51,7 @@ h5 {
   font-family: 'Lato', sans-serif;
 }
 h1 {
-  font-size: 54px;
+  font-size: 44px;
   line-height: 1.4;
 }
 h2 {
@@ -77,6 +77,11 @@ ul {
   margin: 0;
   padding: 0px;
   list-style: none;
+}
+.vertical-align-center {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
 }
 blockquote {
   padding: 40px;
@@ -131,7 +136,7 @@ code:before {
     text-align: center;
   }
   section {
-    padding: 80px 0;
+    padding: 60px 0;
   }
   .text-left,
   .text-right {
@@ -382,7 +387,7 @@ section {
   border-bottom: none;
 }
 .bg-color3 {
-  background-color: #fafafa;
+  background-color: #e8e8e8;
 }
 .bg-color-grad {
   background: #456;
@@ -524,7 +529,7 @@ a.panel-heading {
   border-bottom: 1px solid #eee;
   font-weight: bold;
   padding: 20px 25px;
-  color: #00dffc;
+  color: #008c9e;
 }
 .panel-body {
   padding: 20px 25px;
@@ -1111,22 +1116,20 @@ nav.navbar-slide.show-menu {
   font-size: 50px;
   line-height: 1.2;
   color: #fff;
-  opacity: 0.75;
 }
 .intro-block .logo-name {
   display: inline-block;
   margin-left: 20px;
   margin-top: 5px;
-  text-transform: uppercase;
   font-size: 20px;
   line-height: 1.2;
   color: #fff;
-  opacity: 0.75;
 }
 .intro-block h1.slogan {
   color: #fff;
   margin: 0 10px 100px 10px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0.75;
 }
 .intro-screen {
   position: relative;

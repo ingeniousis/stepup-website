@@ -78,11 +78,6 @@ ul {
   padding: 0px;
   list-style: none;
 }
-.vertical-align-center {
-  display: flex;
-  min-height: 100%;
-  align-items: center;
-}
 blockquote {
   padding: 40px;
   display: block;
@@ -1533,6 +1528,12 @@ nav.navbar-slide.show-menu {
 @media (min-width: 768px) {
   .quote-block .owl-carousel .container {
     width: 720px;
+  }
+    
+  .vertical-align-center {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
   }
 }
 @media (min-width: 992px) {

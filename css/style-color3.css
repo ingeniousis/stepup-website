@@ -1107,8 +1107,9 @@ nav.navbar-slide.show-menu {
 }
 .intro-block .brand-name {
   display: inline-block;
-  margin-left: 20px;
-  font-size: 50px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 45px;
   line-height: 1.2;
   color: #fff;
 }
@@ -1529,7 +1530,7 @@ nav.navbar-slide.show-menu {
   .quote-block .owl-carousel .container {
     width: 720px;
   }
-    
+
   .vertical-align-center {
     display: flex;
     min-height: 100%;

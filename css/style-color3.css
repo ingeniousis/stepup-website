@@ -137,7 +137,7 @@ code:before {
   .text-right {
     text-align: center;
   }
-  h1 {
+  logo {
     font-size: 40px;
   }
   h2 {
@@ -899,6 +899,26 @@ a.panel-heading {
 /*----------------------------------------------------------------------------------------
 						SCREENS STYLES
 ----------------------------------------------------------------------------------------*/
+.screenshot {
+  position: absolute !important;
+  top: 60px;
+  left:25px;
+  width: 247px;
+}
+.screenshot-ios-header {
+  position: absolute !important;
+  z-index: 3;
+  top: 54px;
+  left:25px;
+  width: 233px;
+}
+.screenshot-android-header {
+  position: absolute !important;
+  z-index: 1;
+  top: 75px;
+  right: 24px;
+  width: 193px;
+}
 .screen-couple-right,
 .screen-couple-left {
   position: relative;
@@ -923,7 +943,7 @@ a.panel-heading {
 .screen-couple-left .above {
   position: relative;
   z-index: 2;
-  width: 65%;
+  width: 285px;
   height: auto;
 }
 .screen-couple-left .above {
@@ -937,9 +957,10 @@ a.panel-heading {
   z-index: 1;
   position: absolute;
   top: 40px;
-  width: 55%;
+  width: 240px;
   height: auto;
 }
+
 .screen-couple-left .beyond {
   right: 0;
 }
@@ -963,6 +984,32 @@ a.panel-heading {
 @media (max-width: 767px) {
   .full-height-screen {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .screenshot-ios-header {
+    width: 169px;
+    top: 37px;
+    left: 17px;
+  }
+  .screenshot-android-header {
+    width: 152px;
+    top: 68px;
+    right: 19px;
+  }
+  .screen-couple-left .beyond {
+    width: 190px;
+  }
+
+  .screen-couple-left .above {
+    width: 205px;
+  }
+}
+
+@media (max-width: 320px) {
+  .screenshot {
+    width: 245px;
   }
 }
 /*----------------------------------------------------------------------------------------
@@ -1118,7 +1165,7 @@ nav.navbar-slide.show-menu {
 }
 .intro-block .logo-name {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: 5px;
   font-size: 20px;
   line-height: 1.2;

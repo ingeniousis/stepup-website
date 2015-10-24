@@ -164,6 +164,9 @@ code:before {
   .row [class^=col-sm-] {
     padding-bottom: 40px;
   }
+  h1 {
+    font-size: 28px;
+  }
 }
 /*----------------------------------------------------------------------------------------
 						FORM STYLES

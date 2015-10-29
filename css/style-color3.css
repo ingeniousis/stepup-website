@@ -923,7 +923,7 @@ a.panel-heading {
 .screen-couple-left {
   position: relative;
   width: 100%;
-  max-width: 440px;
+  max-width: 470px;
   overflow: hidden;
   z-index: 100;
 }

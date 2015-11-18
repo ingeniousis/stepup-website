@@ -302,7 +302,26 @@
         <h4 class="modal-title" id="myModalLabel">Coming soon</h4>
       </div>
       <div class="modal-body">
-        We are launching next week. Please check back then, or email us at <a style="color: #428bca" href="mailto:contact@thestepupapp.com" target="_top">contact@thestepupapp.com</a> if you'd like access to the beta
+				<div>
+					<p style="text-align: justify">StepUp will launch soon (before the end of November). Enter your email address so we can send you a link when it’s available.</p>
+					<p style="text-align: justify"></p>
+				</div>
+				<br />
+				<div>
+					<input type="text" style="margin-left: 10px; margin-top: 10px" placeholder="Email address">
+					<button id="email-button" class="btn btn-success" style="margin-left: 10px; margin-top: 10px">Tell me when you launch</button>
+					<img src="images/loading.gif" id="loading" style="display: none"/>
+				</div>
+				<br />
+
+				<div class="alert alert-success" style="display: none">
+					<p id="alert-success-text"></p>
+				</div>
+
+				<div class="alert alert-danger" style="display: none">
+						<p id="alert-error-text"></p>
+				</div>
+				<br />
       </div>
     </div>
   </div>
@@ -329,6 +348,44 @@
 
 	  ga('create', 'UA-70257142-1', 'auto');
 	  ga('send', 'pageview');
+
+		$("#email-button").click(function(){
+			var emailId = $('input').val();
+			if(!validateEmail(emailId)) {
+				failureCallback(null, null, null, 'Please enter a valid email address.');
+				return;
+			}
+
+			$('#loading').show();
+			$('.alert-success').hide();
+			$('.alert-danger').hide();
+
+			$.post("https://cs-stepupapp.rhcloud.com/email/android-waitlist/" + emailId, successCallback).fail(failureCallback);
+
+			function failureCallback(result, error, errorString, str) {
+				if(result && result.status === 409) {
+					successCallback(null, null, null, 'Thanks! ' + emailId + ' is already subscribed to receive email from us when we launch.');
+					return;
+				}
+
+				$('#alert-error-text').text(str? str : "Sorry it seems that the server is not responding. Please try again later!");
+				$('.alert-success').hide();
+				$('.alert-danger').show();
+				$('#loading').hide();
+	  	}
+
+			function successCallback(a, b, c, str) {
+				$('#alert-success-text').text(str? str : "Thanks! We will email you when we launch.");
+				$('.alert-success').show();
+				$('.alert-danger').hide();
+				$('#loading').hide();
+			}
+
+			function validateEmail(email) {
+				var regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+				return regex.test(email);
+			}
+		});
 	</script>
 
 	<!--[if lte IE 9]>

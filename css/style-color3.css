@@ -904,16 +904,16 @@ a.panel-heading {
 ----------------------------------------------------------------------------------------*/
 .screenshot {
   position: absolute !important;
-  top: 69px;
-  left:31px;
-  width: 235px;
+  top: 68px;
+  left:30px;
+  width: 238px;
 }
 .screenshot-ios-header {
   position: absolute !important;
   z-index: 3;
-  top: 67px;
-  left: 30px;
-  width: 222px;
+  top: 65px;
+  left: 29px;
+  width: 225px;
 }
 .screenshot-android-header {
   position: absolute !important;

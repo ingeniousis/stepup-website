@@ -904,23 +904,23 @@ a.panel-heading {
 ----------------------------------------------------------------------------------------*/
 .screenshot {
   position: absolute !important;
-  top: 60px;
-  left:25px;
-  width: 247px;
+  top: 69px;
+  left:31px;
+  width: 235px;
 }
 .screenshot-ios-header {
   position: absolute !important;
   z-index: 3;
-  top: 54px;
-  left:25px;
-  width: 233px;
+  top: 67px;
+  left: 30px;
+  width: 222px;
 }
 .screenshot-android-header {
   position: absolute !important;
   z-index: 1;
   top: 75px;
   right: 24px;
-  width: 193px;
+  width: 194px;
 }
 .screen-couple-right,
 .screen-couple-left {
@@ -992,12 +992,12 @@ a.panel-heading {
 
 @media (max-width: 480px) {
   .screenshot-ios-header {
-    width: 169px;
-    top: 37px;
-    left: 17px;
+    width: 159px;
+    top: 48px;
+    left: 22px;
   }
   .screenshot-android-header {
-    width: 152px;
+    width: 153px;
     top: 68px;
     right: 19px;
   }

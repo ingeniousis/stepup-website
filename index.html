@@ -397,30 +397,36 @@
 	var operatingSystem, link, userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
 
-	function appStoreRedirect() {
-
-	if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
-		operatingSystem = "iOS";
-		link = "https://itunes.apple.com/app/id979101825";
-		openAppStore(link)
-	} else if (userAgent.match(/Android/i)) {
-		operatingSystem = "Android";
-		link = "http://play.google.com/store/apps/details?id=com.thestepupapp.stepup";
-		openAppStore(link)
-	} else {
-		operatingSystem = "Unknown";
-		link = "http://www.thestepupapp.com";
-		// do nothing
-	}
-
-	// window.location.assign(link);
+	function appStoreRedirect()
+	{
+		// get.thestepupapp.com redirects to www.thestepupapp.com?r=1
+		if(getParameterByName("r") === "1")	// redirect
+		{
+			if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
+				operatingSystem = "iOS";
+				link = "https://itunes.apple.com/app/id979101825";
+				openAppStore(link)
+			} else if (userAgent.match(/Android/i)) {
+				operatingSystem = "Android";
+				link = "http://play.google.com/store/apps/details?id=com.thestepupapp.stepup";
+				openAppStore(link)
+			}
+		}
 	}
 
 	function openAppStore(link)
 	{
-		// window.location.assign(link)
-		var win = window.open(link, '_blank');
-  	// win.focus();
+		window.location.assign(link)
+	}
+
+	function getParameterByName(name, url) {
+	    if (!url) url = window.location.href;
+	    name = name.replace(/[\[\]]/g, "\\$&");
+	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	        results = regex.exec(url);
+	    if (!results) return null;
+	    if (!results[2]) return '';
+	    return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 
 </script>

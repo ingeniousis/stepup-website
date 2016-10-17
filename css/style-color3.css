@@ -54,11 +54,11 @@ h5 {
   font-family: 'Lato', sans-serif;
 }
 h1 {
-  font-size: 44px;
+  font-size: 34px;
   line-height: 1.4;
 }
 h2 {
-  font-size: 44px;
+  font-size: 30px;
   margin: 0 0 30px 0;
 }
 h3 {
@@ -1153,7 +1153,7 @@ nav.navbar-slide.show-menu {
   z-index: 100;
 }
 .intro-block .logo {
-  margin: 0 0 100px 0;
+  margin: 0 0 80px 0;
 }
 .intro-block .logo-img {
   float: left;
@@ -1162,6 +1162,7 @@ nav.navbar-slide.show-menu {
   display: inline-block;
   margin-top: 5px;
   margin-left: 10px;
+  margin-right: 10px;
   font-size: 45px;
   line-height: 1.2;
   color: #fff;
@@ -1169,16 +1170,17 @@ nav.navbar-slide.show-menu {
 .intro-block .logo-name {
   display: inline-block;
   margin-left: 10px;
+  margin-right: 10px;
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.2;
   color: #fff;
 }
 .intro-block h1.slogan {
   color: #fff;
-  margin: 0 10px 100px 10px;
+  margin: 0px 10px 80px 10px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  opacity: 0.75;
+  opacity: 0.80;
 }
 .intro-screen {
   position: relative;
@@ -1277,7 +1279,7 @@ nav.navbar-slide.show-menu {
     text-align: center;
   }
   .intro-block .logo {
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
   }
   .intro-block .logo-img {
     float: none;
@@ -1286,7 +1288,7 @@ nav.navbar-slide.show-menu {
     display: block;
   }
   .intro-block h1.slogan {
-    margin: 0 10px 50px 10px;
+    margin: 0px 10px 40px 10px;
   }
   .intro-screen,
   .layout2 .intro-screen {

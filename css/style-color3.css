@@ -1246,7 +1246,7 @@ nav.navbar-slide.show-menu {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 46px;
-  line-height: 1;
+  line-height: 1.1;
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -1364,7 +1364,7 @@ nav.navbar-slide.show-menu {
     text-align: center;
   }
   .intro-block .logo {
-    margin: 0 0 25px 0;
+    margin: 12px 0 30px 0;
   }
   .intro-block .logo-img {
     float: none;
@@ -1374,7 +1374,7 @@ nav.navbar-slide.show-menu {
     display: block;
   }
   .intro-block h1.slogan {
-    margin: 0px 4px 30px 4px;
+    margin: 0px 4px 38px 4px;
     font-size: 24px
   }
   .intro-screen,
@@ -1385,7 +1385,7 @@ nav.navbar-slide.show-menu {
 @media (max-width: 767px) {
   .intro-block .container,
   .intro-block.layout2 .container {
-    padding-top: 70px;
+    padding-top: 75px;
   }
   .intro-block .download-btn,
   .intro-block .btn {

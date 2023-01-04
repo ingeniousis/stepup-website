@@ -153,7 +153,7 @@ code:before {
     font-size: 18px;
   }
   .row [class^=col-] {
-    padding-bottom: 40px;
+    padding-bottom: 16px;
   }
   .row.no-dev [class^=col-],
   .row [class^=col-sm-] {
@@ -1238,32 +1238,35 @@ nav.navbar-slide.show-menu {
 }
 .intro-block .logo-img {
   float: left;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 .intro-block .brand-name {
   display: inline-block;
   margin-top: 0px;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 45px;
-  line-height: 1.2;
+  font-size: 46px;
+  line-height: 1;
   color: #fff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .intro-block .logo-name {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 4px;
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .intro-block h1.slogan {
   color: #fff;
-  margin: 0px 10px 80px 10px;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  opacity: 0.80;
+  margin: 0px 4px 80px 4px;
+  /*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0.80;*/
 }
+
 .intro-screen {
   position: relative;
   display: inline-block;
@@ -1361,16 +1364,18 @@ nav.navbar-slide.show-menu {
     text-align: center;
   }
   .intro-block .logo {
-    margin: 0 0 30px 0;
+    margin: 0 0 25px 0;
   }
   .intro-block .logo-img {
     float: none;
+    display: none;
   }
   .intro-block .logo-name {
     display: block;
   }
   .intro-block h1.slogan {
-    margin: 0px 10px 40px 10px;
+    margin: 0px 4px 30px 4px;
+    font-size: 24px
   }
   .intro-screen,
   .layout2 .intro-screen {
@@ -1380,7 +1385,7 @@ nav.navbar-slide.show-menu {
 @media (max-width: 767px) {
   .intro-block .container,
   .intro-block.layout2 .container {
-    padding-top: 75px;
+    padding-top: 70px;
   }
   .intro-block .download-btn,
   .intro-block .btn {

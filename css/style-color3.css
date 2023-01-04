@@ -1263,6 +1263,7 @@ nav.navbar-slide.show-menu {
 .intro-block h1.slogan {
   color: #fff;
   margin: 0px 4px 80px 4px;
+  font-family: 'Open Sans', sans-serif;
   /*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   opacity: 0.80;*/
 }
@@ -1375,7 +1376,8 @@ nav.navbar-slide.show-menu {
   }
   .intro-block h1.slogan {
     margin: 0px 4px 38px 4px;
-    font-size: 24px
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
   }
   .intro-screen,
   .layout2 .intro-screen {

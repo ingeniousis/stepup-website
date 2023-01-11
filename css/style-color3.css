@@ -1249,6 +1249,7 @@ nav.navbar-slide.show-menu {
   line-height: 1.1;
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 .intro-block .logo-name {
   display: inline-block;
@@ -1264,6 +1265,7 @@ nav.navbar-slide.show-menu {
   color: #fff;
   margin: 0px 4px 80px 4px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
   /*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   opacity: 0.80;*/
 }
@@ -1378,6 +1380,7 @@ nav.navbar-slide.show-menu {
     margin: 0px 4px 38px 4px;
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
   }
   .intro-screen,
   .layout2 .intro-screen {

@@ -1,0 +1,12 @@
+# app-ads.txt for example.com (replace with your own domain)
+# This file should be accessible at the following URL:
+# https://example.com/app-ads.txt (replace with your own domain)
+
+# Google AdMob
+google.com, pub-4428560240393115, DIRECT, f08c47fec0942fa0
+
+# Add more ad sources if needed
+# Format: [Domain name of the ad source], [Seller account ID], [Type of relationship], [Certificate authority ID]
+# Example:
+# somenetwork.com, 12345, DIRECT, 0123456789abcdef
+# anothernetwork.com, 67890, RESELLER, abcdef1234567890

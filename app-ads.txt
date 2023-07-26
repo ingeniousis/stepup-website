@@ -6,6 +6,12 @@
 google.com, pub-4428560240393115, DIRECT, f08c47fec0942fa0
 facebook.com, 842958360492468, DIRECT, c3e20eee3f780d68
 chocolateplatform.com, 19318, RESELLER, 49a66ce31a704197
+
+#Equative
+smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
+
+#chocolateplatform partners
 pubmatic.com, 160888, RESELLER, 5d62403b186f2ace
 inmobi.com, fe4db13744124582a6a2b18964560ce7, RESELLER, 83e75a7ae333ca9d
 smartadserver.com, 4395, RESELLER, 060d053dcf45cbf3

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(for f in *.png)",
+      "Bash(do echo \"$f:\")",
+      "Bash(sips:*)",
+      "Bash(done)",
+      "Bash(brew list:*)",
+      "Bash(do sips --resampleHeight 900 \"$f\" --out \"optimized/$f\")",
+      "Bash(echo:*)",
+      "Bash(do sips --resampleHeight 1200 \"$f\" --out \"optimized_1200px/$f\")"
+    ]
+  }
+}

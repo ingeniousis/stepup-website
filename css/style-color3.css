@@ -688,8 +688,8 @@ a.panel-heading {
   background-color: #30e7ff;
   border-radius: 100%;
   display: inline-block;
-  -webkit-animation: threeBounceDelay 1.4s infinite ease-in-out;
-  animation: threeBounceDelay 1.4s infinite ease-in-out;
+  -webkit-animation: threeBounceDelay 0.5s infinite ease-in-out;
+  animation: threeBounceDelay 0.5s infinite ease-in-out;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   margin: 0 1px;
@@ -1027,7 +1027,7 @@ a.panel-heading {
 .screen-couple-left .above {
   position: relative;
   z-index: 2;
-  width: 285px;
+  width: 60%;
   height: auto;
 }
 .screen-couple-left .above {
@@ -1040,8 +1040,8 @@ a.panel-heading {
 .screen-couple-left .beyond {
   z-index: 1;
   position: absolute;
-  top: 40px;
-  width: 240px;
+  top: 10%;
+  width: 50%;
   height: auto;
 }
 
@@ -1083,11 +1083,11 @@ a.panel-heading {
     right: 19px;
   }
   .screen-couple-left .beyond {
-    width: 190px;
+    width: 50%;
   }
 
   .screen-couple-left .above {
-    width: 205px;
+    width: 60%;
   }
 }
 
@@ -1219,8 +1219,8 @@ nav.navbar-slide.show-menu {
   padding: 0;
 }
 .intro-block .container {
-  padding-top: 140px;
-  padding-bottom: 40px;
+  padding-top: 90px;
+  padding-bottom: 30px;
 }
 .intro-block .btn-default {
   border: 1px solid rgba(255, 255, 255, 0.25);

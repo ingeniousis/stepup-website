@@ -575,6 +575,9 @@ google.com, pub-3940498599942544, DIRECT, f08c47fec0986fa0
 adcolony.com, 197af3936679d34e, RESELLER, 1ad675c9de6b5176
 
 
+# Liftoff/Vungle
+vungle.com, 69a33528e458622da39fd9d8, DIRECT, c107d686becd2d77
+
 # Add more ad sources if needed
 # Format: [Domain name of the ad source], [Seller account ID], [Type of relationship], [Certificate authority ID]
 # Example:

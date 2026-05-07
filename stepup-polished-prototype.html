@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-itunes-app" content="app-id=979101825">
+	<title>StepUp - Free Step Challenge App for Friends, Families and Teams</title>
+	<meta name="description" content="Create free step challenges for friends, families, schools, workplaces and communities. StepUp tracks steps automatically, syncs with wearables, and keeps everyone motivated with leaderboards, chat and reports.">
+	<meta property="og:title" content="StepUp - Free Social Step Challenges">
+	<meta property="og:description" content="Track steps, compete with friends and run free group step challenges for work, school or community wellness.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://www.thestepupapp.com/images/imgs/HighFive.png">
+	<link rel="icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<style>
+		:root {
+			--ink: #10202a;
+			--muted: #5f6f79;
+			--soft: #eef7f5;
+			--paper: #ffffff;
+			--line: #dce8e5;
+			--mint: #35d3b6;
+			--teal: #0096a6;
+			--sea: #0e6774;
+			--coral: #ff7b66;
+			--sun: #ffc85a;
+			--lavender: #7e73ff;
+			--shadow: 0 22px 60px rgba(16, 32, 42, .14);
+			--shadow-soft: 0 14px 36px rgba(16, 32, 42, .10);
+			--max: 1180px;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		body {
+			margin: 0;
+			font-family: ui-rounded, "SF Pro Rounded", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+			color: var(--ink);
+			background: var(--paper);
+			line-height: 1.5;
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+		}
+
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		button,
+		summary {
+			font: inherit;
+		}
+
+		.site-header {
+			position: sticky;
+			top: 0;
+			z-index: 20;
+			background: rgba(255, 255, 255, .88);
+			backdrop-filter: blur(18px);
+			border-bottom: 1px solid rgba(220, 232, 229, .8);
+		}
+
+		.nav {
+			width: min(100% - 32px, var(--max));
+			height: 72px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 1fr auto 1fr;
+			align-items: center;
+			gap: 22px;
+		}
+
+		.brand {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			font-weight: 850;
+			font-size: 1.05rem;
+			letter-spacing: 0;
+		}
+
+		.brand img {
+			width: 42px;
+			height: 42px;
+			border-radius: 12px;
+			box-shadow: 0 10px 22px rgba(0, 150, 166, .18);
+		}
+
+		.nav-links {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 26px;
+			font-size: .94rem;
+			font-weight: 700;
+			color: #41515b;
+		}
+
+		.nav-actions {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			gap: 12px;
+		}
+
+		.nav-actions a,
+		.primary-link,
+		.secondary-link {
+			min-height: 44px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 999px;
+			font-weight: 850;
+			white-space: nowrap;
+		}
+
+		.nav-actions a,
+		.primary-link {
+			padding: 0 20px;
+			color: white;
+			background: var(--ink);
+			box-shadow: 0 12px 24px rgba(16, 32, 42, .18);
+		}
+
+		.secondary-link {
+			padding: 0 18px;
+			background: white;
+			border: 1px solid var(--line);
+			color: var(--sea);
+		}
+
+		.menu-toggle {
+			display: none;
+			width: 44px;
+			height: 44px;
+			border: 1px solid var(--line);
+			border-radius: 999px;
+			background: white;
+			color: var(--ink);
+			cursor: pointer;
+		}
+
+		.menu-toggle span,
+		.menu-toggle span::before,
+		.menu-toggle span::after {
+			display: block;
+			width: 18px;
+			height: 2px;
+			border-radius: 999px;
+			background: currentColor;
+		}
+
+		.menu-toggle span {
+			position: relative;
+		}
+
+		.menu-toggle span::before,
+		.menu-toggle span::after {
+			content: "";
+			position: absolute;
+			left: 0;
+		}
+
+		.menu-toggle span::before {
+			top: -6px;
+		}
+
+		.menu-toggle span::after {
+			top: 6px;
+		}
+
+		.mobile-menu {
+			display: none;
+			width: min(100% - 32px, var(--max));
+			margin: -4px auto 14px;
+			padding: 14px;
+			border: 1px solid var(--line);
+			border-radius: 18px;
+			background: white;
+			box-shadow: var(--shadow-soft);
+		}
+
+		.mobile-menu a {
+			display: block;
+			padding: 12px 10px;
+			font-weight: 750;
+			color: #41515b;
+		}
+
+		.hero {
+			overflow: clip;
+			background:
+				radial-gradient(circle at 14% 12%, rgba(53, 211, 182, .24), transparent 28%),
+				radial-gradient(circle at 82% 18%, rgba(255, 200, 90, .24), transparent 26%),
+				linear-gradient(180deg, #f5fffd 0%, #ffffff 70%);
+		}
+
+		.hero-inner {
+			width: min(100% - 32px, var(--max));
+			min-height: calc(100svh - 72px);
+			margin: 0 auto;
+			padding: 64px 0 42px;
+			display: grid;
+			grid-template-columns: minmax(0, .98fr) minmax(320px, 1.02fr);
+			gap: 48px;
+			align-items: center;
+		}
+
+		.kicker {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 8px 13px;
+			border-radius: 999px;
+			background: rgba(255, 255, 255, .74);
+			border: 1px solid rgba(220, 232, 229, .92);
+			box-shadow: 0 12px 30px rgba(16, 32, 42, .08);
+			color: var(--sea);
+			font-size: .86rem;
+			font-weight: 850;
+		}
+
+		.kicker::before {
+			content: "";
+			width: 9px;
+			height: 9px;
+			border-radius: 999px;
+			background: var(--mint);
+			box-shadow: 0 0 0 5px rgba(53, 211, 182, .18);
+		}
+
+		h1,
+		h2,
+		h3,
+		p {
+			margin-top: 0;
+		}
+
+		h1 {
+			max-width: 760px;
+			margin: 22px 0 20px;
+			font-size: clamp(3.15rem, 7.4vw, 6.6rem);
+			line-height: .89;
+			letter-spacing: 0;
+			font-weight: 950;
+		}
+
+		.hero-copy {
+			max-width: 630px;
+			margin-bottom: 28px;
+			color: var(--muted);
+			font-size: clamp(1.12rem, 2vw, 1.42rem);
+		}
+
+		.store-row {
+			display: flex;
+			align-items: flex-start;
+			gap: 14px;
+			flex-wrap: wrap;
+			margin: 0 0 32px;
+		}
+
+		.store-link {
+			display: grid;
+			justify-items: center;
+			gap: 8px;
+			color: var(--muted);
+			font-size: .83rem;
+			font-weight: 750;
+		}
+
+		.store-link img {
+			width: 168px;
+			height: auto;
+			transition: transform .18s ease;
+		}
+
+		.store-link:hover img {
+			transform: translateY(-2px);
+		}
+
+		.hero-stats {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 12px;
+			max-width: 660px;
+		}
+
+		.stat {
+			padding: 18px 18px 16px;
+			border: 1px solid rgba(220, 232, 229, .9);
+			border-radius: 22px;
+			background: rgba(255, 255, 255, .78);
+			box-shadow: 0 12px 30px rgba(16, 32, 42, .07);
+		}
+
+		.stat strong {
+			display: block;
+			font-size: clamp(1.5rem, 3vw, 2.35rem);
+			line-height: 1;
+			font-weight: 950;
+			color: var(--ink);
+		}
+
+		.stat span {
+			display: block;
+			margin-top: 7px;
+			color: var(--muted);
+			font-size: .89rem;
+			font-weight: 750;
+		}
+
+		.phone-stage {
+			position: relative;
+			min-height: 690px;
+			display: grid;
+			place-items: center;
+		}
+
+		.phone-halo {
+			position: absolute;
+			inset: auto 3% 4% 3%;
+			height: 72%;
+			border-radius: 44% 56% 40% 60%;
+			background: linear-gradient(140deg, rgba(53, 211, 182, .34), rgba(255, 200, 90, .26) 44%, rgba(126, 115, 255, .20));
+			filter: blur(.2px);
+		}
+
+		.phone {
+			position: absolute;
+			width: min(36vw, 300px);
+			min-width: 210px;
+			filter: drop-shadow(0 24px 42px rgba(16, 32, 42, .18));
+		}
+
+		.phone img {
+			width: 100%;
+		}
+
+		.phone-main {
+			z-index: 4;
+			transform: rotate(-5deg) translate(-58px, 6px);
+		}
+
+		.phone-side {
+			z-index: 3;
+			width: min(31vw, 255px);
+			min-width: 188px;
+			transform: rotate(7deg) translate(148px, 62px);
+			opacity: .96;
+		}
+
+		.phone-card {
+			position: absolute;
+			z-index: 5;
+			display: grid;
+			gap: 3px;
+			padding: 15px 17px;
+			border: 1px solid rgba(255, 255, 255, .82);
+			border-radius: 21px;
+			background: rgba(255, 255, 255, .78);
+			box-shadow: var(--shadow-soft);
+			backdrop-filter: blur(14px);
+			font-weight: 850;
+		}
+
+		.phone-card span {
+			color: var(--muted);
+			font-size: .78rem;
+			font-weight: 800;
+		}
+
+		.phone-card strong {
+			color: var(--ink);
+			font-size: 1.25rem;
+			line-height: 1.05;
+		}
+
+		.card-top {
+			top: 66px;
+			right: 18px;
+		}
+
+		.card-bottom {
+			left: 12px;
+			bottom: 78px;
+		}
+
+		.strip {
+			border-block: 1px solid var(--line);
+			background: #fbfefd;
+		}
+
+		.strip-inner {
+			width: min(100% - 32px, var(--max));
+			margin: 0 auto;
+			padding: 24px 0;
+			display: grid;
+			grid-template-columns: auto 1fr;
+			gap: 26px;
+			align-items: center;
+		}
+
+		.strip-label {
+			color: var(--muted);
+			font-size: .84rem;
+			font-weight: 900;
+			text-transform: uppercase;
+			letter-spacing: .08em;
+		}
+
+		.device-list {
+			display: flex;
+			gap: 12px;
+			flex-wrap: wrap;
+		}
+
+		.device-list span {
+			padding: 9px 13px;
+			border: 1px solid var(--line);
+			border-radius: 999px;
+			background: white;
+			color: #40525c;
+			font-size: .9rem;
+			font-weight: 800;
+		}
+
+		.section {
+			padding: clamp(68px, 10vw, 118px) 0;
+		}
+
+		.section:nth-of-type(even) {
+			background: #f7fbfa;
+		}
+
+		.wrap {
+			width: min(100% - 32px, var(--max));
+			margin: 0 auto;
+		}
+
+		.section-head {
+			max-width: 720px;
+			margin: 0 auto 48px;
+			text-align: center;
+		}
+
+		.eyebrow {
+			display: block;
+			margin-bottom: 12px;
+			color: var(--teal);
+			font-size: .83rem;
+			font-weight: 950;
+			text-transform: uppercase;
+			letter-spacing: .1em;
+		}
+
+		h2 {
+			margin-bottom: 14px;
+			font-size: clamp(2.2rem, 5vw, 4.25rem);
+			line-height: .96;
+			letter-spacing: 0;
+			font-weight: 950;
+		}
+
+		.section-head p,
+		.split-copy p,
+		.case-card p,
+		.review p,
+		.faq-copy {
+			color: var(--muted);
+			font-size: 1.06rem;
+		}
+
+		.work-grid {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 18px;
+		}
+
+		.work-card {
+			position: relative;
+			min-height: 560px;
+			padding: 28px;
+			display: grid;
+			align-content: space-between;
+			overflow: hidden;
+			border-radius: 34px;
+			background: var(--soft);
+			box-shadow: 0 1px 0 rgba(16, 32, 42, .06);
+		}
+
+		.work-card:nth-child(2) {
+			background: #fff6e4;
+		}
+
+		.work-card:nth-child(3) {
+			background: #f2f0ff;
+		}
+
+		.work-card h3 {
+			margin-bottom: 10px;
+			font-size: clamp(1.55rem, 2.5vw, 2.12rem);
+			line-height: 1.02;
+		}
+
+		.work-card p {
+			max-width: 31ch;
+			margin-bottom: 0;
+			color: var(--muted);
+			font-weight: 650;
+		}
+
+		.work-card img {
+			width: min(78%, 260px);
+			margin: 24px auto -70px;
+			filter: drop-shadow(0 20px 34px rgba(16, 32, 42, .14));
+		}
+
+		.split {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) minmax(320px, .86fr);
+			gap: 70px;
+			align-items: center;
+		}
+
+		.split.reverse {
+			grid-template-columns: minmax(320px, .86fr) minmax(0, 1fr);
+		}
+
+		.split-copy {
+			max-width: 620px;
+		}
+
+		.split-copy h2 {
+			margin-bottom: 18px;
+		}
+
+		.bullet-list {
+			display: grid;
+			gap: 13px;
+			margin: 28px 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.bullet-list li {
+			position: relative;
+			padding-left: 31px;
+			color: #2b414c;
+			font-weight: 760;
+		}
+
+		.bullet-list li::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: .45em;
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			background: var(--mint);
+			box-shadow: inset 0 0 0 5px white, 0 0 0 1px rgba(0, 150, 166, .18);
+		}
+
+		.screenshot-stack {
+			position: relative;
+			min-height: 610px;
+			display: grid;
+			place-items: center;
+		}
+
+		.screenshot-stack::before {
+			content: "";
+			position: absolute;
+			width: 78%;
+			aspect-ratio: 1;
+			border-radius: 50%;
+			background: linear-gradient(145deg, rgba(53, 211, 182, .26), rgba(255, 200, 90, .28));
+		}
+
+		.screenshot-stack img {
+			position: relative;
+			width: min(54%, 292px);
+			filter: drop-shadow(0 24px 42px rgba(16, 32, 42, .18));
+		}
+
+		.screenshot-stack img + img {
+			position: absolute;
+			width: min(45%, 238px);
+			right: 4%;
+			bottom: 5%;
+			transform: rotate(7deg);
+		}
+
+		.screenshot-stack.single img {
+			width: min(58%, 320px);
+		}
+
+		.organizer-band {
+			color: white;
+			background:
+				linear-gradient(120deg, rgba(16, 32, 42, .94), rgba(14, 103, 116, .94)),
+				url("images/2026/screens/optimized/group_dark.png") center / cover;
+		}
+
+		.organizer-band .wrap {
+			display: grid;
+			grid-template-columns: .88fr 1.12fr;
+			gap: 42px;
+			align-items: center;
+		}
+
+		.organizer-band p {
+			color: rgba(255, 255, 255, .78);
+		}
+
+		.playbook {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 14px;
+		}
+
+		.playbook-card {
+			min-height: 164px;
+			padding: 22px;
+			border: 1px solid rgba(255, 255, 255, .16);
+			border-radius: 26px;
+			background: rgba(255, 255, 255, .09);
+			backdrop-filter: blur(10px);
+		}
+
+		.playbook-card strong {
+			display: block;
+			margin-bottom: 8px;
+			font-size: 1.1rem;
+		}
+
+		.playbook-card span {
+			color: rgba(255, 255, 255, .72);
+		}
+
+		.case-grid,
+		.review-grid {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 18px;
+		}
+
+		.case-card,
+		.review {
+			padding: 26px;
+			border: 1px solid var(--line);
+			border-radius: 28px;
+			background: white;
+			box-shadow: 0 1px 0 rgba(16, 32, 42, .04);
+		}
+
+		.case-card strong,
+		.review strong {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 1.18rem;
+			line-height: 1.15;
+		}
+
+		.case-card span {
+			display: inline-flex;
+			margin-bottom: 22px;
+			padding: 7px 11px;
+			border-radius: 999px;
+			background: #eef7f5;
+			color: var(--sea);
+			font-size: .78rem;
+			font-weight: 900;
+		}
+
+		.review-stars {
+			margin-bottom: 14px;
+			color: #ce7a00;
+			font-weight: 950;
+			letter-spacing: .12em;
+		}
+
+		.walking {
+			background:
+				linear-gradient(90deg, rgba(255, 246, 228, .92), rgba(238, 247, 245, .92)),
+				url("images/2026/screens/optimized/history.png") right center / contain no-repeat;
+		}
+
+		.metric-grid {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 14px;
+			margin-top: 36px;
+			max-width: 820px;
+		}
+
+		.metric {
+			padding: 22px;
+			border-radius: 26px;
+			background: rgba(255, 255, 255, .76);
+			border: 1px solid rgba(220, 232, 229, .9);
+			box-shadow: 0 12px 28px rgba(16, 32, 42, .06);
+		}
+
+		.metric strong {
+			display: block;
+			margin-bottom: 6px;
+			font-size: 1.85rem;
+			font-weight: 950;
+			color: var(--sea);
+		}
+
+		.metric span {
+			color: var(--muted);
+			font-size: .92rem;
+			font-weight: 760;
+		}
+
+		.faq-layout {
+			display: grid;
+			grid-template-columns: .82fr 1.18fr;
+			gap: 54px;
+			align-items: start;
+		}
+
+		.faq-list {
+			display: grid;
+			gap: 12px;
+		}
+
+		details {
+			border: 1px solid var(--line);
+			border-radius: 21px;
+			background: white;
+			overflow: hidden;
+		}
+
+		summary {
+			position: relative;
+			padding: 19px 56px 19px 20px;
+			cursor: pointer;
+			font-weight: 850;
+			list-style: none;
+		}
+
+		summary::-webkit-details-marker {
+			display: none;
+		}
+
+		summary::after {
+			content: "+";
+			position: absolute;
+			right: 20px;
+			top: 50%;
+			transform: translateY(-50%);
+			color: var(--teal);
+			font-size: 1.35rem;
+			font-weight: 800;
+		}
+
+		details[open] summary::after {
+			content: "-";
+		}
+
+		details p {
+			margin: 0;
+			padding: 0 20px 20px;
+			color: var(--muted);
+		}
+
+		.cta {
+			padding: clamp(72px, 10vw, 112px) 0;
+			color: white;
+			background:
+				radial-gradient(circle at 12% 22%, rgba(53, 211, 182, .34), transparent 30%),
+				radial-gradient(circle at 90% 36%, rgba(255, 200, 90, .30), transparent 28%),
+				#10202a;
+			text-align: center;
+		}
+
+		.cta .wrap {
+			max-width: 780px;
+		}
+
+		.cta p {
+			color: rgba(255, 255, 255, .76);
+			font-size: 1.22rem;
+		}
+
+		.cta .store-row {
+			justify-content: center;
+			margin-bottom: 0;
+		}
+
+		.cta .store-link {
+			color: rgba(255, 255, 255, .78);
+		}
+
+		.footer {
+			padding: 48px 0 38px;
+			background: #f7fbfa;
+			border-top: 1px solid var(--line);
+		}
+
+		.footer-grid {
+			width: min(100% - 32px, var(--max));
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 1.5fr repeat(3, 1fr);
+			gap: 42px;
+		}
+
+		.footer p,
+		.footer a {
+			color: var(--muted);
+		}
+
+		.footer h3 {
+			margin-bottom: 14px;
+			font-size: .95rem;
+		}
+
+		.footer a {
+			display: block;
+			margin: 9px 0;
+		}
+
+		@media (max-width: 980px) {
+			.nav {
+				grid-template-columns: 1fr auto;
+			}
+
+			.nav-links,
+			.nav-actions {
+				display: none;
+			}
+
+			.menu-toggle {
+				display: inline-grid;
+				place-items: center;
+			}
+
+			.mobile-menu.is-open {
+				display: block;
+			}
+
+			.hero-inner,
+			.split,
+			.split.reverse,
+			.organizer-band .wrap,
+			.faq-layout {
+				grid-template-columns: 1fr;
+			}
+
+			.hero-inner {
+				padding-top: 46px;
+				text-align: center;
+			}
+
+			.hero-copy,
+			.split-copy {
+				margin-inline: auto;
+			}
+
+			.store-row,
+			.hero-stats {
+				justify-content: center;
+				margin-inline: auto;
+			}
+
+			.phone-stage {
+				min-height: 610px;
+			}
+
+			.work-grid,
+			.case-grid,
+			.review-grid,
+			.metric-grid,
+			.footer-grid {
+				grid-template-columns: 1fr 1fr;
+			}
+
+			.screenshot-stack {
+				min-height: 560px;
+			}
+		}
+
+		@media (max-width: 640px) {
+			.nav {
+				height: 64px;
+			}
+
+			.brand img {
+				width: 38px;
+				height: 38px;
+			}
+
+			.hero-inner {
+				min-height: auto;
+				padding-bottom: 22px;
+			}
+
+			h1 {
+				font-size: clamp(3.05rem, 17vw, 4.6rem);
+			}
+
+			.hero-stats,
+			.work-grid,
+			.case-grid,
+			.review-grid,
+			.metric-grid,
+			.footer-grid,
+			.playbook {
+				grid-template-columns: 1fr;
+			}
+
+			.hero-stats {
+				max-width: 360px;
+			}
+
+			.phone-stage {
+				min-height: 480px;
+				margin-top: 10px;
+			}
+
+			.phone {
+				width: 235px;
+				min-width: 0;
+			}
+
+			.phone-main {
+				transform: rotate(-5deg) translate(-40px, 0);
+			}
+
+			.phone-side {
+				width: 198px;
+				transform: rotate(7deg) translate(90px, 54px);
+			}
+
+			.phone-card {
+				padding: 12px 14px;
+			}
+
+			.card-top {
+				top: 30px;
+				right: -2px;
+			}
+
+			.card-bottom {
+				left: 0;
+				bottom: 36px;
+			}
+
+			.strip-inner {
+				grid-template-columns: 1fr;
+				text-align: center;
+			}
+
+			.device-list {
+				justify-content: center;
+			}
+
+			.work-card {
+				min-height: 500px;
+			}
+
+			.screenshot-stack {
+				min-height: 470px;
+			}
+
+			.screenshot-stack img {
+				width: min(66%, 250px);
+			}
+
+			.screenshot-stack img + img {
+				width: min(52%, 198px);
+				right: 0;
+			}
+		}
+
+		@media (prefers-reduced-motion: no-preference) {
+			.phone-main {
+				animation: float-main 7s ease-in-out infinite;
+			}
+
+			.phone-side {
+				animation: float-side 7.5s ease-in-out infinite;
+			}
+
+			@keyframes float-main {
+				0%, 100% { transform: rotate(-5deg) translate(-58px, 6px); }
+				50% { transform: rotate(-4deg) translate(-58px, -12px); }
+			}
+
+			@keyframes float-side {
+				0%, 100% { transform: rotate(7deg) translate(148px, 62px); }
+				50% { transform: rotate(6deg) translate(148px, 46px); }
+			}
+
+			@media (max-width: 640px) {
+				@keyframes float-main {
+					0%, 100% { transform: rotate(-5deg) translate(-40px, 0); }
+					50% { transform: rotate(-4deg) translate(-40px, -10px); }
+				}
+
+				@keyframes float-side {
+					0%, 100% { transform: rotate(7deg) translate(90px, 54px); }
+					50% { transform: rotate(6deg) translate(90px, 42px); }
+				}
+			}
+		}
+	</style>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [
+			{
+				"@type": "Question",
+				"name": "How do I organize a step challenge on StepUp?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Create a StepUp group, share the invite link, and members will appear on automatic daily, weekly and monthly leaderboards. Admins can also use custom date ranges for fixed challenges."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Is StepUp free?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Yes. StepUp is free to use and supports its work through minimal ads and optional in-app purchases."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Which wearables does StepUp support?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "StepUp syncs steps from wearables through Apple Health on iOS and Health Connect on Android, including Apple Watch, Fitbit, Garmin, Samsung and many other devices."
+				}
+			}
+		]
+	}
+	</script>
+</head>
+<body>
+	<header class="site-header">
+		<nav class="nav" aria-label="Main navigation">
+			<a class="brand" href="#top" aria-label="StepUp home">
+				<img src="images/2026/logo/NewLogoRounded50Percent.png" alt="">
+				<span>StepUp</span>
+			</a>
+			<div class="nav-links" aria-label="Primary">
+				<a href="#features">Features</a>
+				<a href="#challenges">Challenges</a>
+				<a href="#organizers">Organizers</a>
+				<a href="#reviews">Reviews</a>
+				<a href="#faq">FAQ</a>
+			</div>
+			<div class="nav-actions">
+				<a href="https://itunes.apple.com/app/id979101825" target="_blank" rel="noopener">Download</a>
+			</div>
+			<button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span aria-hidden="true"></span></button>
+		</nav>
+		<div class="mobile-menu" id="mobile-menu">
+			<a href="#features">Features</a>
+			<a href="#challenges">Challenges</a>
+			<a href="#organizers">Organizers</a>
+			<a href="#reviews">Reviews</a>
+			<a href="#faq">FAQ</a>
+			<a href="https://itunes.apple.com/app/id979101825" target="_blank" rel="noopener">Download StepUp</a>
+		</div>
+	</header>
+
+	<main id="top">
+		<section class="hero">
+			<div class="hero-inner">
+				<div>
+					<span class="kicker">Free step challenges for any group</span>
+					<h1>Move more together.</h1>
+					<p class="hero-copy">StepUp makes walking social with automatic step tracking, live leaderboards, group chat, wearable sync and simple tools for organizers running school, workplace, family or community challenges.</p>
+					<div class="store-row" aria-label="Download StepUp">
+						<a class="store-link" href="https://itunes.apple.com/app/id979101825" target="_blank" rel="noopener">
+							<img src="images/imgs/AppStoreIcon.svg" alt="Download on the App Store">
+							<span>4.8 rating, 101K ratings</span>
+						</a>
+						<a class="store-link" href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" target="_blank" rel="noopener">
+							<img src="images/imgs/GooglePlayIcon.svg" alt="Get it on Google Play">
+							<span>4.7 rating, 29K reviews</span>
+						</a>
+					</div>
+					<div class="hero-stats" aria-label="StepUp proof points">
+						<div class="stat">
+							<strong>130K+</strong>
+							<span>store ratings and reviews</span>
+						</div>
+						<div class="stat">
+							<strong>1,500</strong>
+							<span>members per group</span>
+						</div>
+						<div class="stat">
+							<strong>$0</strong>
+							<span>to start a challenge</span>
+						</div>
+					</div>
+				</div>
+				<div class="phone-stage" aria-label="StepUp app screenshots">
+					<div class="phone-halo"></div>
+					<div class="phone phone-main">
+						<img src="images/2026/screens/optimized/group.png" alt="StepUp group leaderboard">
+					</div>
+					<div class="phone phone-side">
+						<img src="images/2026/screens/optimized/chat.png" alt="StepUp group chat">
+					</div>
+					<div class="phone-card card-top">
+						<span>Monthly challenge</span>
+						<strong>2.4M steps</strong>
+					</div>
+					<div class="phone-card card-bottom">
+						<span>Invite link</span>
+						<strong>Team joined</strong>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="strip" aria-label="Supported devices">
+			<div class="strip-inner">
+				<div class="strip-label">Works with</div>
+				<div class="device-list">
+					<span>iPhone</span>
+					<span>Android</span>
+					<span>Apple Watch</span>
+					<span>Fitbit</span>
+					<span>Garmin</span>
+					<span>Samsung</span>
+					<span>Apple Health</span>
+					<span>Health Connect</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="features">
+			<div class="wrap">
+				<div class="section-head">
+					<span class="eyebrow">How StepUp Works</span>
+					<h2>Simple enough for anyone. Fun enough to keep going.</h2>
+					<p>Borrowing the fast-read structure of the strongest fitness app sites, this page leads with the actual product experience: track, compete, chat, celebrate, repeat.</p>
+				</div>
+				<div class="work-grid">
+					<article class="work-card">
+						<div>
+							<h3>Track steps automatically</h3>
+							<p>Carry your phone or sync a wearable. StepUp counts steps, distance and calories without GPS battery drain.</p>
+						</div>
+						<img src="images/2026/screens/optimized/wearables.png" alt="StepUp wearable sync screen">
+					</article>
+					<article class="work-card">
+						<div>
+							<h3>Compete with friends</h3>
+							<p>Daily, weekly and monthly leaderboards turn a normal walk into a friendly push.</p>
+						</div>
+						<img src="images/2026/screens/optimized/friends.png" alt="StepUp friends leaderboard">
+					</article>
+					<article class="work-card">
+						<div>
+							<h3>Celebrate progress</h3>
+							<p>Calendar views, recaps, records and streaks help people see momentum building.</p>
+						</div>
+						<img src="images/2026/screens/optimized/calendar.png" alt="StepUp calendar progress">
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="challenges">
+			<div class="wrap split">
+				<div class="split-copy">
+					<span class="eyebrow">Step Challenges</span>
+					<h2>Run a challenge without buying a wellness platform.</h2>
+					<p>Create a group, share the invite link and let the leaderboard update itself. StepUp is built for informal teams and real communities that need the motivation without procurement, dashboards or setup drag.</p>
+					<ul class="bullet-list">
+						<li>Groups can support up to 1,500 members.</li>
+						<li>Daily, weekly, monthly and custom date range leaderboards.</li>
+						<li>Group chat for encouragement, updates and friendly competition.</li>
+						<li>Exportable reports for organizer recaps and winner announcements.</li>
+					</ul>
+					<a class="primary-link" href="https://join.thestepupapp.com/nJq00b" target="_blank" rel="noopener">Join demo group</a>
+				</div>
+				<div class="screenshot-stack">
+					<img src="images/2026/screens/optimized/group_dark.png" alt="Dark mode group challenge leaderboard">
+					<img src="images/2026/screens/optimized/recap.png" alt="StepUp weekly recap">
+				</div>
+			</div>
+		</section>
+
+		<section class="section organizer-band" id="organizers">
+			<div class="wrap">
+				<div>
+					<span class="eyebrow">Organizer Playbook</span>
+					<h2>Give hosts the confidence to start.</h2>
+					<p>A future content system should turn this section into reusable guides: office challenge email templates, prize ideas, privacy notes, launch checklists, recap posts and case studies.</p>
+					<a class="secondary-link" href="#faq">Read organizer FAQ</a>
+				</div>
+				<div class="playbook">
+					<div class="playbook-card">
+						<strong>1. Create a group</strong>
+						<span>Admins create a StepUp group and set optional custom challenge dates.</span>
+					</div>
+					<div class="playbook-card">
+						<strong>2. Invite everyone</strong>
+						<span>Share one invite link through email, chat, posters or a QR code.</span>
+					</div>
+					<div class="playbook-card">
+						<strong>3. Let StepUp track</strong>
+						<span>Leaderboards update automatically from phones and wearables.</span>
+					</div>
+					<div class="playbook-card">
+						<strong>4. Celebrate winners</strong>
+						<span>Export reports and announce winners, milestones or most improved participants.</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="wrap">
+				<div class="section-head">
+					<span class="eyebrow">Case Study Seeds</span>
+					<h2>Content for every organizer intent.</h2>
+					<p>These are prototype cards for the SEO pages we can build next, each aimed at a different search and LLM answer surface.</p>
+				</div>
+				<div class="case-grid">
+					<article class="case-card">
+						<span>Workplace wellness</span>
+						<strong>Free office step challenge in under 10 minutes</strong>
+						<p>How HR teams and office champions can launch a challenge with a shared leaderboard, chat rules, prize ideas and recap reporting.</p>
+					</article>
+					<article class="case-card">
+						<span>Schools and universities</span>
+						<strong>Campus walking challenges that include everyone</strong>
+						<p>Use groups for classes, houses, dorms or clubs, with simple privacy guidance and low-pressure ways to recognize participation.</p>
+					</article>
+					<article class="case-card">
+						<span>Communities</span>
+						<strong>Gyms, apartments and nonprofits can build momentum</strong>
+						<p>A lightweight way to keep members engaged between events, promote healthy habits and publish monthly community wins.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="reviews">
+			<div class="wrap">
+				<div class="section-head">
+					<span class="eyebrow">What Users Say</span>
+					<h2>Fun, free and motivating.</h2>
+					<p>Top reviews can become a living proof section later, with moderation before anything publishes to the website or social channels.</p>
+				</div>
+				<div class="review-grid">
+					<article class="review">
+						<div class="review-stars" aria-label="5 star review">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+						<strong>"Free, simple, elegant, fun and motivating."</strong>
+						<p>The core StepUp promise in one sentence: low friction and high motivation.</p>
+					</article>
+					<article class="review">
+						<div class="review-stars" aria-label="5 star review">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+						<strong>"Easy to start a free office step challenge."</strong>
+						<p>This is the acquisition hook the new site should make impossible to miss.</p>
+					</article>
+					<article class="review">
+						<div class="review-stars" aria-label="5 star review">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+						<strong>"Competing with friends is so fun and addictive."</strong>
+						<p>The product is not just tracking. It is social accountability that feels playful.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section walking">
+			<div class="wrap">
+				<div class="split-copy">
+					<span class="eyebrow">Walking Motivation</span>
+					<h2>Walking is the habit most people can actually start.</h2>
+					<p>For SEO and LLM optimization, StepUp should own practical answers around step goals, challenge rules, workplace wellness, wearable syncing, privacy and how to keep participants motivated after week one.</p>
+					<div class="metric-grid">
+						<div class="metric">
+							<strong>7K+</strong>
+							<span>common daily step goal content target</span>
+						</div>
+						<div class="metric">
+							<strong>4 min</strong>
+							<span>target time to create and test a group</span>
+						</div>
+						<div class="metric">
+							<strong>0 GPS</strong>
+							<span>StepUp tracks steps without GPS drain</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="faq">
+			<div class="wrap faq-layout">
+				<div>
+					<span class="eyebrow">FAQ</span>
+					<h2>Answers organizers search for.</h2>
+					<p class="faq-copy">This prototype uses visible FAQ content plus FAQPage structured data. In the real site, each answer can also link to deeper markdown guides.</p>
+				</div>
+				<div class="faq-list">
+					<details open>
+						<summary>How do I organize a step challenge on StepUp?</summary>
+						<p>Create a group, invite people with the group link, and StepUp automatically fills the leaderboard as members join. For fixed challenges, admins can set a custom start and end date from group settings.</p>
+					</details>
+					<details>
+						<summary>Is StepUp really free?</summary>
+						<p>Yes. StepUp is free to use. The app supports itself through minimal ads and optional in-app purchases for people who want to go ad-free.</p>
+					</details>
+					<details>
+						<summary>Can StepUp handle workplace challenges?</summary>
+						<p>Yes. Groups can include up to 1,500 members, use leaderboards and chat, and export reports for winner announcements or monthly recaps.</p>
+					</details>
+					<details>
+						<summary>Which wearables does StepUp support?</summary>
+						<p>StepUp syncs through Apple Health on iOS and Health Connect on Android, which covers Apple Watch, Fitbit, Garmin, Samsung and many other devices that write steps to those platforms.</p>
+					</details>
+					<details>
+						<summary>Who can see my steps?</summary>
+						<p>By default, no one can see your steps. Friends you add and groups you join can see relevant step activity. You can block people and delete your account and data from the app.</p>
+					</details>
+					<details>
+						<summary>Will StepUp drain my battery?</summary>
+						<p>No. StepUp uses the phone step sensor and synced wearable data. It does not need GPS to count daily steps.</p>
+					</details>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta">
+			<div class="wrap">
+				<h2>Start your step challenge today.</h2>
+				<p>Download StepUp, create a test group and invite one person. The new website should make that next step feel obvious.</p>
+				<div class="store-row" aria-label="Download StepUp">
+					<a class="store-link" href="https://itunes.apple.com/app/id979101825" target="_blank" rel="noopener">
+						<img src="images/imgs/AppStoreIcon.svg" alt="Download on the App Store">
+						<span>4.8 rating, 101K ratings</span>
+					</a>
+					<a class="store-link" href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" target="_blank" rel="noopener">
+						<img src="images/imgs/GooglePlayIcon.svg" alt="Get it on Google Play">
+						<span>4.7 rating, 29K reviews</span>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-grid">
+			<div>
+				<a class="brand" href="#top">
+					<img src="images/2026/logo/NewLogoRounded50Percent.png" alt="">
+					<span>StepUp</span>
+				</a>
+				<p>Making fitness fun and social with free step challenges for friends, families, workplaces, schools and communities.</p>
+			</div>
+			<div>
+				<h3>Product</h3>
+				<a href="#features">Features</a>
+				<a href="#challenges">Challenges</a>
+				<a href="#faq">FAQ</a>
+			</div>
+			<div>
+				<h3>Resources</h3>
+				<a href="https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing" target="_blank" rel="noopener">Challenge guide</a>
+				<a href="privacy/">Privacy policy</a>
+				<a href="terms/">Terms</a>
+			</div>
+			<div>
+				<h3>Contact</h3>
+				<a href="mailto:team@thestepupapp.com">team@thestepupapp.com</a>
+				<a href="https://www.instagram.com/stepup_app/" target="_blank" rel="noopener">Instagram</a>
+				<a href="https://twitter.com/StepUpApp" target="_blank" rel="noopener">X / Twitter</a>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		const toggle = document.querySelector(".menu-toggle");
+		const menu = document.querySelector("#mobile-menu");
+
+		toggle.addEventListener("click", () => {
+			const isOpen = menu.classList.toggle("is-open");
+			toggle.setAttribute("aria-expanded", String(isOpen));
+		});
+
+		menu.addEventListener("click", (event) => {
+			if (event.target.closest("a")) {
+				menu.classList.remove("is-open");
+				toggle.setAttribute("aria-expanded", "false");
+			}
+		});
+	</script>
+</body>
+</html>

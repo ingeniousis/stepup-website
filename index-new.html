@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>StepUp Pedometer: Free Group Step Challenge App for iPhone &amp; Android. Best Step Tracker for Office Team Walking Competitions.</title>
+	<meta name="description" content="StepUp makes fitness more fun and social. Track your steps, compete with friends and be more active together! Best free pedometer app for iPhone and Android.">
+	<meta name="theme-color" content="#16abbe">
+	<meta name="apple-itunes-app" content="app-id=979101825">
+	<link rel="canonical" href="https://www.thestepupapp.com/">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.thestepupapp.com/">
+	<meta property="og:title" content="StepUp: Step Challenges with Friends &amp; Colleagues">
+	<meta property="og:description" content="StepUp makes fitness more fun and social. Track your steps, compete with friends and be more active together!">
+	<meta property="og:image" content="https://www.thestepupapp.com/images/imgs/HighFive.png">
+	<meta property="og:image:width" content="480">
+	<meta property="og:image:height" content="480">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@StepUpApp">
+	<meta name="twitter:title" content="StepUp: Step Challenges with Friends &amp; Colleagues">
+	<meta name="twitter:description" content="Free social step challenge app. Track steps, compete with friends, be more active.">
+	<meta name="twitter:image" content="https://www.thestepupapp.com/images/imgs/HighFive.png">
+
+	<!-- App Links -->
+	<meta property="fb:app_id" content="1377598302553640">
+	<meta property="al:android:package" content="com.thestepupapp.stepup">
+	<meta property="al:android:app_name" content="StepUp Social Step Counter">
+	<meta property="al:android:url" content="https://join.thestepupapp.com">
+	<meta property="al:ios:url" content="https://join.thestepupapp.com">
+	<meta property="al:ios:app_store_id" content="979101825">
+	<meta property="al:ios:app_name" content="StepUp Social Step Counter">
+	<meta property="al:web:should_fallback" content="true">
+	<meta property="al:web:url" content="https://www.thestepupapp.com">
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Google Analytics 4 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L94LVQEZP"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-4L94LVQEZP');
+	</script>
+
+	<style>
+		:root {
+			--fs-xs: 14px;
+			--fs-sm: 16px;
+			--fs-md: 20px;
+			--fs-lg: 28px;
+			--fs-xl: 36px;
+			--fs-xxl: 48px;
+			--fw-light: 300;
+			--fw-medium: 500;
+			--fw-bold: 600;
+			--color-text: #383838;
+			--color-heading: #008c9e;
+			--color-accent: #16abbe;
+		}
+		*, *::before, *::after { box-sizing: border-box; }
+		html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+		body {
+			margin: 0;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: var(--fs-sm);
+			font-weight: var(--fw-light);
+			line-height: 1.6;
+			color: var(--color-text);
+			background: #fff;
+		}
+		img { max-width: 100%; height: auto; display: block; }
+		a { color: var(--color-heading); text-decoration: none; transition: color .25s ease-out; }
+		a:hover { color: var(--color-accent); text-decoration: none; }
+		h1, h2, h3, h4, h5 { color: var(--color-heading); line-height: 1.2; margin: 0 0 30px; font-weight: var(--fw-medium); }
+		h1 { font-size: var(--fs-xl); line-height: 1.4; }
+		h2 { font-size: var(--fs-lg); }
+		h3, h4 { font-size: var(--fs-md); margin: 10px 0 20px; }
+		p { margin: 0 0 1em; }
+
+		.container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+
+		/* Navigation — dark grey across all sizes, matching original */
+		.nav {
+			position: fixed;
+			top: 0; left: 0; right: 0;
+			background: #343838;
+			box-shadow: 0 1px 4px rgba(0,0,0,.15);
+			z-index: 1000;
+		}
+		.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+		.nav-brand { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: var(--fw-bold); font-size: var(--fs-md); font-style: italic; }
+		.nav-brand:hover { color: #fff; text-decoration: none; }
+		.nav-brand img { width: 30px; height: 30px; }
+		.nav-links { list-style: none; margin: 0; padding: 0; display: flex; gap: 30px; }
+		.nav-links a { color: #ecf0f1; font-weight: var(--fw-medium); }
+		.nav-links a:hover { color: #16abbe; text-decoration: none; }
+		.nav-toggle { display: none; background: none; border: 1px solid rgba(255,255,255,.4); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+		.nav-toggle span { display: block; width: 22px; height: 2px; background: #fff; margin: 4px 0; }
+
+		/* Hero */
+		.hero {
+			background: linear-gradient(to bottom, #456 0%, #16abbe 100%);
+			color: #fff;
+			padding: 110px 0 60px;
+			position: relative;
+			overflow: hidden;
+		}
+		.hero .container { position: relative; }
+		.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+		.hero-logo { display: flex; align-items: center; gap: 15px; margin-bottom: 40px; }
+		.hero-logo img { width: 80px; height: 80px; flex-shrink: 0; }
+		.brand-name { display: block; font-size: var(--fs-xxl); line-height: 1.2; color: #fff; font-weight: var(--fw-bold); font-style: italic; }
+		.brand-tag { display: block; font-size: var(--fs-md); line-height: 1.2; color: #fff; }
+		.slogan {
+			color: #fff;
+			font-size: var(--fs-xl);
+			line-height: 1.4;
+			font-weight: var(--fw-light);
+			margin: 0 0 35px;
+		}
+
+		/* Download buttons */
+		.download-btn {
+			display: inline-block;
+			margin: 0 6px 12px 0;
+			text-align: center;
+			vertical-align: top;
+		}
+		.download-btn img { display: inline-block; height: 60px; width: auto; }
+		.download-btn .stars {
+			font-size: var(--fs-xs);
+			color: #fff;
+		}
+		.download-btn.dark .stars { color: #555; }
+		.stars .s { color: #f5b400; letter-spacing: 1px; }
+
+		/* Hero phones */
+		.phone-couple {
+			position: relative;
+			width: 100%;
+			max-width: 460px;
+			margin: 0 auto;
+			aspect-ratio: 460 / 540;
+		}
+		.phone-couple img { position: absolute; top: 0; }
+		.phone-couple .above {
+			z-index: 2;
+			left: 0;
+			width: 60%;
+			max-width: 280px;
+		}
+		.phone-couple .beyond {
+			z-index: 1;
+			top: 10%;
+			right: 0;
+			width: 50%;
+			max-width: 260px;
+		}
+
+		/* Feature sections */
+		.feature { padding: 70px 0; }
+		.feature.alt { background: #f3fbfac9;}
+		/* background: radial-gradient(circle at 12% 8%, rgba(0, 223, 252, .16), transparent 32%),
+		radial-gradient(circle at 82% 16%, rgba(255, 255, 255, .78), transparent 34%),
+		linear-gradient(135deg, #e9fffb 0%, #ffffff 55%, #edf9fb 100%) */
+		.feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+		.feature-text { max-width: 430px; margin: 0 auto; }
+		.feature-image { text-align: center; }
+		.feature-image .single { display: inline-block; max-width: 300px; width: 100%; }
+		.feature-image .single img { width: 100%; }
+		.feature-image.right { order: 2; }
+
+		.review-list p { margin-bottom: .8em; }
+		.review-list .stars-row { color: #f5b400; letter-spacing: 2px; }
+
+		/* FAQ */
+		.faq { padding: 70px 0; background: #fff; }
+		.faq h2 { text-align: center; margin-bottom: 40px; }
+		.faq-item {
+			background: #f7f7f7;
+			border-radius: 6px;
+			margin-bottom: 10px;
+			box-shadow: 0 1px 2px rgba(0,0,0,.04);
+		}
+		.faq-item summary {
+			padding: 16px 20px;
+			cursor: pointer;
+			font-weight: var(--fw-medium);
+			color: #333;
+			list-style: none;
+			position: relative;
+			padding-right: 40px;
+		}
+		.faq-item summary::-webkit-details-marker { display: none; }
+		.faq-item summary::after {
+			content: "+";
+			position: absolute;
+			right: 20px;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: var(--fs-lg);
+			color: var(--color-accent);
+			line-height: 1;
+		}
+		.faq-item[open] summary::after { content: "−"; }
+		.faq-body { padding: 0 20px 16px; color: #555; }
+		.faq-body img { display: inline-block; margin: 10px 5px; max-width: 200px; border-radius: 8px; }
+
+		/* Footer */
+		.footer { background: linear-gradient(to bottom, #008c9e 0%, #456 100%); color: #ecf0f1; padding: 50px 0 30px; text-align: center; }
+		.footer-cta { margin-bottom: 30px; }
+		.footer-cta .download-btn .stars { color: #ddd; }
+		.footer-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 30px;
+			align-items: center;
+			text-align: left;
+			padding-top: 25px;
+		}
+		.footer-info a { color: #ecf0f1; }
+		.soc-list { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; justify-content: flex-end; }
+		.soc-list a {
+			display: inline-flex; align-items: center; justify-content: center;
+			width: 38px; height: 38px; border-radius: 50%;
+			background: rgba(255,255,255,.1); color: #fff;
+			transition: background .2s;
+		}
+		.soc-list a:hover { background: #16abbe; text-decoration: none; }
+		.soc-list svg { width: 18px; height: 18px; fill: currentColor; }
+
+		/* Responsive */
+		@media (max-width: 900px) {
+			.hero { padding: 90px 0 40px; text-align: center; }
+			.hero-grid { grid-template-columns: 1fr; gap: 40px; }
+			/* Text first, phones below */
+			.hero-grid > div:first-child { order: 2; }
+			.hero-grid > div:last-child { order: 1; }
+			/* Hide the hero logo image — keep brand name only */
+			.hero-logo img { display: none; }
+			.hero-logo { justify-content: center; margin-bottom: 25px; }
+			.slogan { font-size: var(--fs-lg); margin-bottom: 25px; }
+			.feature-grid { grid-template-columns: 1fr; gap: 30px; text-align: center; }
+			.feature-text { text-align: left; }
+			.feature-image.right { order: 0; }
+			.feature { padding: 50px 0; }
+			.footer-grid { grid-template-columns: 1fr; text-align: center; }
+			.soc-list { justify-content: center; }
+			h1 { font-size: var(--fs-lg); }
+			h2 { font-size: var(--fs-lg); }
+		}
+
+		@media (max-width: 700px) {
+			.nav-toggle { display: block; }
+			.nav-links {
+				position: absolute;
+				top: 60px; left: 0; right: 0;
+				flex-direction: column;
+				gap: 0;
+				background: #343838;
+				box-shadow: 0 2px 4px rgba(0,0,0,.2);
+				display: none;
+			}
+			.nav-links.open { display: flex; }
+			.nav-links li { border-top: 1px solid rgba(255,255,255,.08); }
+			.nav-links a { display: block; padding: 14px 20px; color: #fff; }
+			.feature-text { text-align: center; }
+		}
+
+		@media (max-width: 480px) {
+			.brand-name { font-size: var(--fs-xl); }
+			.brand-tag { font-size: var(--fs-md); }
+			.slogan { font-size: var(--fs-lg); }
+			.download-btn img { height: 50px; }
+			.phone-couple { max-width: 340px; }
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="nav">
+		<div class="container nav-inner">
+			<a class="nav-brand" href="#top">
+				<img src="images/2026/logo/NewLogoRounded50Percent.png" alt="StepUp logo" width="30" height="30">
+				<span>StepUp</span>
+			</a>
+			<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-links">
+				<li><a href="#about-track">About</a></li>
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Hero -->
+	<header class="hero" id="top">
+		<div class="container">
+			<div class="hero-grid">
+				<div>
+					<div class="phone-couple">
+						<img class="above" src="images/2026/screens/optimized/friends.png" alt="StepUp App Friends Leaderboard" loading="eager">
+						<img class="beyond" src="images/2026/screens/optimized/1on1.png" alt="StepUp App Friend Stats Head to Head Screen" loading="eager">
+					</div>
+				</div>
+				<div>
+					<div class="hero-logo">
+						<img src="images/2026/logo/NewLogoRounded50Percent.png" alt="StepUp logo" width="80" height="80">
+						<div>
+							<span class="brand-name">StepUp</span>
+							<span class="brand-tag">Social Step Challenge App</span>
+						</div>
+					</div>
+					<h1 class="slogan">Track your steps<br>Compete with friends<br>Be more active together</h1>
+					<a class="download-btn" target="_blank" rel="noopener" href="https://itunes.apple.com/app/id979101825" aria-label="Download on the App Store">
+						<img src="images/imgs/AppStoreIcon.svg" alt="Download on the App Store" width="200" height="60">
+						<div class="stars"><span class="s">★★★★★</span> 4.8 · 101K ratings</div>
+					</a>
+					<a class="download-btn" target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" aria-label="Get it on Google Play">
+						<img src="images/imgs/GooglePlayIcon.svg" alt="Get it on Google Play" width="200" height="60">
+						<div class="stars"><span class="s">★★★★★</span> 4.7 · 29K reviews</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Make fitness fun & social -->
+	<section class="feature" id="about-track">
+		<div class="container">
+			<div class="feature-grid">
+				<div>
+					<div class="feature-text review-list">
+						<h2>Make fitness fun &amp; social</h2>
+						<p><span class="stars-row">★★★★★</span><br>"FREE, simple, elegant, fun &amp; motivating!"</p>
+						<p><span class="stars-row">★★★★★</span><br>"Easy to start a free office step challenge! 🏃🏃‍♀️"</p>
+						<p><span class="stars-row">★★★★★</span><br>"Competing with friends is so fun &amp; addictive"</p>
+						<p><span class="stars-row">★★★★★</span><br>"Motivates me to walk more. I've lost 5 lbs!"</p>
+						<p><span class="stars-row">★★★★★</span><br>"Works with iPhone, Android &amp; wearables! 🙌"</p>
+					</div>
+				</div>
+				<div class="feature-image">
+					<div class="single">
+						<img src="images/2026/screens/optimized/1on1.png" alt="StepUp App Friend Stats Head to Head Screen" loading="lazy">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Free step challenges -->
+	<section class="feature alt" id="about-compete">
+		<div class="container">
+			<div class="feature-grid">
+				<div class="feature-image">
+					<div class="phone-couple" style="aspect-ratio: 460 / 600;">
+						<img class="above" src="images/2026/screens/optimized/group.png" alt="StepUp app group step challenge leaderboard" loading="lazy">
+						<img class="beyond" src="images/2026/screens/optimized/chat.png" alt="StepUp app group chat screen" loading="lazy">
+					</div>
+				</div>
+				<div>
+					<div class="feature-text">
+						<h2>Free step challenges</h2>
+						<p>Walking is more fun &amp; motivating with friends, family and colleagues!</p>
+						<p>See who's in the lead &amp; cheer (or taunt) each other.</p>
+						<p>Run <a href="#collapseWork"><b>free step challenges</b></a> at work, home, school, gym or any community!</p>
+						<p>Used at work (Amazon, BMW, Google) and school (Yale, Stanford) for healthy team bonding.</p>
+						<p>Used at gyms, apartments, PTs, doctors, non-profits for community engagement.</p>
+						<p><a href="#collapseWork">More info on running a step challenge</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Track your activity -->
+	<section class="feature" id="about-active">
+		<div class="container">
+			<div class="feature-grid">
+				<div>
+					<div class="feature-text">
+						<h2>Track your activity</h2>
+						<p>Automatically track daily steps, distance &amp; calories burnt.</p>
+						<p>StepUp works with just your phone in your pocket.</p>
+						<p>Sync wearables like Apple Watch, Fitbit etc via Apple Health &amp; Android Health Connect.</p>
+						<p>Keep pace with gamified virtual friends Active Bot &amp; Chill Bot who walk ~10k &amp; ~2k steps a day.</p>
+					</div>
+				</div>
+				<div class="feature-image right">
+					<div class="single">
+						<img src="images/2026/screens/optimized/wearables.png" alt="StepUp wearables sync screen" loading="lazy">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Achieve goals & set records -->
+	<section class="feature alt">
+		<div class="container">
+			<div class="feature-grid">
+				<div class="feature-image">
+					<div class="phone-couple" style="aspect-ratio: 460 / 600;">
+						<img class="above" src="images/2026/screens/optimized/calendar.png" alt="StepUp App Step History Calendar Screen" loading="lazy">
+						<img class="beyond" src="images/2026/screens/optimized/recap.png" alt="StepUp App Step History Recap Screen" loading="lazy">
+					</div>
+				</div>
+				<div>
+					<div class="feature-text">
+						<h2>Achieve goals &amp; set records</h2>
+						<p>Set goals. Burn calories. Lose weight. Feel great!</p>
+						<p>See daily &amp; weekly achievements.</p>
+						<p>See if you're in the top 100 in the country.</p>
+						<p>Create streaks and set records.</p>
+						<p>Download StepUp today. It's FREE!</p>
+						<a class="download-btn dark" target="_blank" rel="noopener" href="https://itunes.apple.com/app/id979101825" aria-label="Download on the App Store">
+							<img src="images/imgs/AppStoreIcon.svg" alt="Download on the App Store" width="200" height="60">
+							<div class="stars"><span class="s">★★★★★</span> 4.8 · 101K ratings</div>
+						</a>
+						<a class="download-btn dark" target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" aria-label="Get it on Google Play">
+							<img src="images/imgs/GooglePlayIcon.svg" alt="Get it on Google Play" width="200" height="60">
+							<div class="stars"><span class="s">★★★★★</span> 4.7 · 29K reviews</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="faq" id="faq">
+		<div class="container">
+			<h2>Frequently Asked Questions</h2>
+
+			<details class="faq-item" open id="collapseWork">
+				<summary>How do I organise a step challenge on StepUp?</summary>
+				<div class="faq-body">
+					<p>StepUp makes it super simple to host fun, engaging step challenges for FREE!</p>
+					<p>You can add friends individually or create a group where everyone can see each other on a shared leaderboard. StepUp is used at work (Amazon, BMW, Google), schools (Yale, Stanford), gyms and communities all over the world.</p>
+					<p><img src="images/2026/screens/optimized/group.png" alt="StepUp app group step challenge leaderboard"><img src="images/2026/screens/optimized/chat.png" alt="StepUp app group chat screen"></p>
+					<p><b>How does a group work?</b><br>In a group, all members can see each other on the group leaderboards (daily, weekly and monthly). Groups can have up to 1,500 members, and you can create as many groups as you want. Invite people by sharing the group invite link via email/text.</p>
+					<p>Or join our "StepUp In 2026" group: <a href="https://join.thestepupapp.com/nJq00b" target="_blank" rel="noopener">https://join.thestepupapp.com/nJq00b</a></p>
+					<p><b>How much does it cost?</b><br>StepUp is completely FREE. We support our work via minimal ads, in-app purchases to go ad-free and some <a href="https://www.buymeacoffee.com/stepupapp" target="_blank" rel="noopener">coffees</a> from generous supporters.</p>
+					<p><b>Leaderboards and ongoing challenges</b><br>Many groups run ongoing challenges where winners are announced every week or month. By default, groups have daily, weekly, and monthly leaderboards that update automatically. Daily and weekly leaderboards reset every midnight. The monthly leaderboard resets on the 3rd of the month. <a href="https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing" target="_blank" rel="noopener">More guidance and email templates.</a></p>
+					<p><b>NEW: Fixed date range challenges</b><br>If you want a challenge with a specific start and end date, admins can set that up from Group Settings (long-press the group name). Members will then see the new custom leaderboard in place of the monthly leaderboard. Min 1 day, max 1 year.</p>
+					<p><b>Does the group end after the end date?</b><br>No. The group continues as normal. After the end date, the custom leaderboard will still show results for that date range until an admin changes or clears it.</p>
+					<p><b>How to "start" a step challenge?</b><br>There's nothing to start or stop in the app once the group is created — leaderboards update automatically. Make sure to invite folks at least a week before the intended start date so they have time to install StepUp.</p>
+					<p><b>Prizes &amp; kudos</b><br>Prizes can be fun — but often recognition and kudos are even more motivating. Consider wholesome alternatives like random draws among everyone who hit a goal (e.g. 10k steps daily), or prizes for most improved (highest % increase).</p>
+					<p><b>NEW: Mystery Mode in groups 🎭</b><br>In Mystery Mode, today's steps are hidden &amp; only ranks are shown on the leaderboard. Step counts are revealed the next day. Great for work groups. Admins can enable it from Group Settings.</p>
+					<p><b>Team vs team step challenge</b><br>StepUp doesn't currently show group-vs-group leaderboards directly, but you can create one group per team and compare teams using exported reports.</p>
+					<p><b>Exporting group reports</b><br>Group admins can export reports for any date range from Settings &gt; Manage Groups (or long-press the group name).</p>
+					<p><b>Group chat</b><br>Group chat lets members share updates, encourage each other, and enjoy friendly banter. Admins can disable chat or taunts from Group Settings, and remove inappropriate messages or members.</p>
+					<p><b>Questions or feedback?</b><br>Email us at <a href="mailto:team@thestepupapp.com">team@thestepupapp.com</a>. If you face any issues, send feedback logs from StepUp &gt; Settings &gt; Help &amp; Feedback &gt; Send Feedback.</p>
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Is StepUp really completely free? (Yes!)</summary>
+				<div class="faq-body">We want StepUp to be accessible to everyone, so it's completely FREE — nothing is behind a paywall. We support our work via ads and optional in-app purchases to go ad-free. You can also <a href="https://www.buymeacoffee.com/stepupapp" target="_blank" rel="noopener">buy our team a coffee</a>! ❤️</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Is StepUp available across the world? (Yes!)</summary>
+				<div class="faq-body">StepUp is available worldwide for free. It is used at companies (Amazon, BMW, Google, Meta), schools (Yale, Stanford, Rossall), governments (in US, UK, NZ, UAE), communities, gyms, hospitals, conferences, and other organizations all over the world.</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Is StepUp GDPR/CCPA compliant? How does it handle my data?</summary>
+				<div class="faq-body">
+					StepUp is GDPR &amp; CCPA compliant and adheres to the latest industry-standard security and privacy practices.<br>
+					We do NOT share or sell any of your personal or steps activity data with anyone.<br>
+					You can delete your account and data immediately from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.<br>
+					We use Google's AdMob ad network to display personalised ads with your consent (optional).<br>
+					See our <a href="privacy">privacy policy</a> for more information.
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>How do I sync steps from wearables like Apple Watch, Fitbit, etc?</summary>
+				<div class="faq-body">
+					Sync wearables to StepUp from StepUp &gt; Settings &gt; Sync wearable.<br><br>
+					You can sync steps from any wearable via Apple Health on iOS or Health Connect on Android:<br>
+					Step 1: Sync StepUp with Apple Health/Health Connect from StepUp &gt; Settings &gt; Sync wearable<br>
+					Step 2: Sync steps from your wearable/app to Apple Health/Health Connect<br><br>
+					We also support syncing directly with Fitbit, Garmin or Samsung wearables.<br><br>
+					ALL wearables that sync with Apple Health or Android Health Connect are supported, including Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazefit, Noise, boAT, OPPO and many more.
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>How do I sync steps from my wearable to Apple Health?</summary>
+				<div class="faq-body">
+					On iOS, sync steps from any wearable from StepUp &gt; Settings &gt; Sync wearable.<br><br>
+					You also need to sync steps from your wearable's app to Apple Health (e.g. Garmin App &gt; Settings &gt; Connected Apps &gt; Apple Health).<br><br>
+					Apple Health uses a priority system when reading data from multiple sources. If your wearable data isn't appearing, you might need to adjust priority: Apple Health &gt; Steps &gt; Data Sources &amp; Access &gt; Data Sources &gt; Edit &gt; drag your wearable to the top.
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Can I manually add steps? (No)</summary>
+				<div class="faq-body">StepUp works with all iPhone &amp; Android smartphones, and all wearables that sync with Apple Health (iOS) or Android Health Connect. We don't allow manually-added steps to prevent misuse.</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>How do I add friends in StepUp?</summary>
+				<div class="faq-body">
+					Sign in with Google, Apple or Facebook and send friends your unique invite link. You'll see them in StepUp once they tap your link and accept the invite.<br><br>
+					If your friends aren't on StepUp yet, the invite link will take them to the app store to install it. Then they need to sign in and tap your invite link again to add you as a friend.<br><br>
+					If you sign in with Facebook, you can automatically see FB friends who also signed in with FB on StepUp. You can still invite other friends via your unique invite link.<br><br>
+					You control who can see you in StepUp.<br><br>
+					NOTE: We <b>never</b> post or share your steps data anywhere.
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Who can see my steps?</summary>
+				<div class="faq-body">
+					By default, no one other than you can see your steps in StepUp. We NEVER post or share your step data anywhere.<br><br>
+					If you add friends, only your friends will be able to see you &amp; your steps. If you join a group, other people in the group will be able to see you.<br><br>
+					You can privately hide (block) anyone on StepUp — they won't see you and you won't see them.
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>How do I hide (block) friends in StepUp?</summary>
+				<div class="faq-body">You can privately hide any of your friends in StepUp. You won't see hidden friends, and they won't see you. You can unhide them anytime from StepUp &gt; Settings &gt; Hidden friends.</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>My friends or groups in StepUp disappeared. Help!</summary>
+				<div class="faq-body">
+					This shouldn't happen, but if it does: check your internet connection, then sign out (Settings &gt; Sign out) and back in. If that doesn't work, email us at <a href="mailto:team@thestepupapp.com">team@thestepupapp.com</a>.<br><br>
+					Note: If you're missing one specific friend, it's possible they deleted their StepUp account or hid you on StepUp.
+				</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>What are Active Bot and Chill Bot? Can I hide them?</summary>
+				<div class="faq-body">Active Bot &amp; Chill Bot are virtual friends in StepUp that walk about 10K &amp; 2K steps respectively. Many users like to pace themselves against them. You can hide them by tapping on them and tapping "Hide" in the top right.</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Will StepUp drain my battery? (NOT at all!)</summary>
+				<div class="faq-body">StepUp uses your phone's built-in step-sensor/fitness tracker, which works in the background without impacting battery. Since StepUp doesn't use your GPS location, it is very battery friendly! :)</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>How do I delete my StepUp account &amp; data?</summary>
+				<div class="faq-body">You can delete your account and data immediately from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.</div>
+			</details>
+
+			<details class="faq-item">
+				<summary>Who built StepUp?</summary>
+				<div class="faq-body"><a href="https://www.linkedin.com/in/pratikstephen/" target="_blank" rel="noopener">Pratik</a> wanted to use a step tracking app that was social, engaging &amp; fun to encourage his mom and siblings to be more active — but he couldn't find one. So he and his team have been building StepUp with a mission to make being active more fun &amp; social.</div>
+			</details>
+
+			<details class="faq-item" open>
+				<summary>I love StepUp — how can I support you?</summary>
+				<div class="faq-body">
+					Thank you for joining our mission to make being active more fun &amp; social! 🙌<br>
+					We'd love it if you invited your friends, family and colleagues to join our movement! Reviews on <a href="https://itunes.apple.com/app/id979101825">the App Store</a> &amp; <a href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup">Google Play Store</a> also help us reach more people.<br>
+					You can also <a href="https://www.buymeacoffee.com/stepupapp" target="_blank" rel="noopener">buy us a coffee</a> if you'd like! ❤️
+				</div>
+			</details>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-cta">
+				<a class="download-btn" target="_blank" rel="noopener" href="https://itunes.apple.com/app/id979101825" aria-label="Download on the App Store">
+					<img src="images/imgs/AppStoreIcon.svg" alt="Download on the App Store" width="200" height="60">
+					<div class="stars"><span class="s">★★★★★</span> 4.8 · 101K ratings</div>
+				</a>
+				<a class="download-btn" target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" aria-label="Get it on Google Play">
+					<img src="images/imgs/GooglePlayIcon.svg" alt="Get it on Google Play" width="200" height="60">
+					<div class="stars"><span class="s">★★★★★</span> 4.7 · 29K reviews</div>
+				</a>
+			</div>
+			<div class="footer-grid">
+				<div class="footer-info">
+					<strong>Contact:</strong> <a href="mailto:team@thestepupapp.com">team@thestepupapp.com</a><br>
+					&copy; 2026 StepUp App (part of Marshmallow Toys LLC)<br>
+					<a href="privacy">Privacy</a> &nbsp;|&nbsp; <a href="terms">Terms &amp; Conditions</a>
+				</div>
+				<ul class="soc-list">
+					<li><a href="https://www.linkedin.com/company/stepup-step-challenge-app" target="_blank" rel="noopener" aria-label="StepUp on LinkedIn">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM8.34 18.34V10.5H5.7v7.84zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zm11.34 9V14c0-2.4-1.28-3.51-3-3.51a2.6 2.6 0 0 0-2.36 1.3v-1.12h-2.62q.05.74 0 7.84h2.62v-4.38c0-.24.02-.47.09-.64.18-.47.62-.96 1.34-.96.95 0 1.32.72 1.32 1.78v4.2z"/></svg>
+					</a></li>
+					<li><a href="https://www.instagram.com/stepup_app/" target="_blank" rel="noopener" aria-label="StepUp on Instagram">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 1.62c-3.15 0-3.5.01-4.74.07-1.07.05-1.65.23-2.04.38-.51.2-.88.44-1.26.82-.38.38-.62.75-.82 1.26-.15.39-.33.97-.38 2.04-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.05 1.07.23 1.65.38 2.04.2.51.44.88.82 1.26.38.38.75.62 1.26.82.39.15.97.33 2.04.38 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c1.07-.05 1.65-.23 2.04-.38.51-.2.88-.44 1.26-.82.38-.38.62-.75.82-1.26.15-.39.33-.97.38-2.04.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.05-1.07-.23-1.65-.38-2.04a3.4 3.4 0 0 0-.82-1.26 3.4 3.4 0 0 0-1.26-.82c-.39-.15-.97-.33-2.04-.38-1.24-.06-1.59-.07-4.74-.07zm0 2.76a5.46 5.46 0 1 1 0 10.92 5.46 5.46 0 0 1 0-10.92zm0 9a3.54 3.54 0 1 0 0-7.08 3.54 3.54 0 0 0 0 7.08zm6.96-9.21a1.27 1.27 0 1 1-2.54 0 1.27 1.27 0 0 1 2.54 0z"/></svg>
+					</a></li>
+					<li><a href="https://twitter.com/StepUpApp" target="_blank" rel="noopener" aria-label="StepUp on Twitter">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 5.92c-.74.33-1.53.55-2.36.65a4.12 4.12 0 0 0 1.81-2.27 8.23 8.23 0 0 1-2.61 1 4.11 4.11 0 0 0-7 3.74 11.66 11.66 0 0 1-8.46-4.29 4.11 4.11 0 0 0 1.27 5.48 4.07 4.07 0 0 1-1.86-.51v.05a4.11 4.11 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.11 4.11 0 0 0 3.83 2.85A8.24 8.24 0 0 1 2 18.34a11.62 11.62 0 0 0 6.29 1.84c7.55 0 11.68-6.25 11.68-11.67v-.53A8.27 8.27 0 0 0 22 5.92z"/></svg>
+					</a></li>
+					<li><a href="https://www.facebook.com/stepupapp" target="_blank" rel="noopener" aria-label="StepUp on Facebook">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.13H13.5V8.87c0-.9.25-1.52 1.55-1.52h1.65V4.55a22.4 22.4 0 0 0-2.4-.13c-2.38 0-4 1.45-4 4.12v2.32H7.6V14h2.7v8z"/></svg>
+					</a></li>
+					<li><a href="mailto:team@thestepupapp.com" aria-label="Email StepUp">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 17.5zm2.62-.5L12 12.55 19.38 6zM20 7.69l-7.36 6.55a1 1 0 0 1-1.28 0L4 7.7v9.8c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5z"/></svg>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Structured data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "MobileApplication",
+		"name": "StepUp Pedometer",
+		"description": "StepUp makes fitness more fun and social. Track your steps, compete with friends and be more active together.",
+		"applicationCategory": "HealthApplication",
+		"operatingSystem": "iOS, Android",
+		"offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+		"aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "130000" },
+		"url": "https://www.thestepupapp.com/",
+		"image": "https://www.thestepupapp.com/images/imgs/HighFive.png",
+		"installUrl": [
+			"https://itunes.apple.com/app/id979101825",
+			"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"
+		]
+	}
+	</script>
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [
+			{ "@type": "Question", "name": "Is StepUp really completely free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StepUp is completely free with nothing behind a paywall. Supported by ads and optional in-app purchases to go ad-free." } },
+			{ "@type": "Question", "name": "How do I sync steps from wearables like Apple Watch and Fitbit?", "acceptedAnswer": { "@type": "Answer", "text": "Sync wearables via Apple Health on iOS or Health Connect on Android. We also support direct sync with Fitbit, Garmin and Samsung." } },
+			{ "@type": "Question", "name": "Will StepUp drain my battery?", "acceptedAnswer": { "@type": "Answer", "text": "No. StepUp uses your phone's built-in step sensor and doesn't use GPS, so it has minimal battery impact." } },
+			{ "@type": "Question", "name": "Is StepUp GDPR/CCPA compliant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StepUp is GDPR & CCPA compliant. We do not share or sell your personal or step activity data." } }
+		]
+	}
+	</script>
+
+	<!-- Minimal vanilla JS: mobile menu + app-store redirect -->
+	<script>
+		(function () {
+			var toggle = document.querySelector('.nav-toggle');
+			var links = document.querySelector('.nav-links');
+			toggle.addEventListener('click', function () {
+				var open = links.classList.toggle('open');
+				toggle.setAttribute('aria-expanded', open);
+			});
+			links.addEventListener('click', function (e) {
+				if (e.target.tagName === 'A') links.classList.remove('open');
+			});
+
+			// get.thestepupapp.com redirects to www.thestepupapp.com?r=1 — bounce mobile users to the right store
+			var params = new URLSearchParams(window.location.search);
+			if (params.get('r') === '1') {
+				var ua = navigator.userAgent || navigator.vendor || window.opera;
+				if (/iPad|iPhone|iPod/i.test(ua)) {
+					window.location.assign('https://itunes.apple.com/app/id979101825');
+				} else if (/Android/i.test(ua)) {
+					window.location.assign('https://play.google.com/store/apps/details?id=com.thestepupapp.stepup');
+				}
+			}
+		})();
+	</script>
+</body>
+</html>

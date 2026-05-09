@@ -149,6 +149,7 @@
 			opacity: 0;
 			animation: cycle-word 15s infinite;
 			white-space: nowrap;
+			text-shadow: 0 2px 8px rgba(0,0,0,.35);
 		}
 		.cycler > span:nth-child(1) { animation-delay: 0s; }
 		.cycler > span:nth-child(2) { animation-delay: 2.5s; }
@@ -308,7 +309,7 @@
 			.hero-logo { justify-content: center; margin-bottom: 25px; }
 			.slogan { font-size: var(--fs-lg); margin-bottom: 25px; }
 			.cycler { display: inline; }
-			.cycler > span { display: none; animation: none; opacity: 1; transform: none; }
+			.cycler > span { display: none; animation: none; opacity: 1; transform: none; text-shadow: none; }
 			.cycler > span:first-child { display: inline; }
 			.feature-grid { grid-template-columns: 1fr; gap: 30px; text-align: center; }
 			.feature-text { text-align: left; }

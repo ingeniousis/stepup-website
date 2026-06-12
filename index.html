@@ -720,33 +720,150 @@ For example, a user in London has their day finalized at midnight in London, whi
 	<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
-		"@type": "MobileApplication",
-		"name": "StepUp Pedometer",
-		"description": "StepUp makes fitness more fun and social. Track your steps, compete with friends and be more active together.",
-		"applicationCategory": "HealthApplication",
-		"operatingSystem": "iOS, Android",
-		"offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-		"aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "130000" },
-		"url": "https://thestepupapp.com/",
-		"image": "https://thestepupapp.com/images/imgs/HighFive.png",
-		"installUrl": [
-			"https://itunes.apple.com/app/id979101825",
-			"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"
-		]
-	}
-	</script>
-
-	<script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "FAQPage",
-		"mainEntity": [
-			{ "@type": "Question", "name": "How do I organise a step challenge on StepUp?", "acceptedAnswer": { "@type": "Answer", "text": "StepUp makes it super simple to host fun, engaging step challenges for free. Add friends individually or create a group where everyone sees each other on a shared leaderboard with daily, weekly and monthly rankings. Groups can have up to 1,500 members and you can create as many as you want. StepUp is used at work (Amazon, BMW, Google), schools (Yale, Stanford), gyms and communities worldwide. Admins can also set fixed-date challenges, enable Mystery Mode, and export reports." } },
-			{ "@type": "Question", "name": "Is StepUp really completely free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StepUp is completely free with nothing behind a paywall. We support our work via ads and optional in-app purchases to go ad-free." } },
-			{ "@type": "Question", "name": "How do I run a free step challenge at work for my team or office?", "acceptedAnswer": { "@type": "Answer", "text": "StepUp is the easiest way to run a free office step challenge for your team. Create a group, share the invite link with colleagues, and everyone shows up on a shared leaderboard with daily, weekly and monthly rankings. Groups support up to 1,500 members, group chat, fixed-date challenges, Mystery Mode (hides today's steps), and exportable reports for prizes and recognition. Used at workplaces like Amazon, BMW, Google and Meta for healthy team bonding and engagement." } },
-			{ "@type": "Question", "name": "How do I sync steps from wearables like Apple Watch, Fitbit, Garmin or Samsung?", "acceptedAnswer": { "@type": "Answer", "text": "Sync wearables to StepUp via Apple Health on iOS or Health Connect on Android. We also support direct sync with Fitbit, Garmin and Samsung. All wearables that sync with Apple Health or Android Health Connect are supported, including Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi and more." } },
-			{ "@type": "Question", "name": "Is StepUp available worldwide?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StepUp is available worldwide for free. It is used at companies (Amazon, BMW, Google, Meta), schools (Yale, Stanford, Rossall), governments (in the US, UK, NZ, UAE), communities, gyms, hospitals and conferences all over the world." } },
-			{ "@type": "Question", "name": "How do I add friends in StepUp?", "acceptedAnswer": { "@type": "Answer", "text": "Sign in to StepUp and send friends your unique invite link. You will see them in StepUp once they tap your link and accept the invite." } }
+		"@graph": [
+			{
+				"@type": "Organization",
+				"@id": "https://thestepupapp.com/#organization",
+				"name": "StepUp App",
+				"alternateName": [
+					"StepUp App",
+					"StepUp Step Challenge App",
+					"StepUp Pedometer App",
+					"StepUp Social Fitness App"
+				],
+				"url": "https://thestepupapp.com/",
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "https://thestepupapp.com/#logo",
+					"url": "https://thestepupapp.com/images/2026/logo/NewLogoRounded50Percent.png",
+					"width": 350,
+					"height": 350
+				},
+				"sameAs": [
+					"https://www.instagram.com/stepup_app/",
+					"https://www.tiktok.com/@stepupapp",
+					"https://www.facebook.com/stepupapp",
+					"https://twitter.com/StepUpApp",
+					"https://www.linkedin.com/company/stepup-step-challenge-app"
+				],
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"email": "team@thestepupapp.com",
+					"contactType": "customer support",
+					"availableLanguage": "en"
+				},
+				"founder": {
+					"@type": "Person",
+					"name": "Pratik Stephen",
+					"sameAs": "https://www.linkedin.com/in/pratikstephen/"
+				}
+			},
+			{
+				"@type": "WebSite",
+				"@id": "https://thestepupapp.com/#website",
+				"url": "https://thestepupapp.com/",
+				"name": "StepUp",
+				"alternateName": [
+					"StepUp App",
+					"StepUp Step Challenge App",
+					"StepUp Pedometer App",
+					"StepUp Social Fitness App"
+				],
+				"description": "StepUp makes walking more fun and social with step leaderboards, wearable sync and group chat.",
+				"publisher": { "@id": "https://thestepupapp.com/#organization" },
+				"inLanguage": "en"
+			},
+			{
+				"@type": "WebPage",
+				"@id": "https://thestepupapp.com/#webpage",
+				"url": "https://thestepupapp.com/",
+				"name": "StepUp: Free Step Challenge App for Work & Friends on iPhone & Android",
+				"description": "StepUp makes walking more fun and social with leaderboards, wearable sync, and group chat for friends, family and office step challenges.",
+				"isPartOf": { "@id": "https://thestepupapp.com/#website" },
+				"about": { "@id": "https://thestepupapp.com/#mobileapplication" },
+				"primaryImageOfPage": {
+					"@type": "ImageObject",
+					"url": "https://thestepupapp.com/images/imgs/HighFive.png",
+					"width": 480,
+					"height": 480
+				},
+				"dateModified": "2026-06-12",
+				"inLanguage": "en"
+			},
+			{
+				"@type": "MobileApplication",
+				"@id": "https://thestepupapp.com/#mobileapplication",
+				"name": "StepUp App",
+				"alternateName": [
+					"StepUp",
+					"StepUp Step Challenge App",
+					"StepUp Pedometer App",
+					"StepUp Social Fitness App"
+				],
+				"description": "StepUp makes walking more fun and social with leaderboards, wearable sync, and group chat for friends, family and office step challenges.",
+				"applicationCategory": "HealthApplication",
+				"applicationSubCategory": "Pedometer and step challenge app",
+				"operatingSystem": [
+					"iOS",
+					"Android"
+				],
+				"url": "https://thestepupapp.com/",
+				"image": {
+					"@type": "ImageObject",
+					"url": "https://thestepupapp.com/images/imgs/HighFive.png",
+					"width": 480,
+					"height": 480
+				},
+				"publisher": { "@id": "https://thestepupapp.com/#organization" },
+				"isAccessibleForFree": true,
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "USD",
+					"availability": "https://schema.org/InStock"
+				},
+				"aggregateRating": {
+					"@type": "AggregateRating",
+					"ratingValue": "4.8",
+					"ratingCount": "130000",
+					"bestRating": "5",
+					"worstRating": "1"
+				},
+				"featureList": [
+					"Free step challenges",
+					"Daily, weekly, monthly step leaderboards",
+					"Group chat for motivation, engagement and banter",
+					"Sync wearables like Apple Watch, Fitbit, Garmin, Samsung, Apple Health, Android Health Connect and more",
+					"Customizable date ranges for challenges",
+					"Large groups up to 1,500 members",
+					"Exportable group reports"
+				],
+				"downloadUrl": [
+					"https://itunes.apple.com/app/id979101825",
+					"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"
+				],
+				"installUrl": [
+					"https://itunes.apple.com/app/id979101825",
+					"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"
+				],
+				"sameAs": [
+					"https://itunes.apple.com/app/id979101825",
+					"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"
+				]
+			},
+			{
+				"@type": "FAQPage",
+				"@id": "https://thestepupapp.com/#faq",
+				"isPartOf": { "@id": "https://thestepupapp.com/#webpage" },
+				"mainEntity": [
+					{ "@type": "Question", "name": "How do I organise a step challenge on StepUp?", "acceptedAnswer": { "@type": "Answer", "text": "StepUp makes it super simple to host fun, engaging step challenges for free. Add friends individually or create a group where everyone sees each other on a shared leaderboard with daily, weekly and monthly rankings. Groups can have up to 1,500 members and you can create as many as you want. StepUp is used at work (Amazon, BMW, Google), schools (Yale, Stanford), gyms and communities worldwide. Admins can also set fixed-date challenges, enable Mystery Mode, and export reports." } },
+					{ "@type": "Question", "name": "Is StepUp really completely free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StepUp is completely free with nothing behind a paywall. We support our work via ads and optional in-app purchases to go ad-free." } },
+					{ "@type": "Question", "name": "How do I run a free step challenge at work for my team or office?", "acceptedAnswer": { "@type": "Answer", "text": "StepUp is the easiest way to run a free office step challenge for your team. Create a group, share the invite link with colleagues, and everyone shows up on a shared leaderboard with daily, weekly and monthly rankings. Groups support up to 1,500 members, group chat, fixed-date challenges, Mystery Mode (hides today's steps), and exportable reports for prizes and recognition. Used at workplaces like Amazon, BMW, Google and Meta for healthy team bonding and engagement." } },
+					{ "@type": "Question", "name": "How do I sync steps from wearables like Apple Watch, Fitbit, Garmin or Samsung?", "acceptedAnswer": { "@type": "Answer", "text": "Sync wearables to StepUp via Apple Health on iOS or Health Connect on Android. We also support direct sync with Fitbit, Garmin and Samsung. All wearables that sync with Apple Health or Android Health Connect are supported, including Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi and more." } },
+					{ "@type": "Question", "name": "Is StepUp available worldwide?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. StepUp is available worldwide for free. It is used at companies (Amazon, BMW, Google, Meta), schools (Yale, Stanford, Rossall), governments (in the US, UK, NZ, UAE), communities, gyms, hospitals and conferences all over the world." } },
+					{ "@type": "Question", "name": "How do I add friends in StepUp?", "acceptedAnswer": { "@type": "Answer", "text": "Sign in to StepUp and send friends your unique invite link. You will see them in StepUp once they tap your link and accept the invite." } }
+				]
+			}
 		]
 	}
 	</script>
@@ -767,6 +884,11 @@ For example, a user in London has their day finalized at midnight in London, whi
 			// get.thestepupapp.com redirects to thestepupapp.com?r=1 — bounce mobile users to the right store
 			var params = new URLSearchParams(window.location.search);
 			if (params.get('r') === '1') {
+				var robots = document.createElement('meta');
+				robots.name = 'robots';
+				robots.content = 'noindex, follow';
+				document.head.appendChild(robots);
+
 				var ua = navigator.userAgent || navigator.vendor || window.opera;
 				if (/iPad|iPhone|iPod/i.test(ua)) {
 					window.location.assign('https://itunes.apple.com/app/id979101825');

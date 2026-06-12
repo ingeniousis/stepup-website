@@ -90,6 +90,7 @@
 			background: var(--color-white);
 		}
 		img { max-width: 100%; height: auto; display: block; }
+		picture { display: block; }
 		a { color: var(--color-link); text-decoration: none; transition: color .25s ease-out; }
 		a:hover { color: var(--color-link-hover); text-decoration: none; }
 		h1, h2, h3, h4, h5 { color: var(--color-text-heading); line-height: 1.2; margin: 0 0 30px; font-weight: var(--fw-medium); }
@@ -206,6 +207,11 @@
 			right: 0;
 			width: 50%;
 			max-width: 260px;
+			height: auto;
+		}
+		.phone-couple .above img,
+		.phone-couple .beyond img {
+			width: 100%;
 			height: auto;
 		}
 
@@ -380,8 +386,16 @@
 			<div class="hero-grid">
 				<div>
 					<div class="phone-couple">
-						<img class="above" src="images/2026/screens/optimized/friends.png" alt="StepUp App Friends Leaderboard" loading="eager">
-						<img class="beyond" src="images/2026/screens/optimized/1on1.png" alt="StepUp App Friend Stats Head to Head Screen" loading="eager">
+						<picture class="above">
+							<source srcset="images/2026/screens/optimized/friends.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/friends.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/friends.png" alt="StepUp App Friends Leaderboard" loading="eager" width="553" height="1200">
+						</picture>
+						<picture class="beyond">
+							<source srcset="images/2026/screens/optimized/1on1.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/1on1.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/1on1.png" alt="StepUp App Friend Stats Head to Head Screen" loading="eager" width="553" height="1200">
+						</picture>
 					</div>
 				</div>
 				<div>
@@ -422,7 +436,11 @@
 				</div>
 				<div class="feature-image">
 					<div class="single">
-						<img src="images/2026/screens/optimized/1on1.png" alt="StepUp App Friend Stats Head to Head Screen" loading="lazy">
+						<picture>
+							<source srcset="images/2026/screens/optimized/1on1.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/1on1.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/1on1.png" alt="StepUp App Friend Stats Head to Head Screen" loading="lazy" width="553" height="1200">
+						</picture>
 					</div>
 				</div>
 			</div>
@@ -435,8 +453,16 @@
 			<div class="feature-grid">
 				<div class="feature-image">
 					<div class="phone-couple" style="aspect-ratio: 460 / 600;">
-						<img class="above" src="images/2026/screens/optimized/group.png" alt="StepUp app group step challenge leaderboard" loading="lazy">
-						<img class="beyond" src="images/2026/screens/optimized/chat.png" alt="StepUp app group chat screen" loading="lazy">
+						<picture class="above">
+							<source srcset="images/2026/screens/optimized/group.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/group.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/group.png" alt="StepUp app group step challenge leaderboard" loading="lazy" width="553" height="1200">
+						</picture>
+						<picture class="beyond">
+							<source srcset="images/2026/screens/optimized/chat.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/chat.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/chat.png" alt="StepUp app group chat screen" loading="lazy" width="553" height="1200">
+						</picture>
 					</div>
 				</div>
 				<div>
@@ -469,7 +495,11 @@
 				</div>
 				<div class="feature-image right">
 					<div class="single">
-						<img src="images/2026/screens/optimized/wearables.png" alt="StepUp wearables sync screen" loading="lazy">
+						<picture>
+							<source srcset="images/2026/screens/optimized/wearables.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/wearables.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/wearables.png" alt="StepUp wearables sync screen" loading="lazy" width="553" height="1200">
+						</picture>
 					</div>
 				</div>
 			</div>
@@ -482,8 +512,16 @@
 			<div class="feature-grid">
 				<div class="feature-image">
 					<div class="phone-couple" style="aspect-ratio: 460 / 600;">
-						<img class="above" src="images/2026/screens/optimized/calendar.png" alt="StepUp App Step History Calendar Screen" loading="lazy">
-						<img class="beyond" src="images/2026/screens/optimized/recap.png" alt="StepUp App Step History Recap Screen" loading="lazy">
+						<picture class="above">
+							<source srcset="images/2026/screens/optimized/calendar.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/calendar.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/calendar.png" alt="StepUp App Step History Calendar Screen" loading="lazy" width="553" height="1200">
+						</picture>
+						<picture class="beyond">
+							<source srcset="images/2026/screens/optimized/recap.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/recap.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/recap.png" alt="StepUp App Step History Recap Screen" loading="lazy" width="553" height="1200">
+						</picture>
 					</div>
 				</div>
 				<div>
@@ -519,8 +557,16 @@
 					<p>StepUp makes it super simple to host fun, engaging step challenges for FREE!</p>
 					<p>You can add friends individually or create a group where everyone can see each other on a shared leaderboard. StepUp is used at work (Amazon, BMW, Google), schools (Yale, Stanford), gyms and communities all over the world.</p>
 					<div class="phone-couple faq-phones">
-						<img class="above" src="images/2026/screens/optimized/group.png" alt="StepUp app group step challenge leaderboard">
-						<img class="beyond" src="images/2026/screens/optimized/chat.png" alt="StepUp app group chat screen">
+						<picture class="above">
+							<source srcset="images/2026/screens/optimized/group.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/group.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/group.png" alt="StepUp app group step challenge leaderboard" loading="lazy" width="553" height="1200">
+						</picture>
+						<picture class="beyond">
+							<source srcset="images/2026/screens/optimized/chat.avif" type="image/avif">
+							<source srcset="images/2026/screens/optimized/chat.webp" type="image/webp">
+							<img src="images/2026/screens/optimized/chat.png" alt="StepUp app group chat screen" loading="lazy" width="553" height="1200">
+						</picture>
 					</div>
 					<p><b>How does a group work?</b><br>In a group, all members can see each other on the group leaderboards (daily, weekly and monthly). Groups can have up to 1,500 members, and you can create as many groups as you want. Invite people by sharing the group invite link via email/text.</p>
 					<p>Or join our "StepUp In 2026" group: <a href="https://join.thestepupapp.com/nJq00b" target="_blank" rel="noopener">https://join.thestepupapp.com/nJq00b</a></p>

@@ -1,0 +1,58 @@
+# StepUp
+
+> StepUp is a free social step challenge app for iPhone and Android. It helps friends, families, workplaces, schools, gyms and communities track steps, compete on leaderboards, sync wearables, chat in groups and run step challenges together.
+
+This website is the official marketing and support website for the StepUp mobile app by Marshmallow Toys LLC. All localized homepage URLs describe the same app and should be interpreted as language versions of the same product, not separate products.
+
+Core facts:
+- App name: StepUp App
+- Alternate names: StepUp Step Challenge App, StepUp Pedometer App, StepUp Social Fitness App
+- Platforms: iPhone/iOS and Android
+- Apple App Store ID: 979101825
+- Google Play package name: com.thestepupapp.stepup
+- Languages: English, German, Spanish, French, Italian, Dutch, Portuguese, Russian, Swedish and Turkish
+- Support email: team@thestepupapp.com
+- Pricing: free to download and use, with ads and optional in-app purchases to go ad-free
+
+## Primary Pages
+
+- [English homepage](https://thestepupapp.com/): Main English landing page with app overview, reviews, download links and FAQs.
+- [German homepage](https://thestepupapp.com/de/): German localized landing page.
+- [Spanish homepage](https://thestepupapp.com/es/): Spanish localized landing page.
+- [French homepage](https://thestepupapp.com/fr/): French localized landing page.
+- [Italian homepage](https://thestepupapp.com/it/): Italian localized landing page.
+- [Dutch homepage](https://thestepupapp.com/nl/): Dutch localized landing page.
+- [Portuguese homepage](https://thestepupapp.com/pt/): Portuguese localized landing page.
+- [Russian homepage](https://thestepupapp.com/ru/): Russian localized landing page.
+- [Swedish homepage](https://thestepupapp.com/sv/): Swedish localized landing page.
+- [Turkish homepage](https://thestepupapp.com/tr/): Turkish localized landing page.
+
+## App Downloads
+
+- [StepUp on the App Store](https://itunes.apple.com/app/id979101825): Official iPhone app listing.
+- [StepUp on Google Play](https://play.google.com/store/apps/details?id=com.thestepupapp.stepup): Official Android app listing.
+
+## Product Context
+
+- [Step challenge FAQ](https://thestepupapp.com/#faq): Answers about organizing step challenges, groups, leaderboards, fixed date ranges, team-vs-team challenges, group chat, wearable sync, privacy, account deletion and troubleshooting.
+- [Example StepUp group invite](https://join.thestepupapp.com/nJq00b): Public invite link for the "StepUp In 2026" group.
+- [Organizer guidance and email templates](https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing): Additional guidance for people running step challenges.
+
+## Legal And Support
+
+- [Privacy Policy](https://thestepupapp.com/privacy/): How StepUp collects, uses and deletes data.
+- [Terms of Service](https://thestepupapp.com/terms/): Terms for using StepUp.
+- [Support email](mailto:team@thestepupapp.com): Contact StepUp support.
+
+## Social Profiles
+
+- [Instagram](https://www.instagram.com/stepup_app/)
+- [TikTok](https://www.tiktok.com/@stepupapp)
+- [Facebook](https://www.facebook.com/stepupapp)
+- [X/Twitter](https://twitter.com/StepUpApp)
+- [LinkedIn](https://www.linkedin.com/company/stepup-step-challenge-app)
+
+## Optional
+
+- [Sitemap](https://thestepupapp.com/sitemap.xml): XML sitemap with localized homepage URLs, hreflang alternates, privacy and terms pages.
+- [Buy StepUp a coffee](https://www.buymeacoffee.com/stepupapp): Optional supporter page.

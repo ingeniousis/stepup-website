@@ -35,3 +35,10 @@ local.properties
 node_modules
 *.log
 .nvm
+
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/

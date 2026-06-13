@@ -1,0 +1,10 @@
+url: "https://thestepupapp.com"
+title: "StepUp"
+plugins: []
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - NewDesignIndex.html
+  - stepup-lightweight.html
+  - stepup-polished-prototype.html

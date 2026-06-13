@@ -1,0 +1,9 @@
+{% assign t = include.t %}{% if include.dark %}{% assign btn_class = "download-btn dark" %}{% else %}{% assign btn_class = "download-btn" %}{% endif %}
+<a class="{{ btn_class }}" target="_blank" rel="noopener" href="https://itunes.apple.com/app/id979101825" aria-label="{{ t.download.app_store_alt }}">
+	<img src="/images/2026/badge-app-store.svg" alt="{{ t.download.app_store_alt }}" width="200" height="60">
+	<div class="stars"><span class="s">★★★★★</span> {{ t.download.app_store_rating }}</div>
+</a>
+<a class="{{ btn_class }}" target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" aria-label="{{ t.download.play_store_alt }}">
+	<img src="/images/2026/badge-play-store.svg" alt="{{ t.download.play_store_alt }}" width="200" height="60">
+	<div class="stars"><span class="s">★★★★★</span> {{ t.download.play_store_rating }}</div>
+</a>

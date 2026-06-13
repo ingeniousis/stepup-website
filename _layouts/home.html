@@ -1,0 +1,153 @@
+---
+---
+{% assign t = site.data.home.languages[page.lang] | default: site.data.home.languages.en %}
+{% assign base_url = site.url | default: "https://thestepupapp.com" %}
+{% assign page_path = t.path %}
+<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ t.title | escape }}</title>
+	<meta name="description" content="{{ t.description | escape }}">
+	<meta name="theme-color" content="#16abbe">
+	<meta name="apple-itunes-app" content="app-id=979101825">
+	<link rel="canonical" href="{{ base_url }}{{ page_path }}">
+	{% for item in site.data.home.languages %}{% assign lang = item[0] %}{% assign lt = item[1] %}
+	<link rel="alternate" hreflang="{{ lang }}" href="{{ base_url }}{{ lt.path }}">
+	{% endfor %}
+	<link rel="alternate" hreflang="x-default" href="{{ base_url }}/">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ base_url }}{{ page_path }}">
+	<meta property="og:title" content="{{ t.og_title | escape }}">
+	<meta property="og:description" content="{{ t.og_description | escape }}">
+	<meta property="og:image" content="{{ base_url }}/images/imgs/HighFive.png">
+	<meta property="og:image:width" content="480">
+	<meta property="og:image:height" content="480">
+	<meta property="og:locale" content="{{ t.locale }}">
+	{% for item in site.data.home.languages %}{% assign lt = item[1] %}{% unless item[0] == page.lang %}<meta property="og:locale:alternate" content="{{ lt.locale }}">{% endunless %}{% endfor %}
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@StepUpApp">
+	<meta name="twitter:title" content="{{ t.og_title | escape }}">
+	<meta name="twitter:description" content="{{ t.og_description | escape }}">
+	<meta name="twitter:image" content="{{ base_url }}/images/imgs/HighFive.png">
+
+	<meta property="fb:app_id" content="1377598302553640">
+	<meta property="al:android:package" content="com.thestepupapp.stepup">
+	<meta property="al:android:app_name" content="StepUp Social Step Counter">
+	<meta property="al:android:url" content="https://join.thestepupapp.com">
+	<meta property="al:ios:url" content="https://join.thestepupapp.com">
+	<meta property="al:ios:app_store_id" content="979101825">
+	<meta property="al:ios:app_name" content="StepUp Social Step Counter">
+	<meta property="al:web:should_fallback" content="true">
+	<meta property="al:web:url" content="{{ base_url }}/">
+
+	<link rel="icon" href="/images/favicon.png">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L94LVQEZP"></script>
+	<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4L94LVQEZP');</script>
+	<style>
+		:root { --fs-xs: 14px; --fs-sm: 16px; --fs-md: 20px; --fs-lg: 30px; --fs-xl: 36px; --fs-xxl: 48px; --fw-light: 300; --fw-medium: 500; --fw-bold: 600; --color-text: #383838; --color-text-dark: #222; --color-text-light: #ecf0f1; --color-text-heading:#006674; --color-link-hover:#008c9e; --color-link:#428bca; --color-link-light: #afe3f8; --color-white: #fff; --color-bg-light: #f3f9fa; --color-bg-dark: #343838; --color-bg-slate: #456; --color-bg-blue: #16abbe; --color-bg-teal: #008c9e; --color-stars: #f5b400; }
+		*, *::before, *::after { box-sizing: border-box; } html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; } body { margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: var(--fs-sm); font-weight: var(--fw-light); line-height: 1.6; color: var(--color-text); background: var(--color-white); } img { max-width: 100%; height: auto; display: block; } picture { display: block; } a { color: var(--color-link); text-decoration: none; transition: color .25s ease-out; } a:hover { color: var(--color-link-hover); text-decoration: none; } h1, h2, h3, h4, h5 { color: var(--color-text-heading); line-height: 1.2; margin: 0 0 30px; font-weight: var(--fw-medium); } h1 { font-size: var(--fs-xl); line-height: 1.4; } h2 { font-size: var(--fs-lg); } h3, h4 { font-size: var(--fs-md); margin: 10px 0 20px; } p { margin: 0 0 1em; } .container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+		.nav { position: fixed; top: 0; left: 0; right: 0; background: var(--color-bg-dark); box-shadow: 0 1px 4px rgba(0,0,0,.15); z-index: 1000; } .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; } .nav-brand { display: flex; align-items: center; gap: 10px; color: var(--color-text-light); font-weight: var(--fw-bold); font-size: var(--fs-md); font-style: italic; } .nav-brand:hover { color: var(--color-text-light); text-decoration: none; } .nav-brand img { width: 30px; height: 30px; } .nav-links { list-style: none; margin: 0; padding: 0; display: flex; gap: 30px; align-items: center; } .nav-links a, .language-current { color: var(--color-text-light); font-weight: var(--fw-medium); } .nav-links a:hover, .language-picker:hover .language-current { color: var(--color-link-light); text-decoration: none; } .language-picker { cursor: pointer; display: inline-flex; position: relative; } .language-current { align-items: center; display: inline-flex; gap: 5px; pointer-events: none; } .language-current::after { background: currentColor; clip-path: polygon(0 18%, 50% 72%, 100% 18%, 100% 42%, 50% 96%, 0 42%); content: ""; display: block; height: 8px; width: 10px; } .language-select { appearance: none; -webkit-appearance: none; cursor: pointer; inset: 0; opacity: 0; position: absolute; width: 100%; } .language-picker:focus-within { outline: 2px solid rgba(255,255,255,.55); outline-offset: 6px; border-radius: 3px; } .language-select option { color: var(--color-text-dark); } .nav-toggle { display: none; background: none; border: 1px solid rgba(255,255,255,.4); border-radius: 6px; padding: 6px 10px; cursor: pointer; } .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--color-white); margin: 4px 0; }
+		.hero { background: linear-gradient(to bottom, var(--color-bg-slate) 0%, var(--color-bg-blue) 100%); color: var(--color-white); padding: 100px 0 50px; position: relative; overflow: hidden; } .hero .container { position: relative; } .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; } .hero-logo { display: flex; align-items: center; gap: 15px; margin-bottom: 40px; } .hero-logo img { width: 80px; height: 80px; flex-shrink: 0; } .brand-name { display: block; font-size: var(--fs-xxl); line-height: 1.2; color: var(--color-white); font-weight: var(--fw-bold); font-style: italic; } .brand-tag { display: block; font-size: var(--fs-md); line-height: 1.2; color: var(--color-white); } .slogan { color: var(--color-white); font-size: var(--fs-xl); line-height: 1.4; font-weight: var(--fw-light); margin: 0 0 35px; } .cycler { display: inline-grid; vertical-align: bottom; text-align: left; } .cycler > span { grid-area: 1 / 1; opacity: 0; animation: cycle-word 15s infinite; white-space: nowrap; text-shadow: 0 2px 8px rgba(0,0,0,.35); } .cycler > span:nth-child(1) { animation-delay: 0s; } .cycler > span:nth-child(2) { animation-delay: 2.5s; } .cycler > span:nth-child(3) { animation-delay: 5s; } .cycler > span:nth-child(4) { animation-delay: 7.5s; } .cycler > span:nth-child(5) { animation-delay: 10s; } .cycler > span:nth-child(6) { animation-delay: 12.5s; } @keyframes cycle-word { 0% { opacity: 0; transform: translateY(6px); } 4% { opacity: 1; transform: translateY(0); } 16% { opacity: 1; transform: translateY(0); } 20% { opacity: 0; transform: translateY(-6px); } 100% { opacity: 0; transform: translateY(-6px); } } @media (prefers-reduced-motion: reduce) { .cycler > span { animation: none; } .cycler > span:nth-child(1) { opacity: 1; } }
+		.download-btn { display: inline-block; margin: 0 6px 12px 0; text-align: center; vertical-align: top; } .download-btn img { display: inline-block; height: 60px; width: auto; } .download-btn .stars { font-size: var(--fs-xs); color: var(--color-white); } .download-btn.dark .stars { color: var(--color-text); } .stars .s { color: var(--color-stars); letter-spacing: 1px; font-size: var(--fs-sm); font-family: ui-rounded, "SF Pro Rounded", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+		.phone-couple { position: relative; width: 100%; max-width: 460px; margin: 0 auto; } .phone-couple .above { position: relative; z-index: 2; display: block; width: 60%; max-width: 280px; height: auto; } .phone-couple .beyond { position: absolute; z-index: 1; top: 10%; right: 0; width: 50%; max-width: 260px; height: auto; } .phone-couple .above img, .phone-couple .beyond img { width: 100%; height: auto; }
+		.feature { padding: 70px 0; } .feature.alt { background:var(--color-bg-light); } .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; } .feature-text { max-width: 380px; margin: 0 auto; } .feature-image { text-align: center; } .feature-image .single { display: inline-block; max-width: 300px; width: 100%; } .feature-image .single img { width: 100%; } .feature-image.right { order: 2; } .review-list p { margin-bottom: .8em; } .review-list .stars-row { color: var(--color-stars); letter-spacing: 2px; font-size: 22px; font-family: ui-rounded, "SF Pro Rounded", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+		.faq { padding: 70px 0; background: var(--color-white); } .faq h2 { text-align: center; margin-bottom: 40px; } .faq-item { background: var(--color-bg-light); border-radius: 6px; margin-bottom: 10px; box-shadow: 0 1px 2px rgba(0,0,0,.04); } .faq-item summary { padding: 16px 20px; cursor: pointer; font-weight: var(--fw-medium); color: var(--color-text-heading); list-style: none; position: relative; padding-right: 40px; } .faq-item summary::-webkit-details-marker { display: none; } .faq-item summary::after { content: ""; position: absolute; right: 22px; top: 50%; width: 10px; height: 10px; border-right: 2px solid var(--color-text-heading); border-bottom: 2px solid var(--color-text-heading); transform: translateY(-70%) rotate(45deg); transition: transform .2s ease-out; } .faq-item[open] summary::after { transform: translateY(-30%) rotate(-135deg); } .faq-body { padding: 0 20px 16px; color: var(--color-text); } .faq-body img { display: inline-block; margin: 10px 5px; max-width: 200px; border-radius: 8px; } .faq-phones { float: right; width: 50%; max-width: 380px; margin: 5px 0 10px 20px; } .faq-phones::after { content: ""; display: block; clear: both; } .faq-phones img { margin: 0; max-width: none; border-radius: 0; }
+		.footer { background: linear-gradient(to bottom, var(--color-bg-teal) 0%, var(--color-bg-slate) 100%); color: var(--color-text-light); padding: 50px 0; text-align: center; } .footer-cta { margin-bottom: 28px; } .footer-cta .download-btn .stars { color: var(--color-text-light); } .footer-grid { display: flex; flex-direction: column; align-items: center; gap: 40px; text-align: center; } .footer-info a { color: var(--color-text-light); } .soc-wrap { display: flex; flex-direction: column; align-items: center; } .soc-tagline { margin: 0 0 12px; color: var(--color-text-light); font-weight: 500; text-align: center; } .soc-list { list-style: none; margin: 0; padding: 0; display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; } .soc-list a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--color-white); transition: transform .2s ease-out, box-shadow .2s ease-out; box-shadow: 0 1px 3px rgba(0,0,0,.15); } .soc-list a:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,.25); text-decoration: none; } .soc-list svg { width: 20px; height: 20px; } .soc-list .soc-in svg { fill: #0A66C2; } .soc-list .soc-ig { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); } .soc-list .soc-ig svg { fill: var(--color-white); } .soc-list .soc-tw svg { fill: #1DA1F2; } .soc-list .soc-fb svg { fill: #1877F2; } .soc-list .soc-tt { background: #000; } .soc-list .soc-tt svg { fill: var(--color-white); }
+		@media (max-width: 900px) { .hero { padding: 90px 0 30px; text-align: center; } .hero-grid { grid-template-columns: 1fr; gap: 20px; } .hero-grid > div:first-child { order: 2; } .hero-grid > div:last-child { order: 1; } .hero-logo img { display: none; } .hero-logo { justify-content: center; margin-bottom: 25px; } .slogan { font-size: var(--fs-lg); margin-bottom: 25px; } .cycler { display: inline; } .cycler > span { display: none; animation: none; opacity: 1; transform: none; text-shadow: none; } .cycler > span:first-child { display: inline; } .feature-grid { grid-template-columns: 1fr; gap: 30px; text-align: center; } .feature-text { text-align: center; } .feature-image.right { order: 0; } .feature { padding: 50px 0; } .faq-phones { float: none; width: 100%; max-width: 460px; margin: 15px auto; } h1 { font-size: var(--fs-lg); } h2 { font-size: var(--fs-lg); } } @media (min-width: 901px) { .slogan-line { white-space: nowrap; } } @media (max-width: 700px) { .nav-toggle { display: block; } .nav-links { position: absolute; top: 60px; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--color-bg-dark); box-shadow: 0 2px 4px rgba(0,0,0,.2); display: none; } .nav-links.open { display: flex; } .nav-links li { border-top: 1px solid rgba(255,255,255,.08); width: 100%; } .nav-links a { display: block; padding: 14px 20px; color: var(--color-white); } .language-picker { display: block; width: 100%; } .language-current { padding: 14px 20px; } } @media (max-width: 480px) { .brand-name { font-size: var(--fs-xl); } .brand-tag { font-size: var(--fs-md); } .slogan { font-size: var(--fs-lg); } .download-btn { display: block; width: min(203px, 100%); margin: 0 auto 14px; } .download-btn img { height: 60px; } .phone-couple { max-width: 340px; } }
+	</style>
+</head>
+<body>
+	<nav class="nav"><div class="container nav-inner"><a class="nav-brand" href="#top"><img src="/images/2026/logo/NewLogoRounded50Percent.png" alt="{{ t.images.logo }}" width="30" height="30"><span>StepUp</span></a><button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button><ul class="nav-links"><li><a href="#about-track">{{ t.nav.about }}</a></li><li><a href="#faq">{{ t.nav.faq }}</a></li><li><a href="#footer">{{ t.nav.contact }}</a></li><li><span class="language-picker"><select class="language-select" aria-label="{{ t.nav.language }}" onchange="if (this.value) window.location.href = this.value;">{% for item in site.data.home.languages %}{% assign lang = item[0] %}{% assign lt = item[1] %}<option value="{{ lt.path }}" {% if lang == page.lang %}selected{% endif %}>{{ lt.label }}</option>{% endfor %}</select><span class="language-current" aria-hidden="true">{{ t.label }}</span></span></li></ul></div></nav>
+	<header class="hero" id="top"><div class="container"><div class="hero-grid"><div><div class="phone-couple"><picture class="above"><source srcset="/images/2026/screens/optimized/friends.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/friends.webp" type="image/webp"><img src="/images/2026/screens/optimized/friends.png" alt="{{ t.images.friends }}" loading="eager" width="553" height="1200"></picture><picture class="beyond"><source srcset="/images/2026/screens/optimized/1on1.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/1on1.webp" type="image/webp"><img src="/images/2026/screens/optimized/1on1.png" alt="{{ t.images.friend_stats }}" loading="eager" width="553" height="1200"></picture></div></div><div><div class="hero-logo"><img src="/images/2026/logo/NewLogoRounded50Percent.png" alt="{{ t.images.logo }}" width="80" height="80"><div><span class="brand-name">StepUp</span><span class="brand-tag">{{ t.brand_tag }}</span></div></div><h1 class="slogan">{{ t.hero.line1 }}<br><span class="slogan-line">{{ t.hero.compete }} <span class="cycler" aria-label="{{ t.hero.words | join: ', ' }}">{% for word in t.hero.words %}<span>{{ word }}</span>{% endfor %}</span></span><br>{{ t.hero.line3 }}</h1>{% include download-buttons.html t=t dark=false %}</div></div></div></header>
+	<section class="feature" id="about-track"><div class="container"><div class="feature-grid"><div><div class="feature-text review-list"><h2>{{ t.reviews_heading }}</h2>{% for review in t.reviews %}<p><span class="stars-row">★★★★★</span><br>"{{ review }}"</p>{% endfor %}</div></div><div class="feature-image"><div class="single"><picture><source srcset="/images/2026/screens/optimized/1on1.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/1on1.webp" type="image/webp"><img src="/images/2026/screens/optimized/1on1.png" alt="{{ t.images.friend_stats }}" loading="lazy" width="553" height="1200"></picture></div></div></div></div></section>
+	<section class="feature alt" id="about-compete"><div class="container"><div class="feature-grid"><div class="feature-image"><div class="phone-couple" style="aspect-ratio: 460 / 600;"><picture class="above"><source srcset="/images/2026/screens/optimized/group.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/group.webp" type="image/webp"><img src="/images/2026/screens/optimized/group.png" alt="{{ t.images.group_leaderboard }}" loading="lazy" width="553" height="1200"></picture><picture class="beyond"><source srcset="/images/2026/screens/optimized/chat.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/chat.webp" type="image/webp"><img src="/images/2026/screens/optimized/chat.png" alt="{{ t.images.group_chat }}" loading="lazy" width="553" height="1200"></picture></div></div><div><div class="feature-text"><h2>{{ t.sections[0].title }}</h2>{% for p in t.sections[0].copy %}<p>{% if p.html %}{{ p.html }}{% else %}{{ p }}{% endif %}</p>{% endfor %}</div></div></div></div></section>
+	<section class="feature" id="about-active"><div class="container"><div class="feature-grid"><div><div class="feature-text"><h2>{{ t.sections[1].title }}</h2>{% for p in t.sections[1].copy %}<p>{% if p.html %}{{ p.html }}{% else %}{{ p }}{% endif %}</p>{% endfor %}</div></div><div class="feature-image right"><div class="single"><picture><source srcset="/images/2026/screens/optimized/wearables.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/wearables.webp" type="image/webp"><img src="/images/2026/screens/optimized/wearables.png" alt="{{ t.images.wearables }}" loading="lazy" width="553" height="1200"></picture></div></div></div></div></section>
+	<section class="feature alt" id="about-goals"><div class="container"><div class="feature-grid"><div class="feature-image"><div class="phone-couple" style="aspect-ratio: 460 / 600;"><picture class="above"><source srcset="/images/2026/screens/optimized/calendar.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/calendar.webp" type="image/webp"><img src="/images/2026/screens/optimized/calendar.png" alt="{{ t.images.calendar }}" loading="lazy" width="553" height="1200"></picture><picture class="beyond"><source srcset="/images/2026/screens/optimized/recap.avif" type="image/avif"><source srcset="/images/2026/screens/optimized/recap.webp" type="image/webp"><img src="/images/2026/screens/optimized/recap.png" alt="{{ t.images.recap }}" loading="lazy" width="553" height="1200"></picture></div></div><div><div class="feature-text"><h2>{{ t.sections[2].title }}</h2>{% for p in t.sections[2].copy %}<p>{% if p.html %}{{ p.html }}{% else %}{{ p }}{% endif %}</p>{% endfor %}{% include download-buttons.html t=t dark=true %}</div></div></div></div></section>
+	<section class="faq" id="faq"><div class="container"><h2>{{ t.faq_title }}</h2>{% for faq in t.faqs %}<details class="faq-item" {% if faq.id %}id="{{ faq.id }}"{% endif %} {% if faq.open %}open{% endif %}><summary>{{ faq.q }}</summary><div class="faq-body">{% if faq.html %}{{ faq.html }}{% else %}<p>{{ faq.a }}</p>{% endif %}</div></details>{% endfor %}</div></section>
+	<footer class="footer" id="footer"><div class="container"><div class="footer-cta">{% include download-buttons.html t=t dark=false %}</div><div class="footer-grid"><div class="soc-wrap"><p class="soc-tagline">{{ t.footer.social }}</p><ul class="soc-list"><li><a class="soc-ig" href="https://www.instagram.com/stepup_app/" target="_blank" rel="noopener" aria-label="StepUp on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm11 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-6 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></a></li><li><a class="soc-tt" href="https://www.tiktok.com/@stepupapp" target="_blank" rel="noopener" aria-label="StepUp on TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.86a8.16 8.16 0 0 0 4.77 1.52V6.93a4.85 4.85 0 0 1-1.84-.24z"/></svg></a></li><li><a class="soc-fb" href="https://www.facebook.com/stepupapp" target="_blank" rel="noopener" aria-label="StepUp on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.13H13.5V8.87c0-.9.25-1.52 1.55-1.52h1.65V4.55a22.4 22.4 0 0 0-2.4-.13c-2.38 0-4 1.45-4 4.12v2.32H7.6V14h2.7v8z"/></svg></a></li><li><a class="soc-tw" href="https://twitter.com/StepUpApp" target="_blank" rel="noopener" aria-label="StepUp on Twitter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 5.92c-.74.33-1.53.55-2.36.65a4.12 4.12 0 0 0 1.81-2.27 8.23 8.23 0 0 1-2.61 1 4.11 4.11 0 0 0-7 3.74 11.66 11.66 0 0 1-8.46-4.29 4.11 4.11 0 0 0 1.27 5.48 4.07 4.07 0 0 1-1.86-.51v.05a4.11 4.11 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.11 4.11 0 0 0 3.83 2.85A8.24 8.24 0 0 1 2 18.34a11.62 11.62 0 0 0 6.29 1.84c7.55 0 11.68-6.25 11.68-11.67v-.53A8.27 8.27 0 0 0 22 5.92z"/></svg></a></li><li><a class="soc-in" href="https://www.linkedin.com/company/stepup-step-challenge-app" target="_blank" rel="noopener" aria-label="StepUp on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM8.34 18.34V10.5H5.7v7.84zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zm11.34 9V14c0-2.4-1.28-3.51-3-3.51a2.6 2.6 0 0 0-2.36 1.3v-1.12h-2.62q.05.74 0 7.84h2.62v-4.38c0-.24.02-.47.09-.64.18-.47.62-.96 1.34-.96.95 0 1.32.72 1.32 1.78v4.2z"/></svg></a></li></ul></div><div class="footer-info"><strong>{{ t.footer.contact }}</strong> <a href="mailto:team@thestepupapp.com">team@thestepupapp.com</a><br>&copy; 2026 StepUp App (Marshmallow Toys LLC)<br><a href="/privacy/" style="color: var(--color-link-light);">{{ t.footer.privacy }}</a> &nbsp;·&nbsp; <a href="/terms/" style="color: var(--color-link-light);">{{ t.footer.terms }}</a></div></div></div></footer>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "Organization",
+				"@id": "{{ base_url }}/#organization",
+				"name": "StepUp App",
+				"alternateName": ["StepUp App", "StepUp Step Challenge App", "StepUp Pedometer App", "StepUp Social Fitness App"],
+				"url": "{{ base_url }}/",
+				"logo": { "@type": "ImageObject", "@id": "{{ base_url }}/#logo", "url": "{{ base_url }}/images/2026/logo/NewLogoRounded50Percent.png", "width": 350, "height": 350 },
+				"sameAs": ["https://www.instagram.com/stepup_app/", "https://www.tiktok.com/@stepupapp", "https://www.facebook.com/stepupapp", "https://twitter.com/StepUpApp", "https://www.linkedin.com/company/stepup-step-challenge-app"],
+				"contactPoint": { "@type": "ContactPoint", "email": "team@thestepupapp.com", "contactType": "customer support", "availableLanguage": ["en", "de", "es", "fr", "it", "nl", "pt", "ru", "sv", "tr"] }
+			},
+			{
+				"@type": "WebSite",
+				"@id": "{{ base_url }}/#website",
+				"url": "{{ base_url }}/",
+				"name": "StepUp",
+				"alternateName": ["StepUp App", "StepUp Step Challenge App", "StepUp Pedometer App", "StepUp Social Fitness App"],
+				"description": {{ t.description | jsonify }},
+				"publisher": { "@id": "{{ base_url }}/#organization" },
+				"inLanguage": {{ page.lang | jsonify }}
+			},
+			{
+				"@type": "WebPage",
+				"@id": "{{ base_url }}{{ page_path }}#webpage",
+				"url": "{{ base_url }}{{ page_path }}",
+				"name": {{ t.title | jsonify }},
+				"description": {{ t.description | jsonify }},
+				"isPartOf": { "@id": "{{ base_url }}/#website" },
+				"about": { "@id": "{{ base_url }}/#mobileapplication" },
+				"primaryImageOfPage": { "@type": "ImageObject", "url": "{{ base_url }}/images/imgs/HighFive.png", "width": 480, "height": 480 },
+				"dateModified": "2026-06-12",
+				"inLanguage": {{ page.lang | jsonify }}
+			},
+			{
+				"@type": "MobileApplication",
+				"@id": "{{ base_url }}/#mobileapplication",
+				"name": "StepUp App",
+				"alternateName": ["StepUp", "StepUp Step Challenge App", "StepUp Pedometer App", "StepUp Social Fitness App"],
+				"identifier": [
+					{ "@type": "PropertyValue", "propertyID": "Apple App Store ID", "value": "979101825", "url": "https://itunes.apple.com/app/id979101825" },
+					{ "@type": "PropertyValue", "propertyID": "Google Play package name", "value": "com.thestepupapp.stepup", "url": "https://play.google.com/store/apps/details?id=com.thestepupapp.stepup" }
+				],
+				"description": {{ t.description | jsonify }},
+				"applicationCategory": "HealthApplication",
+				"applicationSubCategory": "Pedometer and step challenge app",
+				"operatingSystem": ["iOS", "Android"],
+				"availableLanguage": ["en", "de", "es", "fr", "it", "nl", "pt", "ru", "sv", "tr"],
+				"url": "{{ base_url }}/",
+				"image": { "@type": "ImageObject", "url": "{{ base_url }}/images/imgs/HighFive.png", "width": 480, "height": 480 },
+				"publisher": { "@id": "{{ base_url }}/#organization" },
+				"isAccessibleForFree": true,
+				"offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+				"aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "130000", "bestRating": "5", "worstRating": "1" },
+				"featureList": ["Free step challenges", "Daily, weekly, monthly step leaderboards", "Group chat", "Wearable sync", "Customizable date ranges", "Large groups up to 1,500 members", "Exportable group reports"],
+				"downloadUrl": ["https://itunes.apple.com/app/id979101825", "https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"],
+				"installUrl": ["https://itunes.apple.com/app/id979101825", "https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"],
+				"sameAs": ["https://itunes.apple.com/app/id979101825", "https://play.google.com/store/apps/details?id=com.thestepupapp.stepup"]
+			},
+			{
+				"@type": "FAQPage",
+				"@id": "{{ base_url }}{{ page_path }}#faq",
+				"isPartOf": { "@id": "{{ base_url }}{{ page_path }}#webpage" },
+				"mainEntity": [
+					{% for faq in t.faqs %}{ "@type": "Question", "name": {{ faq.q | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | jsonify }} } }{% unless forloop.last %},{% endunless %}
+					{% endfor %}
+				]
+			}
+		]
+	}
+	</script>
+
+	<script>(function () { var toggle = document.querySelector('.nav-toggle'); var links = document.querySelector('.nav-links'); toggle.addEventListener('click', function () { var open = links.classList.toggle('open'); toggle.setAttribute('aria-expanded', open); }); links.addEventListener('click', function (e) { if (e.target.tagName === 'A') links.classList.remove('open'); }); var params = new URLSearchParams(window.location.search); if (params.get('r') === '1') { var robots = document.createElement('meta'); robots.name = 'robots'; robots.content = 'noindex, follow'; document.head.appendChild(robots); var ua = navigator.userAgent || navigator.vendor || window.opera; if (/iPad|iPhone|iPod/i.test(ua)) { window.location.assign('https://itunes.apple.com/app/id979101825'); } else if (/Android/i.test(ua)) { window.location.assign('https://play.google.com/store/apps/details?id=com.thestepupapp.stepup'); } } })();</script>
+</body>
+</html>

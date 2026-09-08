@@ -1,6 +1,7 @@
 url: "https://thestepupapp.com"
 title: "StepUp"
-plugins: []
+plugins:
+  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile
@@ -8,3 +9,7 @@ exclude:
   - NewDesignIndex.html
   - stepup-lightweight.html
   - stepup-polished-prototype.html
+  - index-backup.html
+  - index-old.html
+  - index-new-copy-test.html
+  - reference

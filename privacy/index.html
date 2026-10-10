@@ -41,7 +41,7 @@
 		<div class="container">
 						<p>StepUp is GDPR and CCPA compliant and follows industry-standard security and privacy practices to help keep your data safe and handled responsibly.</p>
 						<p>We do not sell your personal data or step activity data. We also do not share your personal step activity outside StepUp, except as needed to provide and improve the app, comply with law, or use service providers described in this policy.</p>
-						<p>StepUp uses Google's AdMob ad network to display personalized ads with your consent, which is optional. You can delete your account and data immediately from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.</p>
+						<p>StepUp uses Google AdMob and advertising partners, including Liftoff Monetize (Vungle) and Meta Audience Network, to display ads. Personalized ads are shown with your consent, which is optional. You can delete your account and data immediately from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.</p>
 						<p>StepUp is used at work (Amazon, BMW, Google, Meta), schools (Yale, Stanford, Rossall), governments (US, UK, NZ, UAE), gyms, hospitals, conferences and communities around the world.</p>
 
 						<p>StepUp's goal is to help users live more active and healthier lives. To provide the app, our services collect, store and analyze activity-related data on your mobile device and through cloud-based services.</p>
@@ -53,14 +53,16 @@
 							<li>Activity data: daily step goal, steps taken, distance travelled, calories burned and floors climbed where available.</li>
 							<li>Optional calorie profile: age, gender, height and weight, used to calculate calories burned.</li>
 							<li>Account and sign-in data: name, email address, profile photo and sign-in provider token from Apple, Google, Facebook or Email.</li>
-							<li>Social data inside StepUp: friends, groups, group membership, group chat messages, taunts, cheers, nudges and leaderboard activity.</li>
+							<li>Social data inside StepUp: friends, groups, group membership, group chat messages, direct messages, chat photos, thumbnails, basic photo file information, GIF links, taunts, cheers, nudges and leaderboard activity.</li>
 							<li>Device and app data: device type, operating system, app version, IP address, notification settings, diagnostics and app usage events.</li>
-							<li>Wearable sync data: step and activity data from Apple Health, Android Health Connect, Fitbit, Garmin, Samsung or other supported sources when you choose to connect them.</li>
+							<li>Wearable sync data: step counts and associated dates from Google Health API for Fitbit, Samsung Health and Garmin Connect when you choose to connect them, and step and activity data from Apple Health, Android Health Connect or other supported sources you authorize.</li>
 						</ul>
 						<p>None of this data is posted publicly outside StepUp by us.</p>
 
 						<h4>Limited Use Policy</h4>
 						<p>StepUp's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" class="link">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+						<p>StepUp complies with the <a href="https://developers.google.com/health/policies/health-api-developer-user-data-policy" class="link">Google Health API Developer and User Data Policy</a>, including its Limited Use requirements, when handling information obtained through that API or its Developer Tools.</p>
 
 						<h4>Login credentials</h4>
 						<p>When creating a StepUp account, you can sign in with Apple, Google, Facebook or Email. StepUp does not receive your username or password from those providers. We receive a token that lets the provider identify your account to StepUp.</p>
@@ -71,8 +73,15 @@
 
 						<h4>Access to device health services and wearables</h4>
 						<p>To track steps, StepUp uses health and activity services provided by your phone and connected wearable sources that you authorize.</p>
-						<p>On iOS, you may be asked for permission to access motion data and/or Apple Health. On Android, you may be asked for permission to access Android Health Connect. StepUp also supports direct sync with Fitbit, Garmin and Samsung wearables, and supports wearables that sync step data to Apple Health or Health Connect.</p>
+						<p>On iOS, you may be asked for permission to access motion data and/or Apple Health. On Android, you may be asked for permission to access Android Health Connect. StepUp also supports wearables that sync step data to Apple Health or Health Connect.</p>
 						<p>These sources may provide steps, distance travelled, floors climbed and related activity data where available. StepUp does not use GPS location to count your daily steps.</p>
+
+						<h4>Connected step-tracking services</h4>
+						<p>With your permission, StepUp imports your step counts and associated dates from supported services, including Google Health API for Fitbit, Samsung Health and Garmin Connect. Connecting these services is optional.</p>
+						<p>We associate imported steps with your StepUp account and use them to display your activity history, track progress toward your goals, and power leaderboards and other step-based features. Imported steps follow the same sharing settings as other steps in StepUp: friends you add and members of groups you join can see relevant step activity.</p>
+						<p>These integrations import steps into StepUp; they do not write StepUp activity data back to the connected services.</p>
+						<p>We do not sell imported health data, use it for advertising, or share it with advertising platforms.</p>
+						<p>You can stop future syncing by revoking StepUp's access through the relevant service's account or app permissions. Previously imported steps remain in StepUp until deleted under our data retention policy. You can delete your StepUp account and its associated step data from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.</p>
 
 						<h4>Analytics information</h4>
 						<p>We use Google Analytics for Firebase and similar tools to understand app usage and improve StepUp. A list of data captured by default by Google Analytics for Firebase can be found <a href="https://support.google.com/firebase/answer/6318039" class="link">here</a>.</p>
@@ -81,22 +90,58 @@
 						<h3>Use of your data</h3>
 
 						<h4>Providing the app</h4>
-						<p>We use your data to operate StepUp features such as step tracking, leaderboards, friend connections, groups, group chat, wearable sync, reports, notifications, account support and troubleshooting.</p>
+						<p>We use your data to operate StepUp features such as step tracking, leaderboards, friend connections, groups, group chat, direct messaging, chat safety checks, wearable sync, reports, notifications, account support and troubleshooting.</p>
 
-						<h4>App improvement and aggregated research</h4>
-						<p>We use analytics and aggregated, de-identified information to understand app performance, improve product quality and make StepUp more useful. Aggregated information does not identify you personally.</p>
+						<h4>App improvement and aggregated information</h4>
+						<p>We use analytics and aggregated, de-identified information to understand app performance, improve product quality and make StepUp more useful. Aggregated information does not identify you personally. Our use of imported health data is limited to providing or improving the health and fitness features described in this policy, subject to the applicable provider requirements. Google Health API Limited Use restrictions also apply to aggregated, anonymized, de-identified and derived data.</p>
 
 						<h4>Data security</h4>
 						<p>We use reasonable protections appropriate to the sensitivity of the information we process. StepUp services use industry-standard SSL technology to help encrypt personal information in transit. No method of storage or transmission can be guaranteed to be completely secure.</p>
 
 						<h4>Data retention</h4>
-						<p>We keep account information, such as your name and email address, while your account exists because we need it to operate your account. We keep activity data until you delete the data or your account, subject to legitimate business, legal and safety needs.</p>
+						<p>We keep account information, such as your name and email address, while your account exists because we need it to operate your account. We keep activity data, including steps imported from connected services, until you delete the data or your account, subject to legitimate business, legal and safety needs. Disconnecting a service stops future syncing but does not automatically delete previously imported steps. Chat photos and safety review copies follow the retention periods described under <a href="#photos-and-gifs" class="link">Photos and GIFs in chats</a>.</p>
 
 						<h4>Deleting your data</h4>
-						<p>You can delete your account and data from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account. All account and steps data will be permanently deleted immediately and cannot be recovered.</p>
+						<p>You can delete your account and data from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account. All account and steps data will be permanently deleted immediately and cannot be recovered. Account deletion also deletes your chat photos and any retained safety review copies, as described below. Deletion from StepUp does not delete the original data held by your connected health services.</p>
+
+						<h3 id="photos-and-gifs">Photos and GIFs in chats</h3>
+
+						<h4>What we collect</h4>
+						<p>When you send a photo in chat, we store the photo, a thumbnail, and basic file information. We associate this information with the message containing the photo.</p>
+						<p>We store chat photos on our servers in Microsoft Azure. Within StepUp, photos are shown only to members of the conversation, subject to the safety checks and authorized staff review described below.</p>
+
+						<h4>How long we keep photos</h4>
+						<p>Except for copies retained for safety review as described below:</p>
+						<ul>
+							<li>We delete a photo when you delete the message containing it, when a group administrator deletes that message, or when you delete your account.</li>
+							<li>We automatically delete photos two years after they are sent.</li>
+							<li>We delete photos that are uploaded but never sent within two days.</li>
+						</ul>
+
+						<h4>Automated safety checks</h4>
+						<p>To help keep chats safe, we automatically check every photo sent in a chat for sexual content, violence and self-harm. OpenAI performs these checks as our service provider.</p>
+						<ul>
+							<li>We provide OpenAI with access to the photo through a link that expires after 10 minutes. We do not include your name, account details, message text or information about other conversation members with the request. The photo itself may contain personal information.</li>
+							<li>OpenAI does not use API data to train its models by default. Its processing and retention of images are governed by the applicable API terms and <a href="https://developers.openai.com/api/docs/guides/your-data" class="link">data controls</a>.</li>
+							<li>If the automated check identifies a photo as violating our community guidelines, we replace it with a “Photo removed” notice.</li>
+							<li>If you believe a photo was removed by mistake, contact us at <a href="mailto:team@thestepupapp.com" target="_top">team@thestepupapp.com</a> and we will review it.</li>
+							<li>When an automated check removes a photo, we retain a private copy for review by authorized staff. This helps us correct mistakes, address misuse and improve our safety settings.</li>
+							<li>We automatically delete the review copy after 30 days, or earlier if you delete your account. Deleting the message does not delete the review copy before that period ends.</li>
+						</ul>
+
+						<h4>GIFs</h4>
+						<p>GIFs available through our GIF search feature are provided by KLIPY. We do not upload or store these GIF files on our servers. Instead, the chat message contains a link to the GIF hosted by KLIPY.</p>
+						<ul>
+							<li>When you view a GIF, your device connects directly to KLIPY, which receives technical information such as your IP address and device type.</li>
+							<li>When you search for GIFs, your search terms and an anonymous identifier are shared with KLIPY.</li>
+							<li>KLIPY may collect search and viewing history and other usage information. Its handling of this information is described in <a href="https://klipy.com/support/privacy-policy" class="link">KLIPY’s privacy policy</a>.</li>
+						</ul>
 
 						<h3>Ads</h3>
-						<p>StepUp displays ads through Google's third-party ad network, <a href="https://support.google.com/admob/answer/6128543?hl=en" class="link">Google AdMob</a>. Your consent for personalized ads is requested before personalized ads are shown, and that consent is optional. You may also opt out of personalized advertising through your mobile device operating system settings.</p>
+						<p>StepUp displays ads through <a href="https://support.google.com/admob/answer/6128543?hl=en" class="link">Google AdMob</a> and advertising partners, including Liftoff Monetize (Vungle) and Meta Audience Network. These providers may collect device and advertising identifiers, IP addresses, device information, and information about ads viewed or clicked to deliver ads, measure performance and prevent fraud. Collection and use depend on your consent choices, device settings and the provider's practices.</p>
+						<p>Learn more in the <a href="https://policies.google.com/privacy" class="link">Google Privacy Policy</a>, <a href="https://liftoff.ai/privacy-policy/" class="link">Liftoff Privacy Policy</a> and <a href="https://www.facebook.com/privacy/policy/" class="link">Meta Privacy Policy</a>.</p>
+						<p>Your consent for personalized ads is requested before personalized ads are shown, and that consent is optional. You may also opt out of personalized advertising through your mobile device operating system settings.</p>
+						<p>Imported health data is not used to select or personalize ads and is not shared with AdMob or other advertising platforms. Your consent to personalized ads does not change this restriction.</p>
 						<p>If you make an in-app purchase to go ad-free, ads are no longer shown in StepUp.</p>
 
 						<h3>Social sharing</h3>
@@ -112,7 +157,7 @@
 						<p>We may update this Privacy Policy as StepUp changes. Any changes will be posted on this page.</p>
 
 						<h3>More information</h3>
-						<p>Contact us at <a href="mailto:team@thestepupapp.com" target="_top">team@thestepupapp.com</a> if you have questions or concerns about your data.<br>Last updated: May 13 2026</p>
+						<p>Contact us at <a href="mailto:team@thestepupapp.com" target="_top">team@thestepupapp.com</a> if you have questions or concerns about your data.<br>Last updated: October 1, 2026</p>
 
 
 

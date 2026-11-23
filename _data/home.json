@@ -92,87 +92,104 @@
           "html": "<p>StepUp makes it super simple to host fun, engaging step challenges for FREE!</p>\n\t\t\t\t\t<p>You can add friends individually or create a group where everyone can see each other on a shared leaderboard. StepUp is used at work (Amazon, BMW, Google), schools (Yale, Stanford), gyms and communities all over the world.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"StepUp group step challenge leaderboard\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"StepUp group chat screen\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>How does a group work?</b><br>You can create private groups for a few friends/colleagues or up to 15,000 people. All members can see each other on the group step leaderboards (daily, weekly and monthly).<br>Invite people by sharing the group invite link via email/text. For example, join our \"StepUp In 2026\" group: <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>How much does it cost?</b><br>StepUp is completely FREE.<br>No subscriptions needed, no features hidden behind paywalls.<br>Our mission is to encourage everyone to be more active, regardless of budget. We support our work via minimal ads and optional in-app purchases to go ad-free.</p>\n\t\t\t\t\t<p><b>Leaderboards and ongoing challenges</b><br>Many groups run ongoing challenges where winners are announced every week or month. By default, groups have daily, weekly, and monthly leaderboards that update automatically. Daily and weekly leaderboards reset every midnight. The monthly leaderboard resets on the 3rd of the month. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">More guidance and email templates.</a></p>\n\t\t\t\t\t<p><b>NEW: Fixed date range challenges</b><br>If you want a challenge with a specific start and end date, admins can set that up from Group Settings (long-press the group name). Members will then see the new custom leaderboard in place of the monthly leaderboard. Min 1 day, max 1 year.</p>\n\t\t\t\t\t<p><b>Does the group end after the end date?</b><br>No. The group continues as normal. After the end date, the custom leaderboard will still show results for that date range until an admin changes or clears it.</p>\n\t\t\t\t\t<p><b>How to \"start\" a step challenge?</b><br>There's nothing to start or stop in the app once the group is created — leaderboards update automatically. Make sure to invite folks at least a week before the intended start date so they have time to install StepUp.</p>\n\t\t\t\t\t<p><b>Prizes &amp; kudos</b><br>Prizes can be fun, but are not necessary. Just recognition and bragging rights can be as motivating.<br>Prizes for \"most steps\" can sometimes create unhealthy competition at the top and discourage everyone else. Consider wholesome alternatives like a random draw to pick winners among all the folks who hit some goal (e.g. 10k steps/day or 300k steps in a month).</p>\n\t\t\t\t\t<p><b>NEW: Mystery Mode in groups 🎭</b><br>In Mystery Mode, today's steps are hidden &amp; only ranks are shown on the leaderboard. Step counts are revealed the next day. Great for work groups. Admins can enable it from Group Settings.</p>\n\t\t\t\t\t<p><b>Team vs team step challenge</b><br>StepUp doesn't currently show group-vs-group leaderboards directly, but you can create one group per team and compare teams using exported reports.</p>\n\t\t\t\t\t<p><b>Exporting group reports</b><br>Group admins can export reports for any date range from Settings &gt; Manage Groups (or long-press the group name).</p>\n\t\t\t\t\t<p><b>Group chat</b><br>Group chat lets members share updates, encourage each other, and enjoy friendly banter. Admins can disable chat or taunts from Group Settings, and remove inappropriate messages or members.</p>\n\t\t\t\t\t<p><b>Questions or feedback?</b><br>Email us at <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. If you face any issues, send feedback logs from StepUp &gt; Settings &gt; Help &amp; Feedback &gt; Send Feedback.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "Is StepUp really completely free? (Yes!)",
           "a": "We want StepUp to be accessible to everyone, so it's completely FREE — nothing is behind a paywall. We support our work via ads and optional in-app purchases to go ad-free.",
           "html": "StepUp is completely FREE.<br>No subscriptions needed, no features hidden behind paywalls.<br>Our mission is to encourage everyone to be more active, regardless of budget. We support our work via minimal ads and optional in-app purchases to go ad-free."
         },
         {
+          "id": "available-worldwide",
           "q": "Is StepUp available across the world? (Yes!)",
           "a": "StepUp is available worldwide for free. It is used at companies, schools, governments, gyms, conferences, and other communities all over the world.",
           "html": "StepUp is available worldwide for free.<br>It is used at companies, schools, governments, gyms, conferences, and other communities all over the world."
         },
         {
+          "id": "time-zones",
           "q": "How does StepUp handle different time zones?",
           "a": "StepUp calculates each user's daily step count based on their own local timezone and 24-hour day. For example, a user in London has their day finalized at midnight in London, while a user in New York has their day finalized several hours later at midnight in New York.",
           "html": "StepUp calculates each user's daily step count based on their own local timezone and 24-hour day.<br>\nFor example, a user in London has their day finalized at midnight in London, while a user in New York has their day finalized several hours later at midnight in New York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "Is StepUp GDPR/CCPA compliant? How does it handle my data?",
           "a": "StepUp is GDPR & CCPA compliant and adheres to the latest industry-standard security and privacy practices. We do NOT share or sell any of your personal or steps activity data with anyone. You can delete your account and data immediately from StepUp app > Settings > Help & feedback > Delete account. We use Google's AdMob ad network to display personalised ads with your consent (optional). See our privacy policy for more information.",
           "html": "StepUp is GDPR &amp; CCPA compliant and adheres to the latest industry-standard security and privacy practices.<br>\n\t\t\t\t\tWe do NOT share or sell any of your personal or steps activity data with anyone.<br>\n\t\t\t\t\tYou can delete your account and data immediately from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.<br>\n\t\t\t\t\tWe use Google's AdMob ad network to display personalised ads with your consent (optional).<br>\n\t\t\t\t\tSee our <a href=\"/privacy/\">privacy policy</a> for more information."
         },
         {
+          "id": "sync-wearables",
           "q": "How do I sync steps from wearables like Apple Watch, Fitbit, Garmin etc?",
           "a": "Syncing wearables: All wearables that sync with Apple Health or Android Health Connect are supported, including Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazefit, Noise, boAT, OPPO and many more. Step 1: Sync StepUp with Apple Health/Health Connect from StepUp > Settings > Sync wearables Step 2: Sync steps from your wearable/app to Apple Health/Health Connect We also support syncing directly with Fitbit, Garmin & Samsung wearables from Settings > Sync wearables. Adjusting step data source priority: Apple Health & Android Health Connect use a priority system when reading data from multiple sources. If your wearable data isn't appearing, you might need to adjust priority from: Apple Health > Steps > Data Sources & Access > (scroll down) Data Sources > Edit (top right) > Drag your wearable up. Health Connect > Manage data > Data sources and priority > Select category (Activity) > Reorder apps in “App sources”. Troubleshooting: If your wearable steps aren't syncing, try opening your wearable's app to sync steps from there, and then open StepUp. If that doesn't work, try disconnecting and reconnecting your wearable from StepUp > Settings > Sync wearables. If that doesn't work, send us feedback logs from StepUp > Settings > Help & feedback > Send feedback.",
           "html": "<b>Syncing wearables:</b><br>\n\t\t\t\t\tAll wearables that sync with Apple Health or Android Health Connect are supported, including Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazefit, Noise, boAT, OPPO and many more.<br>\n\t\t\t\t\tStep 1: Sync StepUp with Apple Health/Health Connect from StepUp &gt; Settings &gt; Sync wearables<br>\n\t\t\t\t\tStep 2: Sync steps from your wearable/app to Apple Health/Health Connect<br>\n\t\t\t\t\tWe also support syncing directly with Fitbit, Garmin &amp; Samsung wearables from Settings &gt; Sync wearables.<br><br>\n\t\t\t\t\t\n\t\t\t\t\t<b>Adjusting step data source priority:</b><br>\n\t\t\t\t\tApple Health &amp; Android Health Connect use a priority system when reading data from multiple sources. If your wearable data isn't appearing, you might need to adjust priority from:<br> \n\t\t\t\t\tApple Health &gt; Steps &gt; Data Sources &amp; Access &gt; (scroll down) Data Sources &gt; Edit (top right) &gt; Drag your wearable up.<br>\n\t\t\t\t\tHealth Connect &gt; Manage data &gt; Data sources and priority &gt; Select category (Activity) &gt; Reorder apps in “App sources”.<br><br>\n\n\t\t\t\t\t<b>Troubleshooting:</b><br>\n\t\t\t\t\tIf your wearable steps aren't syncing, try opening your wearable's app to sync steps from there, and then open StepUp. <br>\n\t\t\t\t\tIf that doesn't work, try disconnecting and reconnecting your wearable from StepUp &gt; Settings &gt; Sync wearables. <br>\n\t\t\t\t\tIf that doesn't work, send us feedback logs from StepUp &gt; Settings &gt; Help &amp; feedback &gt; Send feedback. <br>"
         },
         {
+          "id": "manually-add-steps",
           "q": "Can I manually add steps? (No)",
           "a": "We don't allow manually-added steps to prevent misuse. StepUp works with all iPhone & Android smartphones, and all wearables that sync with Apple Health (iOS) or Android Health Connect.",
           "html": "We don't allow manually-added steps to prevent misuse.<br>\n\t\t\t\t\tStepUp works with all iPhone &amp; Android smartphones, and all wearables that sync with Apple Health (iOS) or Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "How do I add friends in StepUp?",
           "a": "Sign in to StepUp and send friends your unique invite link. You'll see them in StepUp once they tap your link and accept the invite.",
           "html": "Sign in to StepUp and send friends your unique invite link. You'll see them in StepUp once they tap your link and accept the invite.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Who can see my steps?",
           "a": "By default, no one other than you can see your steps in StepUp. We NEVER post or share your step data anywhere. If you add friends, only your friends will be able to see you & your steps. If you join a group, other people in the group will be able to see you. You can privately hide (block) anyone on StepUp — then they won't see you and you won't see them.",
           "html": "By default, no one other than you can see your steps in StepUp. We NEVER post or share your step data anywhere.<br>\n\t\t\t\t\tIf you add friends, only your friends will be able to see you &amp; your steps. If you join a group, other people in the group will be able to see you.<br>\n\t\t\t\t\tYou can privately hide (block) anyone on StepUp — then they won't see you and you won't see them."
         },
         {
+          "id": "hide-block-friends",
           "q": "How do I hide (block) friends in StepUp?",
           "a": "You can privately hide any of your friends in StepUp by long pressing on them. You won't see hidden friends, and they won't see you. You can unhide them from StepUp > Settings > Hidden friends.",
           "html": "You can privately hide any of your friends in StepUp by long pressing on them. You won't see hidden friends, and they won't see you. You can unhide them from StepUp &gt; Settings &gt; Hidden friends."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "My friends and groups in StepUp disappeared. Help!",
           "a": "This shouldn't happen, but if it does, check your internet connection, then sign out (Settings > Sign out) and sign back in with your original sign in method & account. If that doesn't work, email us at team@thestepupapp.com. Note: If you're missing one specific friend, it's possible they deleted their StepUp account or hid you on StepUp.",
           "html": "This shouldn't happen, but if it does, check your internet connection, then sign out (Settings &gt; Sign out) and sign back in with your original sign in method &amp; account. If that doesn't work, email us at <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>\n\t\t\t\t\tNote: If you're missing one specific friend, it's possible they deleted their StepUp account or hid you on StepUp."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "What are Active Bot and Chill Bot? Can I hide them?",
           "a": "Active Bot & Chill Bot are virtual friends in StepUp that walk about 8K & 3K steps respectively. Many users like to pace themselves against them. You can hide them by tapping on them and tapping \"Hide\" on the top right.",
           "html": "Active Bot &amp; Chill Bot are virtual friends in StepUp that walk about 8K &amp; 3K steps respectively. Many users like to pace themselves against them. You can hide them by tapping on them and tapping \"Hide\" on the top right."
         },
         {
+          "id": "automatic-sync",
           "q": "Does StepUp automatically sync steps? Do I need to open it every day?",
           "a": "StepUp tries to read your steps in the background, but this doesn't work if the app is killed or your phone is in low power mode. StepUp can sync recent step history when the app is launched, so as long as the app is opened at least once a week, and ideally every day, no steps will be lost.",
           "html": "StepUp tries to read your steps in the background, but this doesn't work if the app is killed or your phone is in low power mode.<br>\n\t\t\t\tStepUp can sync recent step history when the app is launched, so as long as the app is opened at least once a week, and ideally every day, no steps will be lost."
         },
         {
+          "id": "battery-usage",
           "q": "Will StepUp drain my battery? (NOT at all!)",
           "a": "StepUp uses your phone's built-in step-sensor/fitness tracker, which works in the background without impacting battery. Since StepUp doesn't use your GPS location, it is very battery friendly! :)",
           "html": "StepUp uses your phone's built-in step-sensor/fitness tracker, which works in the background without impacting battery. Since StepUp doesn't use your GPS location, it is very battery friendly! :)"
         },
         {
+          "id": "new-phone",
           "q": "How do I transfer to a new phone?",
           "a": "To transfer phones, please make sure you're signed in to StepUp on your old phone so your step history is saved to your account. Before switching, open StepUp on your old phone so it can sync your latest steps. Then sign in to StepUp on your new phone using the same account. Do this in the morning, so that your new phone records all of today's steps. Once you confirm your step history and groups are showing on the new phone, sign out of StepUp on the old phone. StepUp is designed to track from one phone at a time, so staying signed in on both phones won't work properly.",
           "html": "To transfer phones, please make sure you're signed in to StepUp on your old phone so your step history is saved to your account. Before switching, open StepUp on your old phone so it can sync your latest steps. <br>\n\t\t\t\tThen sign in to StepUp on your new phone using the same account. Do this in the morning, so that your new phone records all of today's steps. <br>\n\t\t\t\tOnce you confirm your step history and groups are showing on the new phone, sign out of StepUp on the old phone. <br>\n\t\t\t\tStepUp is designed to track from one phone at a time, so staying signed in on both phones won't work properly."
         },
         {
+          "id": "delete-account",
           "q": "How do I delete my StepUp account & data?",
           "a": "You can delete your account and data from StepUp app > Settings > Help & feedback > Delete account. Note: All your account and steps data will be permanently deleted immediately and cannot be recovered.",
           "html": "You can delete your account and data from StepUp app &gt; Settings &gt; Help &amp; feedback &gt; Delete account.<br>\n\t\t\t\t\tNote: All your account and steps data will be permanently deleted immediately and cannot be recovered."
         },
         {
+          "id": "who-built-stepup",
           "q": "Who built StepUp?",
           "a": "Pratik wanted to use a step tracking app that was social, engaging & fun to encourage his mom and siblings to be more active — but he couldn't find one. So he and his team have been building StepUp with a mission to make being active more fun & social.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> wanted to use a step tracking app that was social, engaging &amp; fun to encourage his mom and siblings to be more active — but he couldn't find one. So he and his team have been building StepUp with a mission to make being active more fun &amp; social."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "I love StepUp — how can I support you?",
           "a": "Thank you for joining our mission to make being active more fun & social! 🙌 We'd love it if you invited your friends, family and colleagues to join our movement! Reviews on the App Store & Google Play Store help us reach more people. You can also buy us a coffee if you'd like to support us! ❤️",
           "html": "Thank you for joining our mission to make being active more fun &amp; social! 🙌<br>\n\t\t\t\t\tWe'd love it if you invited your friends, family and colleagues to join our movement!<br>\n\t\t\t\t\tReviews on <a href=\"https://itunes.apple.com/app/id979101825\">the App Store</a> &amp; <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> help us reach more people.<br>\n\t\t\t\t\tYou can also <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">buy us a coffee</a> if you'd like to support us! ❤️"
@@ -284,87 +301,104 @@
           "html": "<p>StepUp macht es super einfach, kostenlose, motivierende Schritte-Challenges zu veranstalten!</p>\n\t\t\t\t\t<p>Du kannst Freunde einzeln hinzufügen oder eine Gruppe erstellen, in der alle auf einer gemeinsamen Rangliste erscheinen. StepUp wird in Unternehmen (Amazon, BMW, Google), Schulen (Yale, Stanford), Fitnessstudios und Communities weltweit genutzt.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"StepUp Gruppen-Schritte-Challenge-Rangliste\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"StepUp Gruppenchat\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Wie funktioniert eine Gruppe?</b><br>Du kannst private Gruppen für ein paar Freunde oder Kollegen oder für bis zu 15.000 Personen erstellen. Alle Mitglieder können einander auf den Gruppenranglisten für Schritte sehen (täglich, wöchentlich und monatlich).<br>Lade Personen ein, indem du den Gruppen-Einladungslink per E-Mail oder Nachricht teilst. Tritt zum Beispiel unserer Gruppe „StepUp In 2026“ bei: <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Was kostet das?</b><br>StepUp ist komplett KOSTENLOS.<br>Keine Abos erforderlich und keine Funktionen hinter Bezahlschranken versteckt.<br>Unsere Mission ist es, alle zu mehr Aktivität zu ermutigen – unabhängig vom Budget. Wir finanzieren unsere Arbeit durch minimale Werbung und optionale In-App-Käufe zum Entfernen der Werbung.</p>\n\t\t\t\t\t<p><b>Ranglisten und laufende Challenges</b><br>Viele Gruppen veranstalten laufende Challenges, bei denen Gewinner jede Woche oder jeden Monat bekannt gegeben werden. Standardmäßig haben Gruppen tägliche, wöchentliche und monatliche Ranglisten, die automatisch aktualisiert werden. Tages- und Wochenranglisten setzen sich um Mitternacht zurück. Die Monatsrangliste setzt sich am 3. des Monats zurück. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Weitere Tipps und E-Mail-Vorlagen.</a></p>\n\t\t\t\t\t<p><b>NEU: Challenges mit festem Zeitraum</b><br>Wenn du eine Challenge mit bestimmtem Start- und Enddatum möchtest, können Admins das in den Gruppeneinstellungen einrichten (Gruppennamen lange drücken). Mitglieder sehen dann die neue benutzerdefinierte Rangliste anstelle der Monatsrangliste. Mindestens 1 Tag, maximal 1 Jahr.</p>\n\t\t\t\t\t<p><b>Endet die Gruppe nach dem Enddatum?</b><br>Nein. Die Gruppe läuft normal weiter. Nach dem Enddatum zeigt die benutzerdefinierte Rangliste weiterhin die Ergebnisse für diesen Zeitraum, bis ein Admin sie ändert oder löscht.</p>\n\t\t\t\t\t<p><b>Wie \"startet\" man eine Schritte-Challenge?</b><br>Nach dem Erstellen der Gruppe gibt es in der App nichts zu starten oder zu stoppen — die Ranglisten aktualisieren sich automatisch. Lade die Teilnehmenden mindestens eine Woche vor dem geplanten Start ein, damit sie Zeit haben, StepUp zu installieren.</p>\n\t\t\t\t\t<p><b>Preise &amp; Anerkennung</b><br>Preise können Spaß machen, sind aber nicht notwendig. Anerkennung und das gute Gefühl, etwas zum Angeben zu haben, können genauso motivierend sein.<br>Preise für die „meisten Schritte“ können manchmal einen ungesunden Wettbewerb an der Spitze auslösen und alle anderen entmutigen. Erwäge positive Alternativen, etwa eine Verlosung unter allen, die ein bestimmtes Ziel erreicht haben (z. B. 10.000 Schritte pro Tag oder 300.000 Schritte in einem Monat).</p>\n\t\t\t\t\t<p><b>NEU: Mystery Mode in Gruppen 🎭</b><br>Im Mystery Mode werden die heutigen Schritte ausgeblendet und auf der Rangliste nur die Platzierungen angezeigt. Die Schrittzahlen werden am nächsten Tag sichtbar. Das ist besonders gut für Arbeitsgruppen. Admins können Mystery Mode in den Gruppeneinstellungen aktivieren.</p>\n\t\t\t\t\t<p><b>Team-gegen-Team-Schritte-Challenge</b><br>StepUp zeigt aktuell keine direkten Gruppe-gegen-Gruppe-Ranglisten, aber du kannst pro Team eine Gruppe erstellen und die Teams über exportierte Berichte vergleichen.</p>\n\t\t\t\t\t<p><b>Gruppenberichte exportieren</b><br>Gruppenadmins können Berichte für jeden Zeitraum über Einstellungen > Gruppen verwalten exportieren (oder den Gruppennamen lange drücken).</p>\n\t\t\t\t\t<p><b>Gruppenchat</b><br>Im Gruppenchat können Mitglieder Updates teilen, einander motivieren und freundliche Sprüche austauschen. Admins können Chat oder Taunts in den Gruppeneinstellungen deaktivieren und unangemessene Nachrichten oder Mitglieder entfernen.</p>\n\t\t\t\t\t<p><b>Fragen oder Feedback?</b><br>Schreib uns an <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Wenn du Probleme hast, sende Feedback-Logs aus StepUp > Einstellungen > Hilfe & Feedback > Feedback senden.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "Ist StepUp wirklich komplett kostenlos? (Ja!)",
           "a": "Wir möchten, dass StepUp für alle zugänglich ist, deshalb ist die App komplett KOSTENLOS — nichts ist hinter einer Paywall. Wir finanzieren unsere Arbeit über Werbung und optionale In-App-Käufe zum Entfernen von Werbung.",
           "html": "Wir möchten, dass StepUp für alle zugänglich ist, deshalb ist die App komplett KOSTENLOS — nichts ist hinter einer Paywall. Wir finanzieren unsere Arbeit über Werbung und optionale In-App-Käufe zum Entfernen von Werbung."
         },
         {
+          "id": "available-worldwide",
           "q": "Ist StepUp weltweit verfügbar? (Ja!)",
           "a": "StepUp ist weltweit kostenlos verfügbar. Die App wird von Unternehmen, Schulen, Behörden, Fitnessstudios, Konferenzen und anderen Communities auf der ganzen Welt genutzt.",
           "html": "StepUp ist weltweit kostenlos verfügbar.<br>Die App wird von Unternehmen, Schulen, Behörden, Fitnessstudios, Konferenzen und anderen Communities auf der ganzen Welt genutzt."
         },
         {
+          "id": "time-zones",
           "q": "Wie geht StepUp mit verschiedenen Zeitzonen um?",
           "a": "StepUp berechnet die täglichen Schritte jedes Nutzers nach dessen eigener lokaler Zeitzone und 24-Stunden-Tag. Zum Beispiel wird ein Nutzer in London um Mitternacht in London abgeschlossen, während ein Nutzer in New York mehrere Stunden später um Mitternacht in New York abgeschlossen wird.",
           "html": "StepUp berechnet die täglichen Schritte jedes Nutzers nach dessen eigener lokaler Zeitzone und 24-Stunden-Tag.<br>Zum Beispiel wird ein Nutzer in London um Mitternacht in London abgeschlossen, während ein Nutzer in New York mehrere Stunden später um Mitternacht in New York abgeschlossen wird."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "Ist StepUp DSGVO/CCPA-konform? Wie geht ihr mit meinen Daten um?",
           "a": "StepUp ist DSGVO- und CCPA-konform und folgt aktuellen Sicherheits- und Datenschutzstandards. Wir verkaufen oder teilen KEINE persönlichen Daten oder Schrittaktivitätsdaten. Du kannst dein Konto und deine Daten sofort löschen über StepUp > Einstellungen > Hilfe & Feedback > Konto löschen. Wir verwenden Google AdMob für personalisierte Werbung nur mit deiner Zustimmung; diese Zustimmung ist optional. Weitere Informationen findest du in unserer Datenschutzerklärung.",
           "html": "StepUp ist DSGVO- und CCPA-konform und folgt aktuellen Sicherheits- und Datenschutzstandards.<br>Wir verkaufen oder teilen KEINE persönlichen Daten oder Schrittaktivitätsdaten.<br>Du kannst dein Konto und deine Daten sofort löschen über StepUp &gt; Einstellungen &gt; Hilfe &amp; Feedback &gt; Konto löschen.<br>Wir verwenden Google AdMob für personalisierte Werbung nur mit deiner Zustimmung; diese Zustimmung ist optional.<br>Weitere Informationen findest du in unserer <a href=\"/privacy/\">Datenschutzerklärung</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Wie synchronisiere ich Schritte von Apple Watch, Fitbit, Garmin usw.?",
           "a": "Wearables synchronisieren: Alle Wearables, die mit Apple Health oder Android Health Connect synchronisieren, werden unterstützt, darunter Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO und viele mehr. Schritt 1: Verbinde StepUp mit Apple Health/Health Connect über StepUp > Einstellungen > Wearables synchronisieren. Schritt 2: Synchronisiere Schritte von deinem Wearable/deiner App zu Apple Health/Health Connect. Fitbit, Garmin & Samsung können zusätzlich direkt aus StepUp > Einstellungen > Wearables synchronisieren verbunden werden. Priorität der Schrittquellen: Apple Health und Android Health Connect verwenden eine Priorität, wenn mehrere Quellen Schritte liefern. Wenn Wearable-Schritte nicht erscheinen, prüfe die Reihenfolge der Datenquellen. Apple Health > Schritte > Datenquellen & Zugriff > Datenquellen > Bearbeiten > Wearable nach oben ziehen. Health Connect > Daten verwalten > Datenquellen und Priorität > Aktivität > App-Quellen neu ordnen. Fehlerbehebung: Öffne zuerst die App deines Wearables, damit sie synchronisiert, und öffne danach StepUp. Wenn das nicht hilft, trenne und verbinde das Wearable erneut über StepUp > Einstellungen > Wearables synchronisieren. Wenn es weiterhin nicht klappt, sende Feedback-Logs über StepUp > Einstellungen > Hilfe & Feedback > Feedback senden.",
           "html": "<b>Wearables synchronisieren:</b><br>Alle Wearables, die mit Apple Health oder Android Health Connect synchronisieren, werden unterstützt, darunter Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO und viele mehr.<br>Schritt 1: Verbinde StepUp mit Apple Health/Health Connect über StepUp &gt; Einstellungen &gt; Wearables synchronisieren.<br>Schritt 2: Synchronisiere Schritte von deinem Wearable/deiner App zu Apple Health/Health Connect.<br>Fitbit, Garmin &amp; Samsung können zusätzlich direkt aus StepUp &gt; Einstellungen &gt; Wearables synchronisieren verbunden werden.<br><br><b>Priorität der Schrittquellen:</b><br>Apple Health und Android Health Connect verwenden eine Priorität, wenn mehrere Quellen Schritte liefern. Wenn Wearable-Schritte nicht erscheinen, prüfe die Reihenfolge der Datenquellen.<br>Apple Health &gt; Schritte &gt; Datenquellen &amp; Zugriff &gt; Datenquellen &gt; Bearbeiten &gt; Wearable nach oben ziehen.<br>Health Connect &gt; Daten verwalten &gt; Datenquellen und Priorität &gt; Aktivität &gt; App-Quellen neu ordnen.<br><br><b>Fehlerbehebung:</b><br>Öffne zuerst die App deines Wearables, damit sie synchronisiert, und öffne danach StepUp.<br>Wenn das nicht hilft, trenne und verbinde das Wearable erneut über StepUp &gt; Einstellungen &gt; Wearables synchronisieren.<br>Wenn es weiterhin nicht klappt, sende Feedback-Logs über StepUp &gt; Einstellungen &gt; Hilfe &amp; Feedback &gt; Feedback senden."
         },
         {
+          "id": "manually-add-steps",
           "q": "Kann ich Schritte manuell hinzufügen? (Nein)",
           "a": "Wir erlauben keine manuell hinzugefügten Schritte, um Missbrauch zu verhindern. StepUp funktioniert mit allen iPhone- & Android-Smartphones und allen Wearables, die mit Apple Health (iOS) oder Android Health Connect synchronisieren.",
           "html": "Wir erlauben keine manuell hinzugefügten Schritte, um Missbrauch zu verhindern.<br>StepUp funktioniert mit allen iPhone- &amp; Android-Smartphones und allen Wearables, die mit Apple Health (iOS) oder Android Health Connect synchronisieren."
         },
         {
+          "id": "add-friends",
           "q": "Wie füge ich Freunde in StepUp hinzu?",
           "a": "Melde dich in StepUp an und sende Freunden deinen persönlichen Einladungslink. Sobald sie den Link öffnen und die Einladung annehmen, erscheinen sie in StepUp.",
           "html": "Melde dich in StepUp an und sende Freunden deinen persönlichen Einladungslink. Sobald sie den Link öffnen und die Einladung annehmen, erscheinen sie in StepUp.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Wer kann meine Schritte sehen?",
           "a": "Standardmäßig kann niemand außer dir deine Schritte in StepUp sehen. Wir veröffentlichen oder teilen deine Schrittdaten NIEMALS irgendwo. Wenn du Freunde hinzufügst, können nur deine Freunde dich und deine Schritte sehen. Wenn du einer Gruppe beitrittst, können andere Gruppenmitglieder dich sehen. Du kannst jede Person privat ausblenden/blockieren — dann sieht sie dich nicht und du siehst sie nicht.",
           "html": "Standardmäßig kann niemand außer dir deine Schritte in StepUp sehen. Wir veröffentlichen oder teilen deine Schrittdaten NIEMALS irgendwo.<br>Wenn du Freunde hinzufügst, können nur deine Freunde dich und deine Schritte sehen. Wenn du einer Gruppe beitrittst, können andere Gruppenmitglieder dich sehen.<br>Du kannst jede Person privat ausblenden/blockieren — dann sieht sie dich nicht und du siehst sie nicht."
         },
         {
+          "id": "hide-block-friends",
           "q": "Wie blende/blockiere ich Freunde in StepUp aus?",
           "a": "Du kannst Freunde in StepUp privat ausblenden, indem du lange auf sie drückst. Du siehst ausgeblendete Freunde nicht mehr, und sie sehen dich nicht. Du kannst sie unter StepUp > Einstellungen > Ausgeblendete Freunde wieder einblenden.",
           "html": "Du kannst Freunde in StepUp privat ausblenden, indem du lange auf sie drückst. Du siehst ausgeblendete Freunde nicht mehr, und sie sehen dich nicht. Du kannst sie unter StepUp &gt; Einstellungen &gt; Ausgeblendete Freunde wieder einblenden."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Meine Freunde und Gruppen in StepUp sind verschwunden. Hilfe!",
           "a": "Das sollte nicht passieren. Falls doch, prüfe deine Internetverbindung, melde dich ab (Einstellungen > Abmelden) und melde dich mit deiner ursprünglichen Anmeldemethode und deinem ursprünglichen Konto wieder an. Wenn das nicht hilft, schreibe uns an team@thestepupapp.com. Hinweis: Wenn nur ein bestimmter Freund fehlt, hat diese Person möglicherweise ihr StepUp-Konto gelöscht oder dich in StepUp ausgeblendet.",
           "html": "Das sollte nicht passieren. Falls doch, prüfe deine Internetverbindung, melde dich ab (Einstellungen &gt; Abmelden) und melde dich mit deiner ursprünglichen Anmeldemethode und deinem ursprünglichen Konto wieder an. Wenn das nicht hilft, schreibe uns an <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Hinweis: Wenn nur ein bestimmter Freund fehlt, hat diese Person möglicherweise ihr StepUp-Konto gelöscht oder dich in StepUp ausgeblendet."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Was sind Active Bot und Chill Bot? Kann ich sie ausblenden?",
           "a": "Active Bot & Chill Bot sind virtuelle Freunde in StepUp, die etwa 8K bzw. 3K Schritte gehen. Viele Nutzer mögen es, sich an ihnen zu orientieren. Du kannst sie ausblenden, indem du auf sie tippst und oben rechts „Hide“ auswählst.",
           "html": "Active Bot &amp; Chill Bot sind virtuelle Freunde in StepUp, die etwa 8K bzw. 3K Schritte gehen. Viele Nutzer mögen es, sich an ihnen zu orientieren. Du kannst sie ausblenden, indem du auf sie tippst und oben rechts „Hide“ auswählst."
         },
         {
+          "id": "automatic-sync",
           "q": "Synchronisiert StepUp Schritte automatisch? Muss ich die App täglich öffnen?",
           "a": "StepUp versucht, deine Schritte im Hintergrund zu lesen, aber das funktioniert nicht, wenn die App beendet wurde oder dein Telefon im Energiesparmodus ist. StepUp kann neuere Schrittverläufe beim Öffnen synchronisieren. Solange du die App mindestens einmal pro Woche, idealerweise täglich, öffnest, gehen keine Schritte verloren.",
           "html": "StepUp versucht, deine Schritte im Hintergrund zu lesen, aber das funktioniert nicht, wenn die App beendet wurde oder dein Telefon im Energiesparmodus ist.<br>StepUp kann neuere Schrittverläufe beim Öffnen synchronisieren. Solange du die App mindestens einmal pro Woche, idealerweise täglich, öffnest, gehen keine Schritte verloren."
         },
         {
+          "id": "battery-usage",
           "q": "Entlädt StepUp meinen Akku? (Überhaupt nicht!)",
           "a": "StepUp nutzt den eingebauten Schrittzähler/Fitnesssensor deines Telefons, der im Hintergrund arbeitet, ohne den Akku spürbar zu belasten. Da StepUp kein GPS nutzt, ist die App sehr akkusparend! :)",
           "html": "StepUp nutzt den eingebauten Schrittzähler/Fitnesssensor deines Telefons, der im Hintergrund arbeitet, ohne den Akku spürbar zu belasten. Da StepUp kein GPS nutzt, ist die App sehr akkusparend! :)"
         },
         {
+          "id": "new-phone",
           "q": "Wie wechsle ich auf ein neues Handy?",
           "a": "Stelle vor dem Wechsel sicher, dass du auf dem alten Telefon in StepUp angemeldet bist, damit dein Schrittverlauf in deinem Konto gespeichert ist. Öffne StepUp vor dem Wechsel auf dem alten Telefon, damit die neuesten Schritte synchronisiert werden. Melde dich dann auf dem neuen Telefon mit demselben Konto an. Mach das am besten morgens, damit das neue Telefon alle heutigen Schritte aufzeichnet. Sobald dein Verlauf und deine Gruppen auf dem neuen Telefon sichtbar sind, melde dich auf dem alten Telefon ab. StepUp ist dafür gedacht, von einem Telefon gleichzeitig zu tracken; auf beiden Telefonen angemeldet zu bleiben funktioniert nicht zuverlässig.",
           "html": "Stelle vor dem Wechsel sicher, dass du auf dem alten Telefon in StepUp angemeldet bist, damit dein Schrittverlauf in deinem Konto gespeichert ist. Öffne StepUp vor dem Wechsel auf dem alten Telefon, damit die neuesten Schritte synchronisiert werden.<br>Melde dich dann auf dem neuen Telefon mit demselben Konto an. Mach das am besten morgens, damit das neue Telefon alle heutigen Schritte aufzeichnet.<br>Sobald dein Verlauf und deine Gruppen auf dem neuen Telefon sichtbar sind, melde dich auf dem alten Telefon ab.<br>StepUp ist dafür gedacht, von einem Telefon gleichzeitig zu tracken; auf beiden Telefonen angemeldet zu bleiben funktioniert nicht zuverlässig."
         },
         {
+          "id": "delete-account",
           "q": "Wie lösche ich mein StepUp-Konto & meine Daten?",
           "a": "Du kannst dein Konto und deine Daten löschen über StepUp App > Einstellungen > Hilfe & Feedback > Konto löschen. Hinweis: Alle Konto- und Schrittdaten werden sofort dauerhaft gelöscht und können nicht wiederhergestellt werden.",
           "html": "Du kannst dein Konto und deine Daten löschen über StepUp App &gt; Einstellungen &gt; Hilfe &amp; Feedback &gt; Konto löschen.<br>Hinweis: Alle Konto- und Schrittdaten werden sofort dauerhaft gelöscht und können nicht wiederhergestellt werden."
         },
         {
+          "id": "who-built-stepup",
           "q": "Wer hat StepUp entwickelt?",
           "a": "Pratik wollte eine Schrittzähler-App nutzen, die sozial, motivierend und spaßig ist, um seine Mutter und Geschwister zu mehr Bewegung zu motivieren — aber er fand keine passende. Deshalb baut er mit seinem Team StepUp mit der Mission, Aktivsein sozialer und unterhaltsamer zu machen.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> wollte eine Schrittzähler-App nutzen, die sozial, motivierend und spaßig ist, um seine Mutter und Geschwister zu mehr Bewegung zu motivieren — aber er fand keine passende. Deshalb baut er mit seinem Team StepUp mit der Mission, Aktivsein sozialer und unterhaltsamer zu machen."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Ich liebe StepUp — wie kann ich euch unterstützen?",
           "a": "Danke, dass du unsere Mission unterstützt, Aktivsein sozialer und unterhaltsamer zu machen! 🙌 Wir würden uns freuen, wenn du Freunde, Familie und Kollegen einlädst. Bewertungen im App Store & Google Play Store helfen uns, mehr Menschen zu erreichen. Du kannst uns auch einen Kaffee spendieren, wenn du uns unterstützen möchtest! ❤️",
           "html": "Danke, dass du unsere Mission unterstützt, Aktivsein sozialer und unterhaltsamer zu machen! 🙌<br>Wir würden uns freuen, wenn du Freunde, Familie und Kollegen einlädst.<br>Bewertungen im <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> &amp; <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> helfen uns, mehr Menschen zu erreichen.<br>Du kannst uns auch <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">einen Kaffee spendieren</a>, wenn du uns unterstützen möchtest! ❤️"
@@ -476,87 +510,104 @@
           "html": "<p>¡StepUp hace muy fácil organizar retos de pasos GRATIS, divertidos y motivadores!</p>\n\t\t\t\t\t<p>Puedes añadir amigos individualmente o crear un grupo donde todos se ven en un ranking compartido. StepUp se usa en empresas (Amazon, BMW, Google), escuelas (Yale, Stanford), gimnasios y comunidades de todo el mundo.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"Ranking de reto de pasos en grupo en StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"Chat de grupo de StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>¿Cómo funciona un grupo?</b><br>Puedes crear grupos privados para unos pocos amigos o compañeros de trabajo, o para hasta 15.000 personas. Todos los miembros pueden verse en los rankings de pasos del grupo (diario, semanal y mensual).<br>Invita a otras personas compartiendo el enlace de invitación del grupo por correo electrónico o mensaje. Por ejemplo, únete a nuestro grupo «StepUp In 2026»: <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>¿Cuánto cuesta?</b><br>StepUp es completamente GRATIS.<br>No necesitas ninguna suscripción y no hay funciones ocultas tras muros de pago.<br>Nuestra misión es animar a todo el mundo a ser más activo, sea cual sea su presupuesto. Financiamos nuestro trabajo mediante anuncios mínimos y compras opcionales dentro de la app para eliminar los anuncios.</p>\n\t\t\t\t\t<p><b>Rankings y retos continuos</b><br>Muchos grupos hacen retos continuos donde se anuncian ganadores cada semana o mes. Por defecto, los grupos tienen rankings diarios, semanales y mensuales que se actualizan automáticamente. Los rankings diarios y semanales se reinician a medianoche. El ranking mensual se reinicia el día 3 del mes. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Más guía y plantillas de email.</a></p>\n\t\t\t\t\t<p><b>NUEVO: retos con fechas fijas</b><br>Si quieres un reto con fecha de inicio y fin, los admins pueden configurarlo desde Ajustes del grupo (mantén pulsado el nombre del grupo). Los miembros verán el nuevo ranking personalizado en lugar del ranking mensual. Mínimo 1 día, máximo 1 año.</p>\n\t\t\t\t\t<p><b>¿El grupo termina después de la fecha final?</b><br>No. El grupo continúa normalmente. Después de la fecha final, el ranking personalizado seguirá mostrando resultados de ese periodo hasta que un admin lo cambie o lo quite.</p>\n\t\t\t\t\t<p><b>¿Cómo se \"empieza\" un reto de pasos?</b><br>No hay nada que iniciar o detener en la app una vez creado el grupo: los rankings se actualizan automáticamente. Invita a la gente al menos una semana antes de la fecha prevista para que tengan tiempo de instalar StepUp.</p>\n\t\t\t\t\t<p><b>Premios y reconocimiento</b><br>Los premios pueden ser divertidos, pero no son necesarios. El reconocimiento y el derecho a presumir pueden ser igual de motivadores.<br>Los premios por dar «más pasos» pueden generar una competencia poco sana en los primeros puestos y desanimar al resto. Considera alternativas positivas, como un sorteo para elegir ganadores entre todas las personas que alcancen una meta (p. ej., 10.000 pasos al día o 300.000 pasos en un mes).</p>\n\t\t\t\t\t<p><b>NUEVO: Mystery Mode en grupos 🎭</b><br>En Mystery Mode, los pasos de hoy se ocultan y el ranking muestra solo posiciones. Los pasos se revelan al día siguiente. Es ideal para grupos de trabajo. Los admins pueden activarlo desde Ajustes del grupo.</p>\n\t\t\t\t\t<p><b>Reto de pasos equipo contra equipo</b><br>StepUp no muestra todavía rankings directos grupo contra grupo, pero puedes crear un grupo por equipo y comparar equipos con reportes exportados.</p>\n\t\t\t\t\t<p><b>Exportar reportes del grupo</b><br>Los admins pueden exportar reportes para cualquier rango de fechas desde Ajustes > Gestionar grupos (o manteniendo pulsado el nombre del grupo).</p>\n\t\t\t\t\t<p><b>Chat de grupo</b><br>El chat permite compartir avances, animarse y disfrutar de bromas sanas. Los admins pueden desactivar el chat o las taunts desde Ajustes del grupo y eliminar mensajes o miembros inapropiados.</p>\n\t\t\t\t\t<p><b>¿Preguntas o comentarios?</b><br>Escríbenos a <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Si tienes problemas, envía logs desde StepUp > Ajustes > Ayuda y comentarios > Enviar comentarios.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "¿StepUp es realmente gratis? (¡Sí!)",
           "a": "Queremos que StepUp sea accesible para todos, por eso es completamente GRATIS: nada esencial está detrás de un muro de pago. Nos apoyamos con anuncios y compras opcionales para quitar anuncios.",
           "html": "Queremos que StepUp sea accesible para todos, por eso es completamente GRATIS: nada esencial está detrás de un muro de pago. Nos apoyamos con anuncios y compras opcionales para quitar anuncios."
         },
         {
+          "id": "available-worldwide",
           "q": "¿StepUp está disponible en todo el mundo? (¡Sí!)",
           "a": "StepUp está disponible gratis en todo el mundo. Se usa en empresas, escuelas, gobiernos, gimnasios, conferencias y otras comunidades de todo el mundo.",
           "html": "StepUp está disponible gratis en todo el mundo.<br>Se usa en empresas, escuelas, gobiernos, gimnasios, conferencias y otras comunidades de todo el mundo."
         },
         {
+          "id": "time-zones",
           "q": "¿Cómo gestiona StepUp las diferentes zonas horarias?",
           "a": "StepUp calcula los pasos diarios de cada usuario según su propia zona horaria local y su día de 24 horas. Por ejemplo, una persona en Londres finaliza su día a medianoche de Londres, mientras que alguien en Nueva York finaliza varias horas después, a medianoche de Nueva York.",
           "html": "StepUp calcula los pasos diarios de cada usuario según su propia zona horaria local y su día de 24 horas.<br>Por ejemplo, una persona en Londres finaliza su día a medianoche de Londres, mientras que alguien en Nueva York finaliza varias horas después, a medianoche de Nueva York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "¿StepUp cumple con GDPR/CCPA? ¿Cómo maneja mis datos?",
           "a": "StepUp cumple con GDPR/CCPA y sigue prácticas modernas de seguridad y privacidad. NO compartimos ni vendemos tus datos personales ni de actividad. Puedes eliminar tu cuenta y datos inmediatamente desde StepUp > Ajustes > Ayuda y comentarios > Eliminar cuenta. Usamos Google AdMob para mostrar anuncios personalizados solo con tu consentimiento opcional. Consulta nuestra política de privacidad.",
           "html": "StepUp cumple con GDPR/CCPA y sigue prácticas modernas de seguridad y privacidad.<br>NO compartimos ni vendemos tus datos personales ni de actividad.<br>Puedes eliminar tu cuenta y datos inmediatamente desde StepUp &gt; Ajustes &gt; Ayuda y comentarios &gt; Eliminar cuenta.<br>Usamos Google AdMob para mostrar anuncios personalizados solo con tu consentimiento opcional.<br>Consulta nuestra <a href=\"/privacy/\">política de privacidad</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "¿Cómo sincronizo pasos de Apple Watch, Fitbit, Garmin, etc.?",
           "a": "Sincronizar wearables: Todos los wearables que sincronizan con Apple Health o Android Health Connect son compatibles, incluidos Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO y muchos más. Paso 1: sincroniza StepUp con Apple Health/Health Connect desde StepUp > Ajustes > Sincronizar wearables. Paso 2: sincroniza los pasos de tu wearable/app con Apple Health/Health Connect. También admitimos sincronización directa con Fitbit, Garmin & Samsung desde Ajustes > Sincronizar wearables. Prioridad de fuentes: Apple Health y Android Health Connect usan prioridades cuando hay varias fuentes. Si no aparecen pasos del wearable, revisa el orden de fuentes. Solución de problemas: Abre la app del wearable para sincronizar, luego abre StepUp. Si no funciona, desconecta y vuelve a conectar el wearable desde StepUp > Ajustes > Sincronizar wearables. Si sigue fallando, envía logs desde StepUp > Ajustes > Ayuda y comentarios > Enviar comentarios.",
           "html": "<b>Sincronizar wearables:</b><br>Todos los wearables que sincronizan con Apple Health o Android Health Connect son compatibles, incluidos Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO y muchos más.<br>Paso 1: sincroniza StepUp con Apple Health/Health Connect desde StepUp &gt; Ajustes &gt; Sincronizar wearables.<br>Paso 2: sincroniza los pasos de tu wearable/app con Apple Health/Health Connect.<br>También admitimos sincronización directa con Fitbit, Garmin &amp; Samsung desde Ajustes &gt; Sincronizar wearables.<br><br><b>Prioridad de fuentes:</b><br>Apple Health y Android Health Connect usan prioridades cuando hay varias fuentes. Si no aparecen pasos del wearable, revisa el orden de fuentes.<br><br><b>Solución de problemas:</b><br>Abre la app del wearable para sincronizar, luego abre StepUp.<br>Si no funciona, desconecta y vuelve a conectar el wearable desde StepUp &gt; Ajustes &gt; Sincronizar wearables.<br>Si sigue fallando, envía logs desde StepUp &gt; Ajustes &gt; Ayuda y comentarios &gt; Enviar comentarios."
         },
         {
+          "id": "manually-add-steps",
           "q": "¿Puedo añadir pasos manualmente? (No)",
           "a": "No permitimos pasos añadidos manualmente para evitar abusos. StepUp funciona con smartphones iPhone & Android y con wearables que sincronizan con Apple Health o Android Health Connect.",
           "html": "No permitimos pasos añadidos manualmente para evitar abusos.<br>StepUp funciona con smartphones iPhone &amp; Android y con wearables que sincronizan con Apple Health o Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "¿Cómo añado amigos en StepUp?",
           "a": "Inicia sesión en StepUp y envía a tus amigos tu enlace único de invitación. Los verás en StepUp cuando abran el enlace y acepten la invitación.",
           "html": "Inicia sesión en StepUp y envía a tus amigos tu enlace único de invitación. Los verás en StepUp cuando abran el enlace y acepten la invitación.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "¿Quién puede ver mis pasos?",
           "a": "Por defecto, nadie excepto tú puede ver tus pasos en StepUp. NUNCA publicamos ni compartimos tus datos de pasos. Si añades amigos, solo tus amigos podrán verte a ti y tus pasos. Si entras en un grupo, otras personas del grupo podrán verte. Puedes ocultar o bloquear a cualquier persona en privado; entonces no te verá y tú no la verás.",
           "html": "Por defecto, nadie excepto tú puede ver tus pasos en StepUp. NUNCA publicamos ni compartimos tus datos de pasos.<br>Si añades amigos, solo tus amigos podrán verte a ti y tus pasos. Si entras en un grupo, otras personas del grupo podrán verte.<br>Puedes ocultar o bloquear a cualquier persona en privado; entonces no te verá y tú no la verás."
         },
         {
+          "id": "hide-block-friends",
           "q": "¿Cómo oculto o bloqueo amigos en StepUp?",
           "a": "Puedes ocultar amigos en privado manteniendo pulsado sobre ellos. No verás a amigos ocultos y ellos no te verán. Puedes deshacerlo desde StepUp > Ajustes > Amigos ocultos.",
           "html": "Puedes ocultar amigos en privado manteniendo pulsado sobre ellos. No verás a amigos ocultos y ellos no te verán. Puedes deshacerlo desde StepUp &gt; Ajustes &gt; Amigos ocultos."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Mis amigos y grupos desaparecieron. ¡Ayuda!",
           "a": "Esto no debería pasar. Si ocurre, revisa tu conexión, cierra sesión (Ajustes > Cerrar sesión) y vuelve a entrar con tu método y cuenta original. Si no funciona, escríbenos a team@thestepupapp.com. Nota: si falta un amigo concreto, puede que haya eliminado su cuenta o te haya ocultado en StepUp.",
           "html": "Esto no debería pasar. Si ocurre, revisa tu conexión, cierra sesión (Ajustes &gt; Cerrar sesión) y vuelve a entrar con tu método y cuenta original. Si no funciona, escríbenos a <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Nota: si falta un amigo concreto, puede que haya eliminado su cuenta o te haya ocultado en StepUp."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "¿Qué son Active Bot y Chill Bot? ¿Puedo ocultarlos?",
           "a": "Active Bot & Chill Bot son amigos virtuales en StepUp que caminan aproximadamente 8K y 3K pasos respectivamente. A muchos usuarios les gusta marcarse el ritmo con ellos. Puedes ocultarlos tocándolos y pulsando “Hide” arriba a la derecha.",
           "html": "Active Bot &amp; Chill Bot son amigos virtuales en StepUp que caminan aproximadamente 8K y 3K pasos respectivamente. A muchos usuarios les gusta marcarse el ritmo con ellos. Puedes ocultarlos tocándolos y pulsando “Hide” arriba a la derecha."
         },
         {
+          "id": "automatic-sync",
           "q": "¿StepUp sincroniza pasos automáticamente? ¿Debo abrirla cada día?",
           "a": "StepUp intenta leer tus pasos en segundo plano, pero no funciona si la app está cerrada por completo o el teléfono está en modo ahorro de batería. StepUp puede sincronizar historial reciente al abrirse, así que si la abres al menos una vez por semana, idealmente a diario, no se perderán pasos.",
           "html": "StepUp intenta leer tus pasos en segundo plano, pero no funciona si la app está cerrada por completo o el teléfono está en modo ahorro de batería.<br>StepUp puede sincronizar historial reciente al abrirse, así que si la abres al menos una vez por semana, idealmente a diario, no se perderán pasos."
         },
         {
+          "id": "battery-usage",
           "q": "¿StepUp consume batería? (¡Nada!)",
           "a": "StepUp usa el sensor de pasos/fitness integrado del teléfono, que funciona en segundo plano sin afectar la batería. Como StepUp no usa GPS para contar pasos, es muy amigable con la batería. :)",
           "html": "StepUp usa el sensor de pasos/fitness integrado del teléfono, que funciona en segundo plano sin afectar la batería. Como StepUp no usa GPS para contar pasos, es muy amigable con la batería. :)"
         },
         {
+          "id": "new-phone",
           "q": "¿Cómo cambio a un teléfono nuevo?",
           "a": "Para cambiar de teléfono, asegúrate de haber iniciado sesión en StepUp en tu teléfono antiguo para que tu historial se guarde en tu cuenta. Antes de cambiar, abre StepUp en el teléfono antiguo para sincronizar los últimos pasos. Luego inicia sesión en el nuevo teléfono con la misma cuenta. Hazlo por la mañana para que el nuevo teléfono registre todos los pasos del día. Cuando confirmes que el historial y grupos aparecen en el nuevo teléfono, cierra sesión en el antiguo. StepUp está diseñado para registrar desde un teléfono a la vez; usar ambos a la vez no funciona bien.",
           "html": "Para cambiar de teléfono, asegúrate de haber iniciado sesión en StepUp en tu teléfono antiguo para que tu historial se guarde en tu cuenta. Antes de cambiar, abre StepUp en el teléfono antiguo para sincronizar los últimos pasos.<br>Luego inicia sesión en el nuevo teléfono con la misma cuenta. Hazlo por la mañana para que el nuevo teléfono registre todos los pasos del día.<br>Cuando confirmes que el historial y grupos aparecen en el nuevo teléfono, cierra sesión en el antiguo.<br>StepUp está diseñado para registrar desde un teléfono a la vez; usar ambos a la vez no funciona bien."
         },
         {
+          "id": "delete-account",
           "q": "¿Cómo elimino mi cuenta y datos de StepUp?",
           "a": "Puedes eliminar tu cuenta y datos desde StepUp > Ajustes > Ayuda y comentarios > Eliminar cuenta. Nota: todos tus datos de cuenta y pasos se eliminarán permanentemente de inmediato y no podrán recuperarse.",
           "html": "Puedes eliminar tu cuenta y datos desde StepUp &gt; Ajustes &gt; Ayuda y comentarios &gt; Eliminar cuenta.<br>Nota: todos tus datos de cuenta y pasos se eliminarán permanentemente de inmediato y no podrán recuperarse."
         },
         {
+          "id": "who-built-stepup",
           "q": "¿Quién creó StepUp?",
           "a": "Pratik quería una app de pasos social, atractiva y divertida para animar a su madre y hermanos a moverse más, pero no encontró una. Por eso él y su equipo construyen StepUp con la misión de hacer la actividad más divertida y social.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> quería una app de pasos social, atractiva y divertida para animar a su madre y hermanos a moverse más, pero no encontró una. Por eso él y su equipo construyen StepUp con la misión de hacer la actividad más divertida y social."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Me encanta StepUp — ¿cómo puedo apoyarles?",
           "a": "¡Gracias por unirte a nuestra misión de hacer la actividad más divertida y social! 🙌 Nos encantaría que invitaras a tus amigos, familia y compañeros. Las reseñas en App Store y Google Play Store nos ayudan a llegar a más personas. También puedes invitarnos a un café si quieres apoyarnos. ❤️",
           "html": "¡Gracias por unirte a nuestra misión de hacer la actividad más divertida y social! 🙌<br>Nos encantaría que invitaras a tus amigos, familia y compañeros.<br>Las reseñas en <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> y <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> nos ayudan a llegar a más personas.<br>También puedes <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">invitarnos a un café</a> si quieres apoyarnos. ❤️"
@@ -674,87 +725,104 @@
           "html": "<p>StepUp permet d’organiser très facilement des défis de pas GRATUITS, motivants et engageants !</p>\n\t\t\t\t\t<p>Vous pouvez ajouter des amis individuellement ou créer un groupe où tout le monde apparaît dans un classement partagé. StepUp est utilisé en entreprise (Amazon, BMW, Google), dans des écoles (Yale, Stanford), des salles de sport et des communautés partout dans le monde.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"Classement de défi de pas en groupe dans StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"Chat de groupe StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Comment fonctionne un groupe ?</b><br>Vous pouvez créer des groupes privés pour quelques amis ou collègues, ou jusqu’à 15 000 personnes. Tous les membres peuvent se voir dans les classements de pas du groupe (quotidien, hebdomadaire et mensuel).<br>Invitez des personnes en partageant le lien d’invitation du groupe par e-mail ou message. Par exemple, rejoignez notre groupe « StepUp In 2026 » : <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Combien ça coûte ?</b><br>StepUp est entièrement GRATUIT.<br>Aucun abonnement n’est nécessaire et aucune fonctionnalité n’est cachée derrière un paywall.<br>Notre mission est d’encourager tout le monde à être plus actif, quel que soit son budget. Nous finançons notre travail grâce à un minimum de publicités et à des achats intégrés facultatifs permettant de supprimer les publicités.</p>\n\t\t\t\t\t<p><b>Classements et défis en continu</b><br>Beaucoup de groupes organisent des défis continus avec des gagnants annoncés chaque semaine ou chaque mois. Par défaut, les groupes ont des classements quotidiens, hebdomadaires et mensuels qui se mettent à jour automatiquement. Les classements quotidiens et hebdomadaires se réinitialisent à minuit. Le classement mensuel se réinitialise le 3 du mois. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Plus de conseils et modèles d’e-mails.</a></p>\n\t\t\t\t\t<p><b>NOUVEAU : défis avec dates fixes</b><br>Si vous voulez un défi avec une date de début et de fin, les admins peuvent le configurer dans les réglages du groupe (appui long sur le nom du groupe). Les membres verront alors le classement personnalisé à la place du classement mensuel. Minimum 1 jour, maximum 1 an.</p>\n\t\t\t\t\t<p><b>Le groupe se termine-t-il après la date de fin ?</b><br>Non. Le groupe continue normalement. Après la date de fin, le classement personnalisé affiche toujours les résultats de cette période jusqu’à ce qu’un admin le modifie ou le supprime.</p>\n\t\t\t\t\t<p><b>Comment \"démarrer\" un défi de pas ?</b><br>Une fois le groupe créé, il n’y a rien à lancer ou arrêter dans l’app : les classements se mettent à jour automatiquement. Invitez les participants au moins une semaine avant la date souhaitée pour leur laisser le temps d’installer StepUp.</p>\n\t\t\t\t\t<p><b>Prix et reconnaissance</b><br>Les prix peuvent être amusants, mais ils ne sont pas indispensables. La reconnaissance et la fierté de pouvoir s’en vanter peuvent être tout aussi motivantes.<br>Les prix récompensant le « plus grand nombre de pas » peuvent parfois créer une compétition malsaine en tête du classement et décourager les autres. Envisagez des alternatives positives, comme un tirage au sort pour désigner les gagnants parmi toutes les personnes ayant atteint un objectif (par ex. 10 000 pas par jour ou 300 000 pas en un mois).</p>\n\t\t\t\t\t<p><b>NOUVEAU : Mystery Mode dans les groupes 🎭</b><br>En Mystery Mode, les pas du jour sont masqués et seuls les rangs apparaissent. Les compteurs sont révélés le lendemain. C’est très utile pour les groupes de travail. Les admins peuvent l’activer dans les réglages du groupe.</p>\n\t\t\t\t\t<p><b>Défi équipe contre équipe</b><br>StepUp n’affiche pas encore de classement direct groupe contre groupe, mais vous pouvez créer un groupe par équipe et comparer les équipes grâce aux rapports exportés.</p>\n\t\t\t\t\t<p><b>Exporter les rapports de groupe</b><br>Les admins peuvent exporter des rapports pour n’importe quelle période depuis Réglages > Gérer les groupes (ou avec un appui long sur le nom du groupe).</p>\n\t\t\t\t\t<p><b>Chat de groupe</b><br>Le chat de groupe permet de partager des nouvelles, de s’encourager et de plaisanter gentiment. Les admins peuvent désactiver le chat ou les taunts, et supprimer les messages ou membres inappropriés.</p>\n\t\t\t\t\t<p><b>Questions ou retours ?</b><br>Écrivez-nous à <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. En cas de problème, envoyez les logs depuis StepUp > Réglages > Aide et commentaires > Envoyer un commentaire.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "StepUp est-il vraiment gratuit ? (Oui !)",
           "a": "Nous voulons que StepUp soit accessible à tout le monde : l’app est donc entièrement GRATUITE, sans fonctionnalité essentielle derrière un paywall. Nous finançons le projet avec des publicités et des achats intégrés optionnels pour les supprimer.",
           "html": "Nous voulons que StepUp soit accessible à tout le monde : l’app est donc entièrement GRATUITE, sans fonctionnalité essentielle derrière un paywall. Nous finançons le projet avec des publicités et des achats intégrés optionnels pour les supprimer."
         },
         {
+          "id": "available-worldwide",
           "q": "StepUp est-il disponible partout dans le monde ? (Oui !)",
           "a": "StepUp est disponible gratuitement dans le monde entier. L’app est utilisée par des entreprises, écoles, administrations, salles de sport, conférences et communautés partout dans le monde.",
           "html": "StepUp est disponible gratuitement dans le monde entier.<br>L’app est utilisée par des entreprises, écoles, administrations, salles de sport, conférences et communautés partout dans le monde."
         },
         {
+          "id": "time-zones",
           "q": "Comment StepUp gère-t-il les fuseaux horaires ?",
           "a": "StepUp calcule les pas quotidiens de chaque utilisateur selon son propre fuseau horaire local et sa journée de 24 heures. Par exemple, une personne à Londres voit sa journée finalisée à minuit à Londres, tandis qu’une personne à New York la voit finalisée plusieurs heures plus tard, à minuit à New York.",
           "html": "StepUp calcule les pas quotidiens de chaque utilisateur selon son propre fuseau horaire local et sa journée de 24 heures.<br>Par exemple, une personne à Londres voit sa journée finalisée à minuit à Londres, tandis qu’une personne à New York la voit finalisée plusieurs heures plus tard, à minuit à New York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "StepUp est-il conforme RGPD/CCPA ? Comment mes données sont-elles utilisées ?",
           "a": "StepUp est conforme RGPD/CCPA et suit les meilleures pratiques modernes de sécurité et de confidentialité. Nous ne vendons ni ne partageons vos données personnelles ou d’activité. Vous pouvez supprimer votre compte et vos données immédiatement depuis StepUp > Réglages > Aide et commentaires > Supprimer le compte. Nous utilisons Google AdMob pour des publicités personnalisées uniquement avec votre consentement facultatif. Voir notre politique de confidentialité.",
           "html": "StepUp est conforme RGPD/CCPA et suit les meilleures pratiques modernes de sécurité et de confidentialité.<br>Nous ne vendons ni ne partageons vos données personnelles ou d’activité.<br>Vous pouvez supprimer votre compte et vos données immédiatement depuis StepUp &gt; Réglages &gt; Aide et commentaires &gt; Supprimer le compte.<br>Nous utilisons Google AdMob pour des publicités personnalisées uniquement avec votre consentement facultatif.<br>Voir notre <a href=\"/privacy/\">politique de confidentialité</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Comment synchroniser Apple Watch, Fitbit, Garmin, etc. ?",
           "a": "Synchronisation des wearables : Tous les wearables synchronisés avec Apple Health ou Android Health Connect sont pris en charge, notamment Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO et beaucoup d’autres. Étape 1 : synchronisez StepUp avec Apple Health/Health Connect depuis StepUp > Réglages > Synchroniser les wearables. Étape 2 : synchronisez les pas de votre montre/app vers Apple Health/Health Connect. Nous prenons aussi en charge Fitbit, Garmin & Samsung en direct depuis les réglages. Priorité des sources : Apple Health et Android Health Connect utilisent une priorité lorsqu’il existe plusieurs sources de pas. Si les pas du wearable n’apparaissent pas, vérifiez l’ordre des sources. Dépannage : Ouvrez d’abord l’app du wearable pour synchroniser, puis ouvrez StepUp. Si cela ne fonctionne pas, déconnectez puis reconnectez le wearable depuis StepUp > Réglages > Synchroniser les wearables. Si le problème persiste, envoyez les logs depuis StepUp > Réglages > Aide et commentaires > Envoyer un commentaire.",
           "html": "<b>Synchronisation des wearables :</b><br>Tous les wearables synchronisés avec Apple Health ou Android Health Connect sont pris en charge, notamment Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO et beaucoup d’autres.<br>Étape 1 : synchronisez StepUp avec Apple Health/Health Connect depuis StepUp &gt; Réglages &gt; Synchroniser les wearables.<br>Étape 2 : synchronisez les pas de votre montre/app vers Apple Health/Health Connect.<br>Nous prenons aussi en charge Fitbit, Garmin &amp; Samsung en direct depuis les réglages.<br><br><b>Priorité des sources :</b><br>Apple Health et Android Health Connect utilisent une priorité lorsqu’il existe plusieurs sources de pas. Si les pas du wearable n’apparaissent pas, vérifiez l’ordre des sources.<br><br><b>Dépannage :</b><br>Ouvrez d’abord l’app du wearable pour synchroniser, puis ouvrez StepUp.<br>Si cela ne fonctionne pas, déconnectez puis reconnectez le wearable depuis StepUp &gt; Réglages &gt; Synchroniser les wearables.<br>Si le problème persiste, envoyez les logs depuis StepUp &gt; Réglages &gt; Aide et commentaires &gt; Envoyer un commentaire."
         },
         {
+          "id": "manually-add-steps",
           "q": "Puis-je ajouter des pas manuellement ? (Non)",
           "a": "Nous n’autorisons pas l’ajout manuel de pas afin d’éviter les abus. StepUp fonctionne avec les smartphones iPhone & Android et les wearables qui synchronisent avec Apple Health ou Android Health Connect.",
           "html": "Nous n’autorisons pas l’ajout manuel de pas afin d’éviter les abus.<br>StepUp fonctionne avec les smartphones iPhone &amp; Android et les wearables qui synchronisent avec Apple Health ou Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "Comment ajouter des amis dans StepUp ?",
           "a": "Connectez-vous à StepUp et envoyez à vos amis votre lien d’invitation unique. Vous les verrez dans StepUp dès qu’ils ouvrent le lien et acceptent l’invitation.",
           "html": "Connectez-vous à StepUp et envoyez à vos amis votre lien d’invitation unique. Vous les verrez dans StepUp dès qu’ils ouvrent le lien et acceptent l’invitation.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Qui peut voir mes pas ?",
           "a": "Par défaut, personne d’autre que vous ne peut voir vos pas dans StepUp. Nous ne publions ni ne partageons JAMAIS vos données de pas. Si vous ajoutez des amis, seuls vos amis pourront vous voir, vous et vos pas. Si vous rejoignez un groupe, les autres membres du groupe pourront vous voir. Vous pouvez masquer ou bloquer quelqu’un en privé : cette personne ne vous verra plus et vous ne la verrez plus.",
           "html": "Par défaut, personne d’autre que vous ne peut voir vos pas dans StepUp. Nous ne publions ni ne partageons JAMAIS vos données de pas.<br>Si vous ajoutez des amis, seuls vos amis pourront vous voir, vous et vos pas. Si vous rejoignez un groupe, les autres membres du groupe pourront vous voir.<br>Vous pouvez masquer ou bloquer quelqu’un en privé : cette personne ne vous verra plus et vous ne la verrez plus."
         },
         {
+          "id": "hide-block-friends",
           "q": "Comment masquer ou bloquer des amis ?",
           "a": "Vous pouvez masquer un ami dans StepUp avec un appui long sur son nom. Vous ne verrez plus les amis masqués, et ils ne vous verront plus. Vous pouvez les réafficher depuis StepUp > Réglages > Amis masqués.",
           "html": "Vous pouvez masquer un ami dans StepUp avec un appui long sur son nom. Vous ne verrez plus les amis masqués, et ils ne vous verront plus. Vous pouvez les réafficher depuis StepUp &gt; Réglages &gt; Amis masqués."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Mes amis et groupes ont disparu. Que faire ?",
           "a": "Cela ne devrait pas arriver. Si c’est le cas, vérifiez votre connexion, déconnectez-vous (Réglages > Déconnexion), puis reconnectez-vous avec votre méthode et compte d’origine. Si cela ne fonctionne pas, écrivez-nous à team@thestepupapp.com. Remarque : s’il manque un ami précis, il a peut-être supprimé son compte StepUp ou vous a masqué.",
           "html": "Cela ne devrait pas arriver. Si c’est le cas, vérifiez votre connexion, déconnectez-vous (Réglages &gt; Déconnexion), puis reconnectez-vous avec votre méthode et compte d’origine. Si cela ne fonctionne pas, écrivez-nous à <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Remarque : s’il manque un ami précis, il a peut-être supprimé son compte StepUp ou vous a masqué."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Que sont Active Bot et Chill Bot ?",
           "a": "Active Bot & Chill Bot sont des amis virtuels dans StepUp qui marchent environ 8K et 3K pas. Beaucoup d’utilisateurs aiment se comparer à eux. Vous pouvez les masquer en les touchant puis en appuyant sur “Hide” en haut à droite.",
           "html": "Active Bot &amp; Chill Bot sont des amis virtuels dans StepUp qui marchent environ 8K et 3K pas. Beaucoup d’utilisateurs aiment se comparer à eux. Vous pouvez les masquer en les touchant puis en appuyant sur “Hide” en haut à droite."
         },
         {
+          "id": "automatic-sync",
           "q": "StepUp synchronise-t-il automatiquement les pas ?",
           "a": "StepUp essaie de lire vos pas en arrière-plan, mais cela ne fonctionne pas si l’app est fermée de force ou si le téléphone est en mode économie d’énergie. StepUp peut synchroniser l’historique récent au lancement ; si vous ouvrez l’app au moins une fois par semaine, idéalement chaque jour, aucun pas ne sera perdu.",
           "html": "StepUp essaie de lire vos pas en arrière-plan, mais cela ne fonctionne pas si l’app est fermée de force ou si le téléphone est en mode économie d’énergie.<br>StepUp peut synchroniser l’historique récent au lancement ; si vous ouvrez l’app au moins une fois par semaine, idéalement chaque jour, aucun pas ne sera perdu."
         },
         {
+          "id": "battery-usage",
           "q": "StepUp vide-t-il la batterie ? (Pas du tout !)",
           "a": "StepUp utilise le capteur de pas/fitness intégré à votre téléphone, qui fonctionne en arrière-plan sans impact notable sur la batterie. Comme StepUp n’utilise pas le GPS pour compter les pas, l’app est très économe. :)",
           "html": "StepUp utilise le capteur de pas/fitness intégré à votre téléphone, qui fonctionne en arrière-plan sans impact notable sur la batterie. Comme StepUp n’utilise pas le GPS pour compter les pas, l’app est très économe. :)"
         },
         {
+          "id": "new-phone",
           "q": "Comment transférer StepUp vers un nouveau téléphone ?",
           "a": "Pour changer de téléphone, assurez-vous d’être connecté à StepUp sur l’ancien téléphone afin que votre historique soit enregistré dans votre compte. Avant de changer, ouvrez StepUp sur l’ancien téléphone pour synchroniser les derniers pas. Connectez-vous ensuite sur le nouveau téléphone avec le même compte. Faites-le le matin pour que le nouveau téléphone enregistre tous les pas du jour. Une fois l’historique et les groupes visibles sur le nouveau téléphone, déconnectez-vous de StepUp sur l’ancien. StepUp est conçu pour suivre un téléphone à la fois ; rester connecté sur deux téléphones ne fonctionnera pas correctement.",
           "html": "Pour changer de téléphone, assurez-vous d’être connecté à StepUp sur l’ancien téléphone afin que votre historique soit enregistré dans votre compte. Avant de changer, ouvrez StepUp sur l’ancien téléphone pour synchroniser les derniers pas.<br>Connectez-vous ensuite sur le nouveau téléphone avec le même compte. Faites-le le matin pour que le nouveau téléphone enregistre tous les pas du jour.<br>Une fois l’historique et les groupes visibles sur le nouveau téléphone, déconnectez-vous de StepUp sur l’ancien.<br>StepUp est conçu pour suivre un téléphone à la fois ; rester connecté sur deux téléphones ne fonctionnera pas correctement."
         },
         {
+          "id": "delete-account",
           "q": "Comment supprimer mon compte et mes données ?",
           "a": "Vous pouvez supprimer votre compte et vos données depuis StepUp > Réglages > Aide et commentaires > Supprimer le compte. Remarque : toutes vos données de compte et de pas seront supprimées définitivement et immédiatement, sans récupération possible.",
           "html": "Vous pouvez supprimer votre compte et vos données depuis StepUp &gt; Réglages &gt; Aide et commentaires &gt; Supprimer le compte.<br>Remarque : toutes vos données de compte et de pas seront supprimées définitivement et immédiatement, sans récupération possible."
         },
         {
+          "id": "who-built-stepup",
           "q": "Qui a créé StepUp ?",
           "a": "Pratik voulait une app de suivi des pas sociale, motivante et amusante pour encourager sa mère et ses frères et sœurs à bouger davantage, mais il n’en trouvait pas. Lui et son équipe construisent donc StepUp avec la mission de rendre l’activité plus fun et sociale.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> voulait une app de suivi des pas sociale, motivante et amusante pour encourager sa mère et ses frères et sœurs à bouger davantage, mais il n’en trouvait pas. Lui et son équipe construisent donc StepUp avec la mission de rendre l’activité plus fun et sociale."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "J’adore StepUp — comment vous soutenir ?",
           "a": "Merci de rejoindre notre mission : rendre l’activité plus fun et sociale ! 🙌 Nous serions ravis que vous invitiez vos amis, votre famille et vos collègues. Les avis sur l’App Store et Google Play Store nous aident à toucher plus de monde. Vous pouvez aussi nous offrir un café si vous souhaitez nous soutenir. ❤️",
           "html": "Merci de rejoindre notre mission : rendre l’activité plus fun et sociale ! 🙌<br>Nous serions ravis que vous invitiez vos amis, votre famille et vos collègues.<br>Les avis sur <a href=\"https://itunes.apple.com/app/id979101825\">l’App Store</a> et <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> nous aident à toucher plus de monde.<br>Vous pouvez aussi <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">nous offrir un café</a> si vous souhaitez nous soutenir. ❤️"
@@ -866,87 +934,104 @@
           "html": "<p>StepUp rende semplicissimo organizzare sfide di passi GRATIS, divertenti e coinvolgenti!</p>\n\t\t\t\t\t<p>Puoi aggiungere amici singolarmente o creare un gruppo in cui tutti si vedono in una classifica condivisa. StepUp è usata al lavoro (Amazon, BMW, Google), nelle scuole (Yale, Stanford), in palestre e community in tutto il mondo.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"Classifica sfida di passi di gruppo StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"Chat di gruppo StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Come funziona un gruppo?</b><br>Puoi creare gruppi privati per pochi amici o colleghi oppure per un massimo di 15.000 persone. Tutti i membri possono vedersi nelle classifiche dei passi del gruppo (giornaliera, settimanale e mensile).<br>Invita le persone condividendo il link di invito del gruppo via email o messaggio. Ad esempio, entra nel nostro gruppo \"StepUp In 2026\": <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Quanto costa?</b><br>StepUp è completamente GRATIS.<br>Non servono abbonamenti e nessuna funzionalità è nascosta dietro paywall.<br>La nostra missione è incoraggiare tutti a essere più attivi, indipendentemente dal budget. Sosteniamo il nostro lavoro con un numero minimo di annunci e acquisti in-app opzionali per rimuovere la pubblicità.</p>\n\t\t\t\t\t<p><b>Classifiche e sfide continuative</b><br>Molti gruppi fanno sfide continuative con vincitori annunciati ogni settimana o mese. Di default, i gruppi hanno classifiche giornaliere, settimanali e mensili che si aggiornano automaticamente. Le giornaliere e settimanali si azzerano a mezzanotte. La mensile si azzera il giorno 3 del mese. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Altri consigli e modelli email.</a></p>\n\t\t\t\t\t<p><b>NOVITÀ: sfide con intervallo di date fisso</b><br>Se vuoi una sfida con data di inizio e fine, gli admin possono configurarla dalle Impostazioni gruppo (pressione lunga sul nome del gruppo). I membri vedranno la nuova classifica personalizzata al posto della mensile. Minimo 1 giorno, massimo 1 anno.</p>\n\t\t\t\t\t<p><b>Il gruppo termina dopo la data finale?</b><br>No. Il gruppo continua normalmente. Dopo la data finale, la classifica personalizzata mostra ancora i risultati di quel periodo finché un admin non la modifica o rimuove.</p>\n\t\t\t\t\t<p><b>Come si \"avvia\" una sfida di passi?</b><br>Una volta creato il gruppo, nell’app non c’è niente da avviare o fermare: le classifiche si aggiornano automaticamente. Invita le persone almeno una settimana prima della data prevista, così hanno tempo di installare StepUp.</p>\n\t\t\t\t\t<p><b>Premi e riconoscimenti</b><br>I premi possono essere divertenti, ma non sono necessari. Anche il riconoscimento e il diritto di vantarsi possono essere altrettanto motivanti.<br>I premi per il “maggior numero di passi” possono talvolta creare una competizione poco sana ai vertici e scoraggiare tutti gli altri. Valuta alternative positive, come un’estrazione per scegliere i vincitori tra tutte le persone che raggiungono un obiettivo (ad es. 10.000 passi al giorno o 300.000 passi in un mese).</p>\n\t\t\t\t\t<p><b>NOVITÀ: Mystery Mode nei gruppi 🎭</b><br>In Mystery Mode, i passi di oggi sono nascosti e in classifica si vedono solo le posizioni. I passi vengono rivelati il giorno dopo. È ottimo per i gruppi di lavoro. Gli admin possono abilitarlo dalle Impostazioni gruppo.</p>\n\t\t\t\t\t<p><b>Sfida team contro team</b><br>StepUp al momento non mostra classifiche dirette gruppo-vs-gruppo, ma puoi creare un gruppo per ogni team e confrontarli usando i report esportati.</p>\n\t\t\t\t\t<p><b>Esportare report del gruppo</b><br>Gli admin possono esportare report per qualsiasi intervallo da Impostazioni > Gestisci gruppi (o con pressione lunga sul nome del gruppo).</p>\n\t\t\t\t\t<p><b>Chat di gruppo</b><br>La chat consente ai membri di condividere aggiornamenti, incoraggiarsi e scherzare in modo amichevole. Gli admin possono disattivare chat o taunt e rimuovere messaggi o membri inappropriati.</p>\n\t\t\t\t\t<p><b>Domande o feedback?</b><br>Scrivici a <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Se hai problemi, invia i log da StepUp > Impostazioni > Aiuto e feedback > Invia feedback.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "StepUp è davvero completamente gratis? (Sì!)",
           "a": "Vogliamo che StepUp sia accessibile a tutti, quindi è completamente GRATIS: nessuna funzione essenziale è dietro paywall. Sosteniamo il lavoro con annunci e acquisti in-app opzionali per rimuoverli.",
           "html": "Vogliamo che StepUp sia accessibile a tutti, quindi è completamente GRATIS: nessuna funzione essenziale è dietro paywall. Sosteniamo il lavoro con annunci e acquisti in-app opzionali per rimuoverli."
         },
         {
+          "id": "available-worldwide",
           "q": "StepUp è disponibile in tutto il mondo? (Sì!)",
           "a": "StepUp è disponibile gratuitamente in tutto il mondo. È usata da aziende, scuole, enti pubblici, palestre, conferenze e altre community in tutto il mondo.",
           "html": "StepUp è disponibile gratuitamente in tutto il mondo.<br>È usata da aziende, scuole, enti pubblici, palestre, conferenze e altre community in tutto il mondo."
         },
         {
+          "id": "time-zones",
           "q": "Come gestisce StepUp i fusi orari?",
           "a": "StepUp calcola i passi giornalieri di ogni utente in base al suo fuso orario locale e alla sua giornata di 24 ore. Per esempio, un utente a Londra chiude la giornata a mezzanotte di Londra, mentre un utente a New York la chiude diverse ore dopo, a mezzanotte di New York.",
           "html": "StepUp calcola i passi giornalieri di ogni utente in base al suo fuso orario locale e alla sua giornata di 24 ore.<br>Per esempio, un utente a Londra chiude la giornata a mezzanotte di Londra, mentre un utente a New York la chiude diverse ore dopo, a mezzanotte di New York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "StepUp è conforme a GDPR/CCPA? Come gestisce i miei dati?",
           "a": "StepUp è conforme a GDPR/CCPA e segue pratiche moderne di sicurezza e privacy. NON vendiamo né condividiamo dati personali o di attività. Puoi eliminare subito account e dati da StepUp > Impostazioni > Aiuto e feedback > Elimina account. Usiamo Google AdMob per annunci personalizzati solo con consenso opzionale. Consulta la nostra privacy policy.",
           "html": "StepUp è conforme a GDPR/CCPA e segue pratiche moderne di sicurezza e privacy.<br>NON vendiamo né condividiamo dati personali o di attività.<br>Puoi eliminare subito account e dati da StepUp &gt; Impostazioni &gt; Aiuto e feedback &gt; Elimina account.<br>Usiamo Google AdMob per annunci personalizzati solo con consenso opzionale.<br>Consulta la nostra <a href=\"/privacy/\">privacy policy</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Come sincronizzo Apple Watch, Fitbit, Garmin ecc.?",
           "a": "Sincronizzare wearable: Sono supportati tutti i wearable che sincronizzano con Apple Health o Android Health Connect, inclusi Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO e molti altri. Passo 1: sincronizza StepUp con Apple Health/Health Connect da StepUp > Impostazioni > Sincronizza wearable. Passo 2: sincronizza i passi dal wearable/app verso Apple Health/Health Connect. Supportiamo anche la sincronizzazione diretta con Fitbit, Garmin & Samsung dalle impostazioni. Priorità delle fonti: Apple Health e Android Health Connect usano una priorità quando leggono da più fonti. Se i passi del wearable non compaiono, controlla l’ordine delle fonti. Risoluzione problemi: Apri l’app del wearable per sincronizzare, poi apri StepUp. Se non funziona, disconnetti e riconnetti il wearable da StepUp > Impostazioni > Sincronizza wearable. Se continua, invia i log da StepUp > Impostazioni > Aiuto e feedback > Invia feedback.",
           "html": "<b>Sincronizzare wearable:</b><br>Sono supportati tutti i wearable che sincronizzano con Apple Health o Android Health Connect, inclusi Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO e molti altri.<br>Passo 1: sincronizza StepUp con Apple Health/Health Connect da StepUp &gt; Impostazioni &gt; Sincronizza wearable.<br>Passo 2: sincronizza i passi dal wearable/app verso Apple Health/Health Connect.<br>Supportiamo anche la sincronizzazione diretta con Fitbit, Garmin &amp; Samsung dalle impostazioni.<br><br><b>Priorità delle fonti:</b><br>Apple Health e Android Health Connect usano una priorità quando leggono da più fonti. Se i passi del wearable non compaiono, controlla l’ordine delle fonti.<br><br><b>Risoluzione problemi:</b><br>Apri l’app del wearable per sincronizzare, poi apri StepUp.<br>Se non funziona, disconnetti e riconnetti il wearable da StepUp &gt; Impostazioni &gt; Sincronizza wearable.<br>Se continua, invia i log da StepUp &gt; Impostazioni &gt; Aiuto e feedback &gt; Invia feedback."
         },
         {
+          "id": "manually-add-steps",
           "q": "Posso aggiungere passi manualmente? (No)",
           "a": "Non permettiamo passi aggiunti manualmente per evitare abusi. StepUp funziona con smartphone iPhone & Android e con wearable che sincronizzano con Apple Health o Android Health Connect.",
           "html": "Non permettiamo passi aggiunti manualmente per evitare abusi.<br>StepUp funziona con smartphone iPhone &amp; Android e con wearable che sincronizzano con Apple Health o Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "Come aggiungo amici su StepUp?",
           "a": "Accedi a StepUp e invia agli amici il tuo link di invito unico. Li vedrai in StepUp quando aprono il link e accettano l’invito.",
           "html": "Accedi a StepUp e invia agli amici il tuo link di invito unico. Li vedrai in StepUp quando aprono il link e accettano l’invito.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Chi può vedere i miei passi?",
           "a": "Di default, nessuno oltre a te può vedere i tuoi passi in StepUp. Non pubblichiamo né condividiamo MAI i tuoi dati di passi. Se aggiungi amici, solo loro potranno vedere te e i tuoi passi. Se entri in un gruppo, gli altri membri potranno vederti. Puoi nascondere o bloccare chiunque in privato: non ti vedrà e tu non lo vedrai.",
           "html": "Di default, nessuno oltre a te può vedere i tuoi passi in StepUp. Non pubblichiamo né condividiamo MAI i tuoi dati di passi.<br>Se aggiungi amici, solo loro potranno vedere te e i tuoi passi. Se entri in un gruppo, gli altri membri potranno vederti.<br>Puoi nascondere o bloccare chiunque in privato: non ti vedrà e tu non lo vedrai."
         },
         {
+          "id": "hide-block-friends",
           "q": "Come nascondo o blocco amici su StepUp?",
           "a": "Puoi nascondere un amico in privato tenendo premuto su di lui. Non vedrai gli amici nascosti e loro non vedranno te. Puoi mostrarli di nuovo da StepUp > Impostazioni > Amici nascosti.",
           "html": "Puoi nascondere un amico in privato tenendo premuto su di lui. Non vedrai gli amici nascosti e loro non vedranno te. Puoi mostrarli di nuovo da StepUp &gt; Impostazioni &gt; Amici nascosti."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "I miei amici e gruppi sono spariti. Aiuto!",
           "a": "Non dovrebbe succedere. Se accade, controlla la connessione, esci (Impostazioni > Esci) e rientra con il metodo e account originale. Se non funziona, scrivici a team@thestepupapp.com. Nota: se manca un amico specifico, potrebbe aver eliminato l’account StepUp o averti nascosto.",
           "html": "Non dovrebbe succedere. Se accade, controlla la connessione, esci (Impostazioni &gt; Esci) e rientra con il metodo e account originale. Se non funziona, scrivici a <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Nota: se manca un amico specifico, potrebbe aver eliminato l’account StepUp o averti nascosto."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Cosa sono Active Bot e Chill Bot? Posso nasconderli?",
           "a": "Active Bot & Chill Bot sono amici virtuali in StepUp che camminano circa 8K e 3K passi. Molti utenti li usano per tenere il ritmo. Puoi nasconderli toccandoli e selezionando “Hide” in alto a destra.",
           "html": "Active Bot &amp; Chill Bot sono amici virtuali in StepUp che camminano circa 8K e 3K passi. Molti utenti li usano per tenere il ritmo. Puoi nasconderli toccandoli e selezionando “Hide” in alto a destra."
         },
         {
+          "id": "automatic-sync",
           "q": "StepUp sincronizza automaticamente i passi? Devo aprirla ogni giorno?",
           "a": "StepUp prova a leggere i passi in background, ma non funziona se l’app viene chiusa forzatamente o il telefono è in risparmio energetico. StepUp può sincronizzare lo storico recente all’avvio; se apri l’app almeno una volta a settimana, idealmente ogni giorno, non perderai passi.",
           "html": "StepUp prova a leggere i passi in background, ma non funziona se l’app viene chiusa forzatamente o il telefono è in risparmio energetico.<br>StepUp può sincronizzare lo storico recente all’avvio; se apri l’app almeno una volta a settimana, idealmente ogni giorno, non perderai passi."
         },
         {
+          "id": "battery-usage",
           "q": "StepUp consuma batteria? (Per niente!)",
           "a": "StepUp usa il sensore passi/fitness integrato nel telefono, che funziona in background senza impattare la batteria. Poiché StepUp non usa il GPS per contare i passi, è molto efficiente. :)",
           "html": "StepUp usa il sensore passi/fitness integrato nel telefono, che funziona in background senza impattare la batteria. Poiché StepUp non usa il GPS per contare i passi, è molto efficiente. :)"
         },
         {
+          "id": "new-phone",
           "q": "Come trasferisco StepUp su un nuovo telefono?",
           "a": "Prima del cambio, assicurati di essere connesso a StepUp sul vecchio telefono così lo storico viene salvato sull’account. Apri StepUp sul vecchio telefono per sincronizzare gli ultimi passi. Poi accedi sul nuovo telefono con lo stesso account, idealmente al mattino. Quando confermi che storico e gruppi sono visibili sul nuovo telefono, esci da StepUp sul vecchio. StepUp è progettata per tracciare da un telefono alla volta; restare connessi su entrambi non funziona correttamente.",
           "html": "Prima del cambio, assicurati di essere connesso a StepUp sul vecchio telefono così lo storico viene salvato sull’account. Apri StepUp sul vecchio telefono per sincronizzare gli ultimi passi.<br>Poi accedi sul nuovo telefono con lo stesso account, idealmente al mattino.<br>Quando confermi che storico e gruppi sono visibili sul nuovo telefono, esci da StepUp sul vecchio.<br>StepUp è progettata per tracciare da un telefono alla volta; restare connessi su entrambi non funziona correttamente."
         },
         {
+          "id": "delete-account",
           "q": "Come elimino account e dati StepUp?",
           "a": "Puoi eliminare account e dati da StepUp > Impostazioni > Aiuto e feedback > Elimina account. Nota: tutti i dati dell’account e dei passi saranno eliminati definitivamente e subito, senza possibilità di recupero.",
           "html": "Puoi eliminare account e dati da StepUp &gt; Impostazioni &gt; Aiuto e feedback &gt; Elimina account.<br>Nota: tutti i dati dell’account e dei passi saranno eliminati definitivamente e subito, senza possibilità di recupero."
         },
         {
+          "id": "who-built-stepup",
           "q": "Chi ha creato StepUp?",
           "a": "Pratik voleva usare un’app contapassi sociale, coinvolgente e divertente per incoraggiare sua madre e i fratelli a muoversi di più, ma non ne trovava una. Così lui e il suo team costruiscono StepUp con la missione di rendere l’attività più divertente e social.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> voleva usare un’app contapassi sociale, coinvolgente e divertente per incoraggiare sua madre e i fratelli a muoversi di più, ma non ne trovava una. Così lui e il suo team costruiscono StepUp con la missione di rendere l’attività più divertente e social."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Adoro StepUp — come posso sostenervi?",
           "a": "Grazie per unirti alla nostra missione di rendere l’attività più divertente e social! 🙌 Ci farebbe piacere se invitassi amici, famiglia e colleghi. Le recensioni su App Store e Google Play Store ci aiutano a raggiungere più persone. Puoi anche offrirci un caffè se vuoi sostenerci! ❤️",
           "html": "Grazie per unirti alla nostra missione di rendere l’attività più divertente e social! 🙌<br>Ci farebbe piacere se invitassi amici, famiglia e colleghi.<br>Le recensioni su <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> e <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> ci aiutano a raggiungere più persone.<br>Puoi anche <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">offrirci un caffè</a> se vuoi sostenerci! ❤️"
@@ -1058,87 +1143,104 @@
           "html": "<p>StepUp maakt het supermakkelijk om gratis, leuke en motiverende stappenchallenges te organiseren!</p>\n\t\t\t\t\t<p>Je kunt vrienden apart toevoegen of een groep maken waarin iedereen elkaar op een gedeelde ranglijst ziet. StepUp wordt gebruikt op werk (Amazon, BMW, Google), scholen (Yale, Stanford), sportscholen en communities wereldwijd.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"StepUp groeps-stappenchallenge ranglijst\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"StepUp groepschat\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Hoe werkt een groep?</b><br>Je kunt privégroepen maken voor een paar vrienden of collega’s, of voor maximaal 15.000 mensen. Alle leden kunnen elkaar zien op de stappenranglijsten van de groep (dagelijks, wekelijks en maandelijks).<br>Nodig mensen uit door de uitnodigingslink van de groep via e-mail of een bericht te delen. Word bijvoorbeeld lid van onze groep \"StepUp In 2026\": <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Wat kost het?</b><br>StepUp is helemaal GRATIS.<br>Je hebt geen abonnement nodig en er zitten geen functies achter een betaalmuur.<br>Onze missie is om iedereen aan te moedigen actiever te zijn, ongeacht het budget. We ondersteunen ons werk met minimale advertenties en optionele in-app aankopen om advertenties te verwijderen.</p>\n\t\t\t\t\t<p><b>Ranglijsten en doorlopende challenges</b><br>Veel groepen doen doorlopende challenges waarbij winnaars wekelijks of maandelijks worden aangekondigd. Standaard hebben groepen dagelijkse, wekelijkse en maandelijkse ranglijsten die automatisch bijwerken. Dag- en weekranglijsten resetten om middernacht. De maandranglijst reset op de 3e van de maand. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Meer tips en e-mailtemplates.</a></p>\n\t\t\t\t\t<p><b>NIEUW: challenges met vaste datumreeks</b><br>Wil je een challenge met een specifieke start- en einddatum, dan kunnen admins dit instellen via Groepsinstellingen (druk lang op de groepsnaam). Leden zien dan de nieuwe aangepaste ranglijst in plaats van de maandranglijst. Minimaal 1 dag, maximaal 1 jaar.</p>\n\t\t\t\t\t<p><b>Eindigt de groep na de einddatum?</b><br>Nee. De groep blijft normaal bestaan. Na de einddatum blijft de aangepaste ranglijst resultaten voor die periode tonen totdat een admin deze wijzigt of wist.</p>\n\t\t\t\t\t<p><b>Hoe \"start\" je een stappenchallenge?</b><br>Zodra de groep is gemaakt, hoef je niets te starten of stoppen in de app: ranglijsten werken automatisch bij. Nodig deelnemers minstens een week voor de geplande start uit, zodat ze tijd hebben om StepUp te installeren.</p>\n\t\t\t\t\t<p><b>Prijzen en waardering</b><br>Prijzen kunnen leuk zijn, maar zijn niet nodig. Alleen erkenning en het recht om op te scheppen kunnen net zo motiverend zijn.<br>Een prijs voor de ‘meeste stappen’ kan soms ongezonde concurrentie aan de top veroorzaken en alle anderen ontmoedigen. Overweeg positieve alternatieven, zoals een loting om winnaars te kiezen uit alle deelnemers die een bepaald doel behalen (bijv. 10.000 stappen per dag of 300.000 stappen in een maand).</p>\n\t\t\t\t\t<p><b>NIEUW: Mystery Mode in groepen 🎭</b><br>In Mystery Mode worden de stappen van vandaag verborgen en toont de ranglijst alleen posities. De aantallen worden de volgende dag onthuld. Geweldig voor werkgroepen. Admins kunnen dit inschakelen via Groepsinstellingen.</p>\n\t\t\t\t\t<p><b>Team-tegen-team stappenchallenge</b><br>StepUp toont momenteel geen directe groep-tegen-groep ranglijsten, maar je kunt per team een groep maken en teams vergelijken met geëxporteerde rapporten.</p>\n\t\t\t\t\t<p><b>Groepsrapporten exporteren</b><br>Groepsadmins kunnen rapporten exporteren voor elke datumreeks via Instellingen > Groepen beheren (of druk lang op de groepsnaam).</p>\n\t\t\t\t\t<p><b>Groepschat</b><br>Met groepschat kunnen leden updates delen, elkaar aanmoedigen en vriendelijk grappen maken. Admins kunnen chat of taunts uitschakelen en ongepaste berichten of leden verwijderen.</p>\n\t\t\t\t\t<p><b>Vragen of feedback?</b><br>Mail ons op <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Bij problemen kun je feedbacklogs sturen via StepUp > Instellingen > Help & feedback > Feedback sturen.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "Is StepUp echt helemaal gratis? (Ja!)",
           "a": "We willen StepUp toegankelijk maken voor iedereen, dus de app is helemaal GRATIS: niets belangrijks zit achter een betaalmuur. We ondersteunen ons werk met advertenties en optionele in-app aankopen om advertenties te verwijderen.",
           "html": "We willen StepUp toegankelijk maken voor iedereen, dus de app is helemaal GRATIS: niets belangrijks zit achter een betaalmuur. We ondersteunen ons werk met advertenties en optionele in-app aankopen om advertenties te verwijderen."
         },
         {
+          "id": "available-worldwide",
           "q": "Is StepUp wereldwijd beschikbaar? (Ja!)",
           "a": "StepUp is wereldwijd gratis beschikbaar. De app wordt gebruikt door bedrijven, scholen, overheden, sportscholen, conferenties en andere communities over de hele wereld.",
           "html": "StepUp is wereldwijd gratis beschikbaar.<br>De app wordt gebruikt door bedrijven, scholen, overheden, sportscholen, conferenties en andere communities over de hele wereld."
         },
         {
+          "id": "time-zones",
           "q": "Hoe gaat StepUp om met verschillende tijdzones?",
           "a": "StepUp berekent de dagelijkse stappen van elke gebruiker op basis van diens eigen lokale tijdzone en 24-uursdag. Bijvoorbeeld: een gebruiker in Londen wordt afgerond om middernacht in Londen, terwijl een gebruiker in New York pas uren later wordt afgerond om middernacht in New York.",
           "html": "StepUp berekent de dagelijkse stappen van elke gebruiker op basis van diens eigen lokale tijdzone en 24-uursdag.<br>Bijvoorbeeld: een gebruiker in Londen wordt afgerond om middernacht in Londen, terwijl een gebruiker in New York pas uren later wordt afgerond om middernacht in New York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "Is StepUp GDPR/CCPA-compliant? Hoe gaat het met mijn data om?",
           "a": "StepUp is GDPR/CCPA-compliant en volgt moderne beveiligings- en privacypraktijken. We verkopen of delen GEEN persoonlijke data of stappendata. Je kunt je account en data meteen verwijderen via StepUp > Instellingen > Help & feedback > Account verwijderen. We gebruiken Google AdMob voor gepersonaliseerde advertenties alleen met optionele toestemming. Bekijk ons privacybeleid.",
           "html": "StepUp is GDPR/CCPA-compliant en volgt moderne beveiligings- en privacypraktijken.<br>We verkopen of delen GEEN persoonlijke data of stappendata.<br>Je kunt je account en data meteen verwijderen via StepUp &gt; Instellingen &gt; Help &amp; feedback &gt; Account verwijderen.<br>We gebruiken Google AdMob voor gepersonaliseerde advertenties alleen met optionele toestemming.<br>Bekijk ons <a href=\"/privacy/\">privacybeleid</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Hoe sync ik Apple Watch, Fitbit, Garmin enz.?",
           "a": "Wearables synchroniseren: Alle wearables die met Apple Health of Android Health Connect synchroniseren worden ondersteund, waaronder Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO en veel meer. Stap 1: verbind StepUp met Apple Health/Health Connect via StepUp > Instellingen > Wearables synchroniseren. Stap 2: synchroniseer stappen van je wearable/app naar Apple Health/Health Connect. We ondersteunen ook directe sync met Fitbit, Garmin & Samsung vanuit de instellingen. Prioriteit van bronnen: Apple Health en Android Health Connect gebruiken prioriteiten bij meerdere bronnen. Als wearable-stappen niet verschijnen, controleer dan de volgorde van databronnen. Problemen oplossen: Open eerst de app van je wearable om te synchroniseren, en daarna StepUp. Werkt dat niet, koppel je wearable los en opnieuw via StepUp > Instellingen > Wearables synchroniseren. Als het blijft misgaan, stuur feedbacklogs via StepUp > Instellingen > Help & feedback > Feedback sturen.",
           "html": "<b>Wearables synchroniseren:</b><br>Alle wearables die met Apple Health of Android Health Connect synchroniseren worden ondersteund, waaronder Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO en veel meer.<br>Stap 1: verbind StepUp met Apple Health/Health Connect via StepUp &gt; Instellingen &gt; Wearables synchroniseren.<br>Stap 2: synchroniseer stappen van je wearable/app naar Apple Health/Health Connect.<br>We ondersteunen ook directe sync met Fitbit, Garmin &amp; Samsung vanuit de instellingen.<br><br><b>Prioriteit van bronnen:</b><br>Apple Health en Android Health Connect gebruiken prioriteiten bij meerdere bronnen. Als wearable-stappen niet verschijnen, controleer dan de volgorde van databronnen.<br><br><b>Problemen oplossen:</b><br>Open eerst de app van je wearable om te synchroniseren, en daarna StepUp.<br>Werkt dat niet, koppel je wearable los en opnieuw via StepUp &gt; Instellingen &gt; Wearables synchroniseren.<br>Als het blijft misgaan, stuur feedbacklogs via StepUp &gt; Instellingen &gt; Help &amp; feedback &gt; Feedback sturen."
         },
         {
+          "id": "manually-add-steps",
           "q": "Kan ik handmatig stappen toevoegen? (Nee)",
           "a": "We staan handmatig toegevoegde stappen niet toe om misbruik te voorkomen. StepUp werkt met alle iPhone- & Android-smartphones en wearables die synchroniseren met Apple Health of Android Health Connect.",
           "html": "We staan handmatig toegevoegde stappen niet toe om misbruik te voorkomen.<br>StepUp werkt met alle iPhone- &amp; Android-smartphones en wearables die synchroniseren met Apple Health of Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "Hoe voeg ik vrienden toe in StepUp?",
           "a": "Log in bij StepUp en stuur vrienden je unieke uitnodigingslink. Je ziet ze in StepUp zodra ze de link openen en accepteren.",
           "html": "Log in bij StepUp en stuur vrienden je unieke uitnodigingslink. Je ziet ze in StepUp zodra ze de link openen en accepteren.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Wie kan mijn stappen zien?",
           "a": "Standaard kan niemand behalve jij je stappen in StepUp zien. We publiceren of delen je stappendata NOOIT. Als je vrienden toevoegt, kunnen alleen je vrienden jou en je stappen zien. Als je lid wordt van een groep, kunnen andere groepsleden je zien. Je kunt iedereen privé verbergen of blokkeren; dan zien jullie elkaar niet.",
           "html": "Standaard kan niemand behalve jij je stappen in StepUp zien. We publiceren of delen je stappendata NOOIT.<br>Als je vrienden toevoegt, kunnen alleen je vrienden jou en je stappen zien. Als je lid wordt van een groep, kunnen andere groepsleden je zien.<br>Je kunt iedereen privé verbergen of blokkeren; dan zien jullie elkaar niet."
         },
         {
+          "id": "hide-block-friends",
           "q": "Hoe verberg of blokkeer ik vrienden in StepUp?",
           "a": "Je kunt vrienden privé verbergen door lang op ze te drukken. Je ziet verborgen vrienden niet meer, en zij zien jou niet. Je kunt ze terughalen via StepUp > Instellingen > Verborgen vrienden.",
           "html": "Je kunt vrienden privé verbergen door lang op ze te drukken. Je ziet verborgen vrienden niet meer, en zij zien jou niet. Je kunt ze terughalen via StepUp &gt; Instellingen &gt; Verborgen vrienden."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Mijn vrienden en groepen zijn verdwenen. Help!",
           "a": "Dit hoort niet te gebeuren. Controleer je internetverbinding, log uit (Instellingen > Uitloggen) en log opnieuw in met je oorspronkelijke methode en account. Werkt dat niet, mail ons op team@thestepupapp.com. Let op: als één specifieke vriend ontbreekt, heeft die mogelijk het account verwijderd of jou verborgen in StepUp.",
           "html": "Dit hoort niet te gebeuren. Controleer je internetverbinding, log uit (Instellingen &gt; Uitloggen) en log opnieuw in met je oorspronkelijke methode en account. Werkt dat niet, mail ons op <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Let op: als één specifieke vriend ontbreekt, heeft die mogelijk het account verwijderd of jou verborgen in StepUp."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Wat zijn Active Bot en Chill Bot? Kan ik ze verbergen?",
           "a": "Active Bot & Chill Bot zijn virtuele vrienden in StepUp die ongeveer 8K en 3K stappen lopen. Veel gebruikers houden graag tempo met ze. Je kunt ze verbergen door erop te tikken en rechtsboven “Hide” te kiezen.",
           "html": "Active Bot &amp; Chill Bot zijn virtuele vrienden in StepUp die ongeveer 8K en 3K stappen lopen. Veel gebruikers houden graag tempo met ze. Je kunt ze verbergen door erop te tikken en rechtsboven “Hide” te kiezen."
         },
         {
+          "id": "automatic-sync",
           "q": "Synchroniseert StepUp automatisch? Moet ik de app elke dag openen?",
           "a": "StepUp probeert je stappen op de achtergrond te lezen, maar dat werkt niet als de app is afgesloten of je telefoon in energiebesparing staat. StepUp kan recente geschiedenis synchroniseren bij het openen; open de app minstens één keer per week, idealiter dagelijks, zodat er geen stappen verloren gaan.",
           "html": "StepUp probeert je stappen op de achtergrond te lezen, maar dat werkt niet als de app is afgesloten of je telefoon in energiebesparing staat.<br>StepUp kan recente geschiedenis synchroniseren bij het openen; open de app minstens één keer per week, idealiter dagelijks, zodat er geen stappen verloren gaan."
         },
         {
+          "id": "battery-usage",
           "q": "Trekt StepUp mijn batterij leeg? (Helemaal niet!)",
           "a": "StepUp gebruikt de ingebouwde stappensensor/fitnesstracker van je telefoon, die op de achtergrond werkt zonder merkbare batterij-impact. Omdat StepUp geen GPS gebruikt voor stappen, is de app batterijvriendelijk. :)",
           "html": "StepUp gebruikt de ingebouwde stappensensor/fitnesstracker van je telefoon, die op de achtergrond werkt zonder merkbare batterij-impact. Omdat StepUp geen GPS gebruikt voor stappen, is de app batterijvriendelijk. :)"
         },
         {
+          "id": "new-phone",
           "q": "Hoe stap ik over naar een nieuwe telefoon?",
           "a": "Zorg dat je op je oude telefoon bent ingelogd bij StepUp, zodat je geschiedenis in je account staat. Open StepUp op de oude telefoon om de laatste stappen te synchroniseren. Log daarna op de nieuwe telefoon in met hetzelfde account, bij voorkeur ’s ochtends. Als je geschiedenis en groepen op de nieuwe telefoon zichtbaar zijn, log je uit op de oude telefoon. StepUp is ontworpen om vanaf één telefoon tegelijk te tracken; ingelogd blijven op beide werkt niet goed.",
           "html": "Zorg dat je op je oude telefoon bent ingelogd bij StepUp, zodat je geschiedenis in je account staat. Open StepUp op de oude telefoon om de laatste stappen te synchroniseren.<br>Log daarna op de nieuwe telefoon in met hetzelfde account, bij voorkeur ’s ochtends.<br>Als je geschiedenis en groepen op de nieuwe telefoon zichtbaar zijn, log je uit op de oude telefoon.<br>StepUp is ontworpen om vanaf één telefoon tegelijk te tracken; ingelogd blijven op beide werkt niet goed."
         },
         {
+          "id": "delete-account",
           "q": "Hoe verwijder ik mijn StepUp-account en data?",
           "a": "Je kunt je account en data verwijderen via StepUp > Instellingen > Help & feedback > Account verwijderen. Let op: alle account- en stappendata worden direct permanent verwijderd en kunnen niet worden hersteld.",
           "html": "Je kunt je account en data verwijderen via StepUp &gt; Instellingen &gt; Help &amp; feedback &gt; Account verwijderen.<br>Let op: alle account- en stappendata worden direct permanent verwijderd en kunnen niet worden hersteld."
         },
         {
+          "id": "who-built-stepup",
           "q": "Wie heeft StepUp gebouwd?",
           "a": "Pratik wilde een sociale, leuke en motiverende stappenteller gebruiken om zijn moeder en broers/zussen actiever te maken, maar kon er geen vinden. Daarom bouwt hij met zijn team StepUp met de missie om actief zijn leuker en socialer te maken.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> wilde een sociale, leuke en motiverende stappenteller gebruiken om zijn moeder en broers/zussen actiever te maken, maar kon er geen vinden. Daarom bouwt hij met zijn team StepUp met de missie om actief zijn leuker en socialer te maken."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Ik vind StepUp geweldig — hoe kan ik jullie steunen?",
           "a": "Dank je dat je meedoet aan onze missie om actief zijn leuker en socialer te maken! 🙌 We zouden het geweldig vinden als je vrienden, familie en collega’s uitnodigt. Reviews in de App Store en Google Play Store helpen ons meer mensen te bereiken. Je kunt ons ook een koffie geven als je ons wilt steunen! ❤️",
           "html": "Dank je dat je meedoet aan onze missie om actief zijn leuker en socialer te maken! 🙌<br>We zouden het geweldig vinden als je vrienden, familie en collega’s uitnodigt.<br>Reviews in de <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> en <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> helpen ons meer mensen te bereiken.<br>Je kunt ons ook <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">een koffie geven</a> als je ons wilt steunen! ❤️"
@@ -1250,87 +1352,104 @@
           "html": "<p>O StepUp torna super simples organizar desafios de passos GRÁTIS, divertidos e motivadores!</p>\n\t\t\t\t\t<p>Você pode adicionar amigos individualmente ou criar um grupo onde todos aparecem em um ranking compartilhado. StepUp é usado em empresas (Amazon, BMW, Google), escolas (Yale, Stanford), academias e comunidades no mundo todo.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"Ranking de desafio de passos em grupo no StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"Chat de grupo do StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Como funciona um grupo?</b><br>Você pode criar grupos privados para alguns amigos ou colegas de trabalho ou para até 15 mil pessoas. Todos os membros podem se ver nos rankings de passos do grupo (diário, semanal e mensal).<br>Convide pessoas compartilhando o link de convite do grupo por e-mail ou mensagem. Por exemplo, entre no nosso grupo \"StepUp In 2026\": <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Quanto custa?</b><br>O StepUp é totalmente GRÁTIS.<br>Não é preciso assinar nada, e nenhum recurso fica escondido atrás de paywalls.<br>Nossa missão é incentivar todo mundo a ser mais ativo, independentemente do orçamento. Mantemos nosso trabalho com o mínimo de anúncios e compras opcionais no app para removê-los.</p>\n\t\t\t\t\t<p><b>Rankings e desafios contínuos</b><br>Muitos grupos fazem desafios contínuos, anunciando vencedores toda semana ou mês. Por padrão, grupos têm rankings diário, semanal e mensal que atualizam automaticamente. Rankings diário e semanal reiniciam à meia-noite. O mensal reinicia no dia 3 do mês. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Mais orientações e modelos de e-mail.</a></p>\n\t\t\t\t\t<p><b>NOVO: desafios com intervalo de datas fixo</b><br>Se você quer um desafio com data de início e fim, admins podem configurar isso nas Configurações do grupo (pressione e segure o nome do grupo). Membros verão o novo ranking personalizado no lugar do mensal. Mínimo 1 dia, máximo 1 ano.</p>\n\t\t\t\t\t<p><b>O grupo termina depois da data final?</b><br>Não. O grupo continua normalmente. Depois da data final, o ranking personalizado ainda mostra os resultados daquele período até um admin alterar ou limpar.</p>\n\t\t\t\t\t<p><b>Como \"começar\" um desafio de passos?</b><br>Depois que o grupo é criado, não há nada para iniciar ou parar no app: os rankings atualizam automaticamente. Convide as pessoas pelo menos uma semana antes da data planejada para que tenham tempo de instalar o StepUp.</p>\n\t\t\t\t\t<p><b>Prêmios e reconhecimento</b><br>Prêmios podem ser divertidos, mas não são necessários. Apenas o reconhecimento e o direito de se gabar podem ser igualmente motivadores.<br>Prêmios por “maior número de passos” podem gerar uma competição pouco saudável no topo e desmotivar todo o restante. Considere alternativas positivas, como um sorteio para escolher vencedores entre todas as pessoas que atingirem alguma meta (por exemplo, 10 mil passos por dia ou 300 mil passos em um mês).</p>\n\t\t\t\t\t<p><b>NOVO: Mystery Mode em grupos 🎭</b><br>No Mystery Mode, os passos de hoje ficam ocultos e o ranking mostra apenas posições. Os passos são revelados no dia seguinte. Ótimo para grupos de trabalho. Admins podem ativar nas Configurações do grupo.</p>\n\t\t\t\t\t<p><b>Desafio de passos equipe contra equipe</b><br>StepUp ainda não mostra rankings diretos grupo contra grupo, mas você pode criar um grupo por equipe e comparar usando relatórios exportados.</p>\n\t\t\t\t\t<p><b>Exportar relatórios do grupo</b><br>Admins podem exportar relatórios para qualquer intervalo em Configurações > Gerenciar grupos (ou pressionando e segurando o nome do grupo).</p>\n\t\t\t\t\t<p><b>Chat de grupo</b><br>O chat permite compartilhar atualizações, incentivar uns aos outros e brincar de forma amigável. Admins podem desativar chat ou taunts e remover mensagens ou membros inadequados.</p>\n\t\t\t\t\t<p><b>Dúvidas ou feedback?</b><br>Escreva para <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Se tiver problemas, envie logs em StepUp > Configurações > Ajuda e feedback > Enviar feedback.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "O StepUp é realmente grátis? (Sim!)",
           "a": "Queremos que StepUp seja acessível para todos, por isso é totalmente GRÁTIS: nada essencial fica atrás de paywall. Mantemos o trabalho com anúncios e compras opcionais para remover anúncios.",
           "html": "Queremos que StepUp seja acessível para todos, por isso é totalmente GRÁTIS: nada essencial fica atrás de paywall. Mantemos o trabalho com anúncios e compras opcionais para remover anúncios."
         },
         {
+          "id": "available-worldwide",
           "q": "O StepUp está disponível no mundo todo? (Sim!)",
           "a": "StepUp está disponível gratuitamente no mundo todo. É usado por empresas, escolas, governos, academias, conferências e outras comunidades em vários países.",
           "html": "StepUp está disponível gratuitamente no mundo todo.<br>É usado por empresas, escolas, governos, academias, conferências e outras comunidades em vários países."
         },
         {
+          "id": "time-zones",
           "q": "Como o StepUp lida com fusos horários?",
           "a": "StepUp calcula os passos diários de cada usuário com base no seu próprio fuso horário local e dia de 24 horas. Por exemplo, uma pessoa em Londres tem o dia finalizado à meia-noite em Londres, enquanto uma pessoa em Nova York tem o dia finalizado algumas horas depois, à meia-noite em Nova York.",
           "html": "StepUp calcula os passos diários de cada usuário com base no seu próprio fuso horário local e dia de 24 horas.<br>Por exemplo, uma pessoa em Londres tem o dia finalizado à meia-noite em Londres, enquanto uma pessoa em Nova York tem o dia finalizado algumas horas depois, à meia-noite em Nova York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "O StepUp é compatível com GDPR/CCPA? Como trata meus dados?",
           "a": "StepUp é compatível com GDPR/CCPA e segue práticas modernas de segurança e privacidade. NÃO vendemos nem compartilhamos dados pessoais ou dados de atividade. Você pode excluir sua conta e dados imediatamente em StepUp > Configurações > Ajuda e feedback > Excluir conta. Usamos Google AdMob para anúncios personalizados apenas com consentimento opcional. Veja nossa política de privacidade.",
           "html": "StepUp é compatível com GDPR/CCPA e segue práticas modernas de segurança e privacidade.<br>NÃO vendemos nem compartilhamos dados pessoais ou dados de atividade.<br>Você pode excluir sua conta e dados imediatamente em StepUp &gt; Configurações &gt; Ajuda e feedback &gt; Excluir conta.<br>Usamos Google AdMob para anúncios personalizados apenas com consentimento opcional.<br>Veja nossa <a href=\"/privacy/\">política de privacidade</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Como sincronizo Apple Watch, Fitbit, Garmin etc.?",
           "a": "Sincronizando wearables: Todos os wearables que sincronizam com Apple Health ou Android Health Connect são compatíveis, incluindo Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO e muitos outros. Passo 1: sincronize StepUp com Apple Health/Health Connect em StepUp > Configurações > Sincronizar wearables. Passo 2: sincronize passos do seu wearable/app com Apple Health/Health Connect. Também suportamos sincronização direta com Fitbit, Garmin & Samsung nas configurações. Prioridade das fontes: Apple Health e Android Health Connect usam prioridade ao ler várias fontes. Se os passos do wearable não aparecem, verifique a ordem das fontes de dados. Solução de problemas: Abra o app do wearable para sincronizar e depois abra StepUp. Se não funcionar, desconecte e reconecte o wearable em StepUp > Configurações > Sincronizar wearables. Se continuar, envie logs em StepUp > Configurações > Ajuda e feedback > Enviar feedback.",
           "html": "<b>Sincronizando wearables:</b><br>Todos os wearables que sincronizam com Apple Health ou Android Health Connect são compatíveis, incluindo Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO e muitos outros.<br>Passo 1: sincronize StepUp com Apple Health/Health Connect em StepUp &gt; Configurações &gt; Sincronizar wearables.<br>Passo 2: sincronize passos do seu wearable/app com Apple Health/Health Connect.<br>Também suportamos sincronização direta com Fitbit, Garmin &amp; Samsung nas configurações.<br><br><b>Prioridade das fontes:</b><br>Apple Health e Android Health Connect usam prioridade ao ler várias fontes. Se os passos do wearable não aparecem, verifique a ordem das fontes de dados.<br><br><b>Solução de problemas:</b><br>Abra o app do wearable para sincronizar e depois abra StepUp.<br>Se não funcionar, desconecte e reconecte o wearable em StepUp &gt; Configurações &gt; Sincronizar wearables.<br>Se continuar, envie logs em StepUp &gt; Configurações &gt; Ajuda e feedback &gt; Enviar feedback."
         },
         {
+          "id": "manually-add-steps",
           "q": "Posso adicionar passos manualmente? (Não)",
           "a": "Não permitimos passos adicionados manualmente para evitar abuso. StepUp funciona com smartphones iPhone & Android e wearables que sincronizam com Apple Health ou Android Health Connect.",
           "html": "Não permitimos passos adicionados manualmente para evitar abuso.<br>StepUp funciona com smartphones iPhone &amp; Android e wearables que sincronizam com Apple Health ou Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "Como adiciono amigos no StepUp?",
           "a": "Entre no StepUp e envie aos amigos seu link único de convite. Eles aparecerão no StepUp quando abrirem o link e aceitarem o convite.",
           "html": "Entre no StepUp e envie aos amigos seu link único de convite. Eles aparecerão no StepUp quando abrirem o link e aceitarem o convite.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Quem pode ver meus passos?",
           "a": "Por padrão, ninguém além de você pode ver seus passos no StepUp. NUNCA publicamos nem compartilhamos seus dados de passos. Se você adiciona amigos, apenas seus amigos podem ver você e seus passos. Se entra em um grupo, outras pessoas do grupo podem ver você. Você pode ocultar ou bloquear qualquer pessoa em particular; ela não verá você e você não a verá.",
           "html": "Por padrão, ninguém além de você pode ver seus passos no StepUp. NUNCA publicamos nem compartilhamos seus dados de passos.<br>Se você adiciona amigos, apenas seus amigos podem ver você e seus passos. Se entra em um grupo, outras pessoas do grupo podem ver você.<br>Você pode ocultar ou bloquear qualquer pessoa em particular; ela não verá você e você não a verá."
         },
         {
+          "id": "hide-block-friends",
           "q": "Como oculto ou bloqueio amigos no StepUp?",
           "a": "Você pode ocultar amigos em particular pressionando e segurando sobre eles. Você não verá amigos ocultos, e eles não verão você. É possível reexibir em StepUp > Configurações > Amigos ocultos.",
           "html": "Você pode ocultar amigos em particular pressionando e segurando sobre eles. Você não verá amigos ocultos, e eles não verão você. É possível reexibir em StepUp &gt; Configurações &gt; Amigos ocultos."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Meus amigos e grupos desapareceram. Ajuda!",
           "a": "Isso não deveria acontecer. Se acontecer, verifique a conexão, saia da conta (Configurações > Sair) e entre novamente com o método e conta originais. Se não funcionar, escreva para team@thestepupapp.com. Observação: se apenas um amigo específico sumiu, ele pode ter excluído a conta StepUp ou ocultado você.",
           "html": "Isso não deveria acontecer. Se acontecer, verifique a conexão, saia da conta (Configurações &gt; Sair) e entre novamente com o método e conta originais. Se não funcionar, escreva para <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Observação: se apenas um amigo específico sumiu, ele pode ter excluído a conta StepUp ou ocultado você."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "O que são Active Bot e Chill Bot? Posso ocultá-los?",
           "a": "Active Bot & Chill Bot são amigos virtuais no StepUp que caminham cerca de 8K e 3K passos. Muitos usuários gostam de se comparar com eles. Você pode ocultá-los tocando neles e escolhendo “Hide” no canto superior direito.",
           "html": "Active Bot &amp; Chill Bot são amigos virtuais no StepUp que caminham cerca de 8K e 3K passos. Muitos usuários gostam de se comparar com eles. Você pode ocultá-los tocando neles e escolhendo “Hide” no canto superior direito."
         },
         {
+          "id": "automatic-sync",
           "q": "O StepUp sincroniza passos automaticamente? Preciso abrir todos os dias?",
           "a": "StepUp tenta ler seus passos em segundo plano, mas isso não funciona se o app for encerrado ou se o celular estiver em modo de economia de bateria. StepUp pode sincronizar histórico recente ao abrir; se você abrir pelo menos uma vez por semana, idealmente todos os dias, nenhum passo será perdido.",
           "html": "StepUp tenta ler seus passos em segundo plano, mas isso não funciona se o app for encerrado ou se o celular estiver em modo de economia de bateria.<br>StepUp pode sincronizar histórico recente ao abrir; se você abrir pelo menos uma vez por semana, idealmente todos os dias, nenhum passo será perdido."
         },
         {
+          "id": "battery-usage",
           "q": "O StepUp gasta bateria? (Nada!)",
           "a": "StepUp usa o sensor de passos/fitness integrado do celular, que funciona em segundo plano sem impactar a bateria. Como StepUp não usa GPS para contar passos, ele é muito econômico. :)",
           "html": "StepUp usa o sensor de passos/fitness integrado do celular, que funciona em segundo plano sem impactar a bateria. Como StepUp não usa GPS para contar passos, ele é muito econômico. :)"
         },
         {
+          "id": "new-phone",
           "q": "Como transfiro para um celular novo?",
           "a": "Antes de trocar, garanta que você está conectado ao StepUp no celular antigo para salvar o histórico na conta. Abra StepUp no celular antigo para sincronizar os passos mais recentes. Depois entre no celular novo com a mesma conta, de preferência pela manhã. Quando confirmar que histórico e grupos aparecem no celular novo, saia do StepUp no antigo. StepUp foi projetado para registrar a partir de um celular por vez; ficar conectado nos dois não funciona corretamente.",
           "html": "Antes de trocar, garanta que você está conectado ao StepUp no celular antigo para salvar o histórico na conta. Abra StepUp no celular antigo para sincronizar os passos mais recentes.<br>Depois entre no celular novo com a mesma conta, de preferência pela manhã.<br>Quando confirmar que histórico e grupos aparecem no celular novo, saia do StepUp no antigo.<br>StepUp foi projetado para registrar a partir de um celular por vez; ficar conectado nos dois não funciona corretamente."
         },
         {
+          "id": "delete-account",
           "q": "Como excluo minha conta e dados do StepUp?",
           "a": "Você pode excluir sua conta e dados em StepUp > Configurações > Ajuda e feedback > Excluir conta. Observação: todos os dados de conta e passos serão excluídos permanentemente de imediato e não poderão ser recuperados.",
           "html": "Você pode excluir sua conta e dados em StepUp &gt; Configurações &gt; Ajuda e feedback &gt; Excluir conta.<br>Observação: todos os dados de conta e passos serão excluídos permanentemente de imediato e não poderão ser recuperados."
         },
         {
+          "id": "who-built-stepup",
           "q": "Quem criou o StepUp?",
           "a": "Pratik queria um app de passos social, envolvente e divertido para incentivar sua mãe e irmãos a se movimentarem mais, mas não encontrou um. Então ele e sua equipe estão construindo StepUp com a missão de tornar a atividade mais divertida e social.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> queria um app de passos social, envolvente e divertido para incentivar sua mãe e irmãos a se movimentarem mais, mas não encontrou um. Então ele e sua equipe estão construindo StepUp com a missão de tornar a atividade mais divertida e social."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Adoro o StepUp — como posso apoiar?",
           "a": "Obrigado por participar da nossa missão de tornar a atividade mais divertida e social! 🙌 Adoraríamos se você convidasse amigos, família e colegas. Avaliações na App Store e no Google Play Store nos ajudam a alcançar mais pessoas. Você também pode nos pagar um café se quiser apoiar! ❤️",
           "html": "Obrigado por participar da nossa missão de tornar a atividade mais divertida e social! 🙌<br>Adoraríamos se você convidasse amigos, família e colegas.<br>Avaliações na <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> e no <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> nos ajudam a alcançar mais pessoas.<br>Você também pode <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">nos pagar um café</a> se quiser apoiar! ❤️"
@@ -1442,87 +1561,104 @@
           "html": "<p>StepUp позволяет очень просто проводить бесплатные, увлекательные и мотивирующие челленджи по шагам!</p>\n\t\t\t\t\t<p>Вы можете добавлять друзей по одному или создать группу, где все участники видят друг друга в общей таблице лидеров. StepUp используют на работе (Amazon, BMW, Google), в школах (Yale, Stanford), спортзалах и сообществах по всему миру.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"Групповой рейтинг челленджа по шагам в StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"Групповой чат StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Как работает группа?</b><br>Вы можете создавать закрытые группы для нескольких друзей или коллег либо для групп до 15 000 человек. Все участники видят друг друга в рейтингах группы по количеству шагов (за день, неделю и месяц).<br>Приглашайте людей, поделившись ссылкой-приглашением в группу по электронной почте или в сообщении. Например, вступите в нашу группу «StepUp In 2026»: <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Сколько это стоит?</b><br>StepUp полностью БЕСПЛАТЕН.<br>Подписка не нужна, и никакие функции не скрыты за платным доступом.<br>Наша миссия — мотивировать каждого быть активнее независимо от бюджета. Мы поддерживаем нашу работу с помощью минимального количества рекламы и необязательных покупок в приложении, позволяющих отключить рекламу.</p>\n\t\t\t\t\t<p><b>Рейтинги и постоянные челленджи</b><br>Многие группы проводят постоянные челленджи, где победителей объявляют каждую неделю или месяц. По умолчанию в группах есть дневные, недельные и месячные рейтинги, которые обновляются автоматически. Дневные и недельные рейтинги сбрасываются в полночь. Месячный рейтинг сбрасывается 3-го числа. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Дополнительные рекомендации и шаблоны писем.</a></p>\n\t\t\t\t\t<p><b>НОВОЕ: челленджи с фиксированными датами</b><br>Если нужен челлендж с конкретной датой начала и окончания, администраторы могут настроить это в настройках группы (долгое нажатие на название группы). Участники увидят новый пользовательский рейтинг вместо месячного. Минимум 1 день, максимум 1 год.</p>\n\t\t\t\t\t<p><b>Группа заканчивается после даты окончания?</b><br>Нет. Группа продолжает работать как обычно. После даты окончания пользовательский рейтинг будет показывать результаты за этот период, пока администратор его не изменит или не очистит.</p>\n\t\t\t\t\t<p><b>Как \"запустить\" челлендж по шагам?</b><br>После создания группы в приложении ничего не нужно запускать или останавливать — рейтинги обновляются автоматически. Приглашайте участников минимум за неделю до предполагаемого старта, чтобы они успели установить StepUp.</p>\n\t\t\t\t\t<p><b>Призы и признание</b><br>Призы могут быть приятными, но они не обязательны. Простое признание и повод похвастаться могут мотивировать не меньше.<br>Призы за «наибольшее количество шагов» иногда могут создавать нездоровую конкуренцию среди лидеров и обескураживать остальных. Рассмотрите более доброжелательные варианты, например розыгрыш призов среди всех, кто достиг определенной цели (например, 10 000 шагов в день или 300 000 шагов за месяц).</p>\n\t\t\t\t\t<p><b>НОВОЕ: Mystery Mode в группах 🎭</b><br>В Mystery Mode сегодняшние шаги скрыты, а в рейтинге видны только места. Количество шагов раскрывается на следующий день. Отлично подходит для рабочих групп. Администраторы могут включить режим в настройках группы.</p>\n\t\t\t\t\t<p><b>Командный челлендж команда против команды</b><br>StepUp пока не показывает прямые рейтинги группа-против-группы, но можно создать отдельную группу для каждой команды и сравнивать их через экспортированные отчеты.</p>\n\t\t\t\t\t<p><b>Экспорт отчетов группы</b><br>Администраторы групп могут экспортировать отчеты за любой период через Settings > Manage Groups (или долгим нажатием на название группы).</p>\n\t\t\t\t\t<p><b>Групповой чат</b><br>В групповом чате участники делятся обновлениями, поддерживают друг друга и дружески подшучивают. Администраторы могут отключить чат или taunts и удалить неподходящие сообщения или участников.</p>\n\t\t\t\t\t<p><b>Вопросы или обратная связь?</b><br>Напишите нам на <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Если возникли проблемы, отправьте логи из StepUp > Settings > Help & Feedback > Send Feedback.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "StepUp действительно бесплатен? (Да!)",
           "a": "Мы хотим, чтобы StepUp был доступен всем, поэтому приложение полностью БЕСПЛАТНО: основные функции не скрыты за оплатой. Мы поддерживаем проект с помощью рекламы и необязательных покупок для отключения рекламы.",
           "html": "Мы хотим, чтобы StepUp был доступен всем, поэтому приложение полностью БЕСПЛАТНО: основные функции не скрыты за оплатой. Мы поддерживаем проект с помощью рекламы и необязательных покупок для отключения рекламы."
         },
         {
+          "id": "available-worldwide",
           "q": "StepUp доступен по всему миру? (Да!)",
           "a": "StepUp бесплатно доступен по всему миру. Его используют компании, школы, государственные организации, спортзалы, конференции и сообщества в разных странах.",
           "html": "StepUp бесплатно доступен по всему миру.<br>Его используют компании, школы, государственные организации, спортзалы, конференции и сообщества в разных странах."
         },
         {
+          "id": "time-zones",
           "q": "Как StepUp работает с часовыми поясами?",
           "a": "StepUp считает ежедневные шаги каждого пользователя по его локальному часовому поясу и 24-часовому дню. Например, день пользователя в Лондоне завершается в полночь по Лондону, а день пользователя в Нью-Йорке — на несколько часов позже, в полночь по Нью-Йорку.",
           "html": "StepUp считает ежедневные шаги каждого пользователя по его локальному часовому поясу и 24-часовому дню.<br>Например, день пользователя в Лондоне завершается в полночь по Лондону, а день пользователя в Нью-Йорке — на несколько часов позже, в полночь по Нью-Йорку."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "StepUp соответствует GDPR/CCPA? Как обрабатываются мои данные?",
           "a": "StepUp соответствует GDPR/CCPA и следует современным практикам безопасности и приватности. Мы НЕ продаем и не передаем личные данные или данные активности. Вы можете немедленно удалить аккаунт и данные в StepUp > Settings > Help & feedback > Delete account. Google AdMob используется для персонализированной рекламы только с необязательным согласием. Подробнее см. в нашей политике конфиденциальности.",
           "html": "StepUp соответствует GDPR/CCPA и следует современным практикам безопасности и приватности.<br>Мы НЕ продаем и не передаем личные данные или данные активности.<br>Вы можете немедленно удалить аккаунт и данные в StepUp &gt; Settings &gt; Help &amp; feedback &gt; Delete account.<br>Google AdMob используется для персонализированной рекламы только с необязательным согласием.<br>Подробнее см. в нашей <a href=\"/privacy/\">политике конфиденциальности</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Как синхронизировать Apple Watch, Fitbit, Garmin и т. д.?",
           "a": "Синхронизация носимых устройств: Поддерживаются все устройства, которые синхронизируются с Apple Health или Android Health Connect, включая Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO и многие другие. Шаг 1: подключите StepUp к Apple Health/Health Connect в StepUp > Settings > Sync wearables. Шаг 2: синхронизируйте шаги с устройства/приложения в Apple Health/Health Connect. Fitbit, Garmin & Samsung также можно подключить напрямую из настроек. Приоритет источников: Apple Health и Android Health Connect используют приоритет источников, если шаги поступают из нескольких мест. Если шаги с устройства не появляются, проверьте порядок источников данных. Устранение неполадок: Сначала откройте приложение вашего устройства, чтобы оно синхронизировалось, затем откройте StepUp. Если не помогло, отключите и подключите устройство заново в StepUp > Settings > Sync wearables. Если проблема сохраняется, отправьте логи через StepUp > Settings > Help & feedback > Send feedback.",
           "html": "<b>Синхронизация носимых устройств:</b><br>Поддерживаются все устройства, которые синхронизируются с Apple Health или Android Health Connect, включая Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO и многие другие.<br>Шаг 1: подключите StepUp к Apple Health/Health Connect в StepUp &gt; Settings &gt; Sync wearables.<br>Шаг 2: синхронизируйте шаги с устройства/приложения в Apple Health/Health Connect.<br>Fitbit, Garmin &amp; Samsung также можно подключить напрямую из настроек.<br><br><b>Приоритет источников:</b><br>Apple Health и Android Health Connect используют приоритет источников, если шаги поступают из нескольких мест. Если шаги с устройства не появляются, проверьте порядок источников данных.<br><br><b>Устранение неполадок:</b><br>Сначала откройте приложение вашего устройства, чтобы оно синхронизировалось, затем откройте StepUp.<br>Если не помогло, отключите и подключите устройство заново в StepUp &gt; Settings &gt; Sync wearables.<br>Если проблема сохраняется, отправьте логи через StepUp &gt; Settings &gt; Help &amp; feedback &gt; Send feedback."
         },
         {
+          "id": "manually-add-steps",
           "q": "Можно вручную добавить шаги? (Нет)",
           "a": "Мы не разрешаем вручную добавлять шаги, чтобы избежать злоупотреблений. StepUp работает со всеми смартфонами iPhone & Android и устройствами, синхронизирующимися с Apple Health или Android Health Connect.",
           "html": "Мы не разрешаем вручную добавлять шаги, чтобы избежать злоупотреблений.<br>StepUp работает со всеми смартфонами iPhone &amp; Android и устройствами, синхронизирующимися с Apple Health или Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "Как добавить друзей в StepUp?",
           "a": "Войдите в StepUp и отправьте друзьям свою уникальную ссылку-приглашение. Они появятся в StepUp, когда откроют ссылку и примут приглашение.",
           "html": "Войдите в StepUp и отправьте друзьям свою уникальную ссылку-приглашение. Они появятся в StepUp, когда откроют ссылку и примут приглашение.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Кто видит мои шаги?",
           "a": "По умолчанию никто, кроме вас, не видит ваши шаги в StepUp. Мы НИКОГДА не публикуем и не передаем ваши данные шагов. Если вы добавите друзей, только друзья смогут видеть вас и ваши шаги. Если вы вступите в группу, другие участники группы смогут видеть вас. Вы можете приватно скрыть или заблокировать любого человека; тогда он не увидит вас, а вы не увидите его.",
           "html": "По умолчанию никто, кроме вас, не видит ваши шаги в StepUp. Мы НИКОГДА не публикуем и не передаем ваши данные шагов.<br>Если вы добавите друзей, только друзья смогут видеть вас и ваши шаги. Если вы вступите в группу, другие участники группы смогут видеть вас.<br>Вы можете приватно скрыть или заблокировать любого человека; тогда он не увидит вас, а вы не увидите его."
         },
         {
+          "id": "hide-block-friends",
           "q": "Как скрыть или заблокировать друзей в StepUp?",
           "a": "Вы можете приватно скрыть друга долгим нажатием на него. Вы не будете видеть скрытых друзей, и они не будут видеть вас. Вернуть их можно в StepUp > Settings > Hidden friends.",
           "html": "Вы можете приватно скрыть друга долгим нажатием на него. Вы не будете видеть скрытых друзей, и они не будут видеть вас. Вернуть их можно в StepUp &gt; Settings &gt; Hidden friends."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Друзья и группы исчезли. Помогите!",
           "a": "Такого быть не должно. Если это произошло, проверьте интернет, выйдите из аккаунта (Settings > Sign out) и войдите снова тем же исходным способом и аккаунтом. Если не помогло, напишите нам на team@thestepupapp.com. Примечание: если пропал один конкретный друг, возможно, он удалил аккаунт StepUp или скрыли вас.",
           "html": "Такого быть не должно. Если это произошло, проверьте интернет, выйдите из аккаунта (Settings &gt; Sign out) и войдите снова тем же исходным способом и аккаунтом. Если не помогло, напишите нам на <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Примечание: если пропал один конкретный друг, возможно, он удалил аккаунт StepUp или скрыли вас."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Что такое Active Bot и Chill Bot? Можно их скрыть?",
           "a": "Active Bot & Chill Bot — виртуальные друзья в StepUp, которые проходят примерно 8K и 3K шагов. Многим пользователям нравится ориентироваться на них. Их можно скрыть, нажав на них и выбрав “Hide” справа вверху.",
           "html": "Active Bot &amp; Chill Bot — виртуальные друзья в StepUp, которые проходят примерно 8K и 3K шагов. Многим пользователям нравится ориентироваться на них. Их можно скрыть, нажав на них и выбрав “Hide” справа вверху."
         },
         {
+          "id": "automatic-sync",
           "q": "StepUp синхронизирует шаги автоматически? Нужно открывать каждый день?",
           "a": "StepUp пытается читать шаги в фоне, но это не работает, если приложение закрыто принудительно или телефон в режиме энергосбережения. StepUp может синхронизировать недавнюю историю при запуске; если открывать приложение хотя бы раз в неделю, а лучше каждый день, шаги не потеряются.",
           "html": "StepUp пытается читать шаги в фоне, но это не работает, если приложение закрыто принудительно или телефон в режиме энергосбережения.<br>StepUp может синхронизировать недавнюю историю при запуске; если открывать приложение хотя бы раз в неделю, а лучше каждый день, шаги не потеряются."
         },
         {
+          "id": "battery-usage",
           "q": "StepUp разряжает батарею? (Совсем нет!)",
           "a": "StepUp использует встроенный датчик шагов/фитнес-трекер телефона, который работает в фоне без заметного влияния на батарею. Так как StepUp не использует GPS для подсчета шагов, приложение очень экономно. :)",
           "html": "StepUp использует встроенный датчик шагов/фитнес-трекер телефона, который работает в фоне без заметного влияния на батарею. Так как StepUp не использует GPS для подсчета шагов, приложение очень экономно. :)"
         },
         {
+          "id": "new-phone",
           "q": "Как перейти на новый телефон?",
           "a": "Перед переходом убедитесь, что вы вошли в StepUp на старом телефоне, чтобы история сохранилась в аккаунте. Откройте StepUp на старом телефоне, чтобы синхронизировать последние шаги. Затем войдите на новом телефоне с тем же аккаунтом, лучше утром. Когда история и группы появятся на новом телефоне, выйдите из StepUp на старом. StepUp рассчитан на отслеживание с одного телефона одновременно; оставаться в аккаунте на двух телефонах не будет работать корректно.",
           "html": "Перед переходом убедитесь, что вы вошли в StepUp на старом телефоне, чтобы история сохранилась в аккаунте. Откройте StepUp на старом телефоне, чтобы синхронизировать последние шаги.<br>Затем войдите на новом телефоне с тем же аккаунтом, лучше утром.<br>Когда история и группы появятся на новом телефоне, выйдите из StepUp на старом.<br>StepUp рассчитан на отслеживание с одного телефона одновременно; оставаться в аккаунте на двух телефонах не будет работать корректно."
         },
         {
+          "id": "delete-account",
           "q": "Как удалить аккаунт и данные StepUp?",
           "a": "Вы можете удалить аккаунт и данные в StepUp > Settings > Help & feedback > Delete account. Примечание: все данные аккаунта и шагов будут немедленно и навсегда удалены без возможности восстановления.",
           "html": "Вы можете удалить аккаунт и данные в StepUp &gt; Settings &gt; Help &amp; feedback &gt; Delete account.<br>Примечание: все данные аккаунта и шагов будут немедленно и навсегда удалены без возможности восстановления."
         },
         {
+          "id": "who-built-stepup",
           "q": "Кто создал StepUp?",
           "a": "Pratik хотел найти социальное, увлекательное и веселое приложение для шагов, чтобы мотивировать маму и братьев/сестер больше двигаться, но не нашел подходящего. Поэтому он и команда создают StepUp с миссией сделать активность более веселой и социальной.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> хотел найти социальное, увлекательное и веселое приложение для шагов, чтобы мотивировать маму и братьев/сестер больше двигаться, но не нашел подходящего. Поэтому он и команда создают StepUp с миссией сделать активность более веселой и социальной."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Мне нравится StepUp — как поддержать вас?",
           "a": "Спасибо, что присоединились к нашей миссии сделать активность более веселой и социальной! 🙌 Мы будем рады, если вы пригласите друзей, семью и коллег. Отзывы в App Store и Google Play Store помогают нам охватить больше людей. Вы также можете угостить нас кофе, если хотите поддержать нас! ❤️",
           "html": "Спасибо, что присоединились к нашей миссии сделать активность более веселой и социальной! 🙌<br>Мы будем рады, если вы пригласите друзей, семью и коллег.<br>Отзывы в <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> и <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> помогают нам охватить больше людей.<br>Вы также можете <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">угостить нас кофе</a>, если хотите поддержать нас! ❤️"
@@ -1634,87 +1770,104 @@
           "html": "<p>StepUp gör det superenkelt att hålla gratis, roliga och engagerande stegutmaningar!</p>\n\t\t\t\t\t<p>Du kan lägga till vänner en och en eller skapa en grupp där alla syns på en gemensam topplista. StepUp används på jobbet (Amazon, BMW, Google), skolor (Yale, Stanford), gym och communities över hela världen.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"Topplista för grupputmaning i StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"Gruppchatt i StepUp\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Hur fungerar en grupp?</b><br>Du kan skapa privata grupper för några få vänner eller kollegor, eller för upp till 15 000 personer. Alla medlemmar kan se varandra på gruppens topplistor för steg (dagligen, varje vecka och varje månad).<br>Bjud in personer genom att dela gruppens inbjudningslänk via e-post eller sms. Gå till exempel med i vår grupp \"StepUp In 2026\": <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Vad kostar det?</b><br>StepUp är helt GRATIS.<br>Inga abonnemang behövs och inga funktioner döljs bakom betalväggar.<br>Vårt mål är att uppmuntra alla att bli mer aktiva, oavsett budget. Vi finansierar vårt arbete med ett minimum av annonser och valfria köp i appen för att slippa annonser.</p>\n\t\t\t\t\t<p><b>Topplistor och löpande utmaningar</b><br>Många grupper kör löpande utmaningar där vinnare utses varje vecka eller månad. Som standard har grupper dagliga, veckovisa och månatliga topplistor som uppdateras automatiskt. Dagliga och veckovisa topplistor nollställs vid midnatt. Månadstopplistan nollställs den 3:e varje månad. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Mer vägledning och e-postmallar.</a></p>\n\t\t\t\t\t<p><b>NYTT: utmaningar med fast datumintervall</b><br>Om du vill ha en utmaning med specifikt start- och slutdatum kan admins ställa in det i Gruppinställningar (långtryck på gruppnamnet). Medlemmar ser då den nya anpassade topplistan i stället för månadstopplistan. Minst 1 dag, högst 1 år.</p>\n\t\t\t\t\t<p><b>Slutar gruppen efter slutdatumet?</b><br>Nej. Gruppen fortsätter som vanligt. Efter slutdatumet visar den anpassade topplistan fortfarande resultat för perioden tills en admin ändrar eller rensar den.</p>\n\t\t\t\t\t<p><b>Hur \"startar\" man en stegutmaning?</b><br>När gruppen är skapad finns inget att starta eller stoppa i appen — topplistorna uppdateras automatiskt. Bjud in deltagare minst en vecka före tänkt start så de hinner installera StepUp.</p>\n\t\t\t\t\t<p><b>Priser och uppmuntran</b><br>Priser kan vara roliga, men är inte nödvändiga. Bara erkännande och möjligheten att få skryta lite kan vara minst lika motiverande.<br>Priser för ”flest steg” kan ibland skapa osund konkurrens i toppen och göra alla andra mindre motiverade. Överväg positiva alternativ, som en utlottning där vinnare utses bland alla som nått ett visst mål (t.ex. 10 000 steg per dag eller 300 000 steg på en månad).</p>\n\t\t\t\t\t<p><b>NYTT: Mystery Mode i grupper 🎭</b><br>I Mystery Mode döljs dagens steg och bara placeringar visas på topplistan. Stegen avslöjas nästa dag. Perfekt för arbetsgrupper. Admins kan aktivera det i Gruppinställningar.</p>\n\t\t\t\t\t<p><b>Stegutmaning lag mot lag</b><br>StepUp visar ännu inte direkta grupp-mot-grupp-topplistor, men du kan skapa en grupp per lag och jämföra lagen med exporterade rapporter.</p>\n\t\t\t\t\t<p><b>Exportera grupprapporter</b><br>Gruppadmins kan exportera rapporter för valfritt datumintervall från Inställningar > Hantera grupper (eller långtryck på gruppnamnet).</p>\n\t\t\t\t\t<p><b>Gruppchatt</b><br>Gruppchatten låter medlemmar dela uppdateringar, peppa varandra och ha vänlig jargong. Admins kan stänga av chatt eller taunts och ta bort olämpliga meddelanden eller medlemmar.</p>\n\t\t\t\t\t<p><b>Frågor eller feedback?</b><br>Mejla oss på <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Om du får problem kan du skicka feedbackloggar från StepUp > Inställningar > Hjälp & feedback > Skicka feedback.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "Är StepUp verkligen gratis? (Ja!)",
           "a": "Vi vill att StepUp ska vara tillgängligt för alla, därför är appen helt GRATIS: inget viktigt ligger bakom en betalvägg. Vi finansierar arbetet med annonser och valfria köp i appen för att ta bort annonser.",
           "html": "Vi vill att StepUp ska vara tillgängligt för alla, därför är appen helt GRATIS: inget viktigt ligger bakom en betalvägg. Vi finansierar arbetet med annonser och valfria köp i appen för att ta bort annonser."
         },
         {
+          "id": "available-worldwide",
           "q": "Finns StepUp över hela världen? (Ja!)",
           "a": "StepUp finns gratis över hela världen. Appen används av företag, skolor, myndigheter, gym, konferenser och andra communities över hela världen.",
           "html": "StepUp finns gratis över hela världen.<br>Appen används av företag, skolor, myndigheter, gym, konferenser och andra communities över hela världen."
         },
         {
+          "id": "time-zones",
           "q": "Hur hanterar StepUp olika tidszoner?",
           "a": "StepUp räknar varje användares dagliga steg utifrån den personens lokala tidszon och 24-timmarsdygn. En användare i London får till exempel sin dag avslutad vid midnatt i London, medan en användare i New York får sin dag avslutad flera timmar senare, vid midnatt i New York.",
           "html": "StepUp räknar varje användares dagliga steg utifrån den personens lokala tidszon och 24-timmarsdygn.<br>En användare i London får till exempel sin dag avslutad vid midnatt i London, medan en användare i New York får sin dag avslutad flera timmar senare, vid midnatt i New York."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "Är StepUp GDPR/CCPA-kompatibelt? Hur hanteras mina data?",
           "a": "StepUp är GDPR/CCPA-kompatibelt och följer moderna säkerhets- och integritetsrutiner. Vi säljer eller delar INTE personliga data eller aktivitetsdata. Du kan radera konto och data direkt från StepUp > Inställningar > Hjälp & feedback > Radera konto. Vi använder Google AdMob för personliga annonser endast med frivilligt samtycke. Se vår integritetspolicy.",
           "html": "StepUp är GDPR/CCPA-kompatibelt och följer moderna säkerhets- och integritetsrutiner.<br>Vi säljer eller delar INTE personliga data eller aktivitetsdata.<br>Du kan radera konto och data direkt från StepUp &gt; Inställningar &gt; Hjälp &amp; feedback &gt; Radera konto.<br>Vi använder Google AdMob för personliga annonser endast med frivilligt samtycke.<br>Se vår <a href=\"/privacy/\">integritetspolicy</a>."
         },
         {
+          "id": "sync-wearables",
           "q": "Hur synkar jag Apple Watch, Fitbit, Garmin osv.?",
           "a": "Synka wearables: Alla wearables som synkar med Apple Health eller Android Health Connect stöds, inklusive Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO och många fler. Steg 1: synka StepUp med Apple Health/Health Connect från StepUp > Inställningar > Synka wearables. Steg 2: synka steg från din wearable/app till Apple Health/Health Connect. Vi stöder också direkt synk med Fitbit, Garmin & Samsung från inställningarna. Prioritet för datakällor: Apple Health och Android Health Connect använder prioritet när de läser från flera källor. Om dina wearable-steg inte visas kan du behöva justera källordningen. Felsökning: Öppna först din wearable-app för att synka, och öppna sedan StepUp. Om det inte fungerar, koppla från och anslut din wearable igen från StepUp > Inställningar > Synka wearables. Om det fortfarande inte fungerar, skicka feedbackloggar från StepUp > Inställningar > Hjälp & feedback > Skicka feedback.",
           "html": "<b>Synka wearables:</b><br>Alla wearables som synkar med Apple Health eller Android Health Connect stöds, inklusive Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO och många fler.<br>Steg 1: synka StepUp med Apple Health/Health Connect från StepUp &gt; Inställningar &gt; Synka wearables.<br>Steg 2: synka steg från din wearable/app till Apple Health/Health Connect.<br>Vi stöder också direkt synk med Fitbit, Garmin &amp; Samsung från inställningarna.<br><br><b>Prioritet för datakällor:</b><br>Apple Health och Android Health Connect använder prioritet när de läser från flera källor. Om dina wearable-steg inte visas kan du behöva justera källordningen.<br><br><b>Felsökning:</b><br>Öppna först din wearable-app för att synka, och öppna sedan StepUp.<br>Om det inte fungerar, koppla från och anslut din wearable igen från StepUp &gt; Inställningar &gt; Synka wearables.<br>Om det fortfarande inte fungerar, skicka feedbackloggar från StepUp &gt; Inställningar &gt; Hjälp &amp; feedback &gt; Skicka feedback."
         },
         {
+          "id": "manually-add-steps",
           "q": "Kan jag lägga till steg manuellt? (Nej)",
           "a": "Vi tillåter inte manuellt tillagda steg för att undvika missbruk. StepUp fungerar med alla iPhone- & Android-smartphones och wearables som synkar med Apple Health eller Android Health Connect.",
           "html": "Vi tillåter inte manuellt tillagda steg för att undvika missbruk.<br>StepUp fungerar med alla iPhone- &amp; Android-smartphones och wearables som synkar med Apple Health eller Android Health Connect."
         },
         {
+          "id": "add-friends",
           "q": "Hur lägger jag till vänner i StepUp?",
           "a": "Logga in i StepUp och skicka din unika inbjudningslänk till vänner. Du ser dem i StepUp när de öppnar länken och accepterar inbjudan.",
           "html": "Logga in i StepUp och skicka din unika inbjudningslänk till vänner. Du ser dem i StepUp när de öppnar länken och accepterar inbjudan.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Vem kan se mina steg?",
           "a": "Som standard kan ingen annan än du se dina steg i StepUp. Vi publicerar eller delar ALDRIG dina stegdata någonstans. Om du lägger till vänner kan bara dina vänner se dig och dina steg. Om du går med i en grupp kan andra i gruppen se dig. Du kan privat dölja eller blockera vem som helst; då ser de inte dig och du ser inte dem.",
           "html": "Som standard kan ingen annan än du se dina steg i StepUp. Vi publicerar eller delar ALDRIG dina stegdata någonstans.<br>Om du lägger till vänner kan bara dina vänner se dig och dina steg. Om du går med i en grupp kan andra i gruppen se dig.<br>Du kan privat dölja eller blockera vem som helst; då ser de inte dig och du ser inte dem."
         },
         {
+          "id": "hide-block-friends",
           "q": "Hur döljer eller blockerar jag vänner i StepUp?",
           "a": "Du kan privat dölja vänner genom att långtrycka på dem. Du ser inte dolda vänner, och de ser inte dig. Du kan visa dem igen från StepUp > Inställningar > Dolda vänner.",
           "html": "Du kan privat dölja vänner genom att långtrycka på dem. Du ser inte dolda vänner, och de ser inte dig. Du kan visa dem igen från StepUp &gt; Inställningar &gt; Dolda vänner."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Mina vänner och grupper försvann. Hjälp!",
           "a": "Det här ska inte hända. Om det gör det, kontrollera internetanslutningen, logga ut (Inställningar > Logga ut) och logga in igen med samma ursprungliga metod och konto. Om det inte fungerar, mejla oss på team@thestepupapp.com. Obs: om en specifik vän saknas kan personen ha raderat sitt StepUp-konto eller dolt dig.",
           "html": "Det här ska inte hända. Om det gör det, kontrollera internetanslutningen, logga ut (Inställningar &gt; Logga ut) och logga in igen med samma ursprungliga metod och konto. Om det inte fungerar, mejla oss på <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>.<br><br>Obs: om en specifik vän saknas kan personen ha raderat sitt StepUp-konto eller dolt dig."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Vad är Active Bot och Chill Bot? Kan jag dölja dem?",
           "a": "Active Bot & Chill Bot är virtuella vänner i StepUp som går ungefär 8K respektive 3K steg. Många användare gillar att hålla tempo mot dem. Du kan dölja dem genom att trycka på dem och välja “Hide” uppe till höger.",
           "html": "Active Bot &amp; Chill Bot är virtuella vänner i StepUp som går ungefär 8K respektive 3K steg. Många användare gillar att hålla tempo mot dem. Du kan dölja dem genom att trycka på dem och välja “Hide” uppe till höger."
         },
         {
+          "id": "automatic-sync",
           "q": "Synkar StepUp steg automatiskt? Måste jag öppna appen varje dag?",
           "a": "StepUp försöker läsa dina steg i bakgrunden, men det fungerar inte om appen är stängd eller telefonen är i strömsparläge. StepUp kan synka ny steghistorik när appen öppnas, så om appen öppnas minst en gång i veckan, helst varje dag, förloras inga steg.",
           "html": "StepUp försöker läsa dina steg i bakgrunden, men det fungerar inte om appen är stängd eller telefonen är i strömsparläge.<br>StepUp kan synka ny steghistorik när appen öppnas, så om appen öppnas minst en gång i veckan, helst varje dag, förloras inga steg."
         },
         {
+          "id": "battery-usage",
           "q": "Drar StepUp batteri? (Inte alls!)",
           "a": "StepUp använder telefonens inbyggda stegsensor/fitnesstracker, som fungerar i bakgrunden utan att påverka batteriet märkbart. Eftersom StepUp inte använder GPS för stegräkning är appen väldigt batterivänlig. :)",
           "html": "StepUp använder telefonens inbyggda stegsensor/fitnesstracker, som fungerar i bakgrunden utan att påverka batteriet märkbart. Eftersom StepUp inte använder GPS för stegräkning är appen väldigt batterivänlig. :)"
         },
         {
+          "id": "new-phone",
           "q": "Hur flyttar jag StepUp till en ny telefon?",
           "a": "Se först till att du är inloggad i StepUp på din gamla telefon så att steghistoriken sparas till kontot. Öppna StepUp på gamla telefonen innan bytet så att senaste stegen synkas. Logga sedan in på den nya telefonen med samma konto, helst på morgonen. När historik och grupper visas på nya telefonen, logga ut från StepUp på den gamla. StepUp är byggt för att spåra från en telefon åt gången; att vara inloggad på båda fungerar inte korrekt.",
           "html": "Se först till att du är inloggad i StepUp på din gamla telefon så att steghistoriken sparas till kontot. Öppna StepUp på gamla telefonen innan bytet så att senaste stegen synkas.<br>Logga sedan in på den nya telefonen med samma konto, helst på morgonen.<br>När historik och grupper visas på nya telefonen, logga ut från StepUp på den gamla.<br>StepUp är byggt för att spåra från en telefon åt gången; att vara inloggad på båda fungerar inte korrekt."
         },
         {
+          "id": "delete-account",
           "q": "Hur raderar jag mitt StepUp-konto och data?",
           "a": "Du kan radera konto och data från StepUp > Inställningar > Hjälp & feedback > Radera konto. Obs: alla konto- och stegdata raderas permanent direkt och kan inte återställas.",
           "html": "Du kan radera konto och data från StepUp &gt; Inställningar &gt; Hjälp &amp; feedback &gt; Radera konto.<br>Obs: alla konto- och stegdata raderas permanent direkt och kan inte återställas."
         },
         {
+          "id": "who-built-stepup",
           "q": "Vem byggde StepUp?",
           "a": "Pratik ville använda en stegräknarapp som var social, engagerande och rolig för att uppmuntra sin mamma och sina syskon att röra sig mer, men han hittade ingen. Därför bygger han och hans team StepUp med uppdraget att göra aktivitet roligare och mer social.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a> ville använda en stegräknarapp som var social, engagerande och rolig för att uppmuntra sin mamma och sina syskon att röra sig mer, men han hittade ingen. Därför bygger han och hans team StepUp med uppdraget att göra aktivitet roligare och mer social."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "Jag älskar StepUp — hur kan jag stötta er?",
           "a": "Tack för att du går med i vårt uppdrag att göra aktivitet roligare och mer social! 🙌 Vi skulle älska om du bjöd in vänner, familj och kollegor. Recensioner i App Store och Google Play Store hjälper oss att nå fler. Du kan också bjuda oss på en kaffe om du vill stötta oss! ❤️",
           "html": "Tack för att du går med i vårt uppdrag att göra aktivitet roligare och mer social! 🙌<br>Vi skulle älska om du bjöd in vänner, familj och kollegor.<br>Recensioner i <a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> och <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> hjälper oss att nå fler.<br>Du kan också <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">bjuda oss på en kaffe</a> om du vill stötta oss! ❤️"
@@ -1826,87 +1979,104 @@
           "html": "<p>StepUp ücretsiz, eğlenceli ve motive edici adım yarışmaları düzenlemeyi çok kolaylaştırır!</p>\n\t\t\t\t\t<p>Arkadaşları tek tek ekleyebilir veya herkesin ortak liderlik tablosunda göründüğü bir grup oluşturabilirsiniz. StepUp iş yerlerinde (Amazon, BMW, Google), okullarda (Yale, Stanford), spor salonlarında ve dünyanın her yerindeki topluluklarda kullanılır.</p>\n\t\t\t\t\t<div class=\"phone-couple faq-phones\"><picture class=\"above\"><source srcset=\"/images/2026/screens/optimized/group.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/group.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/group.png\" alt=\"StepUp grup adım yarışması liderlik tablosu\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture><picture class=\"beyond\"><source srcset=\"/images/2026/screens/optimized/chat.avif\" type=\"image/avif\"><source srcset=\"/images/2026/screens/optimized/chat.webp\" type=\"image/webp\"><img src=\"/images/2026/screens/optimized/chat.png\" alt=\"StepUp grup sohbeti\" loading=\"lazy\" width=\"553\" height=\"1200\"></picture></div>\n\t\t\t\t\t<p><b>Grup nasıl çalışır?</b><br>Birkaç arkadaşınız veya iş arkadaşınız için ya da 15.000 kişiye kadar özel gruplar oluşturabilirsiniz. Tüm üyeler grup adım liderlik tablolarında (günlük, haftalık ve aylık) birbirini görebilir.<br>Grup davet bağlantısını e-posta veya mesajla paylaşarak kişileri davet edin. Örneğin, \"StepUp In 2026\" grubumuza katılın: <a href=\"https://join.thestepupapp.com/nJq00b\" target=\"_blank\" rel=\"noopener\">https://join.thestepupapp.com/nJq00b</a></p>\n\t\t\t\t\t<p><b>Ücreti ne kadar?</b><br>StepUp tamamen ÜCRETSİZDİR.<br>Abonelik gerekmez ve hiçbir özellik ödeme duvarlarının arkasına gizlenmez.<br>Misyonumuz, bütçesi ne olursa olsun herkesi daha aktif olmaya teşvik etmektir. Çalışmalarımızı minimum reklamlarla ve reklamları kaldırmaya yönelik isteğe bağlı uygulama içi satın alımlarla destekliyoruz.</p>\n\t\t\t\t\t<p><b>Liderlik tabloları ve devam eden yarışmalar</b><br>Birçok grup, kazananların her hafta veya ay açıklandığı devam eden yarışmalar yapar. Varsayılan olarak gruplarda otomatik güncellenen günlük, haftalık ve aylık liderlik tabloları vardır. Günlük ve haftalık tablolar gece yarısı sıfırlanır. Aylık tablo ayın 3’ünde sıfırlanır. <a href=\"https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Daha fazla rehberlik ve e-posta şablonları.</a></p>\n\t\t\t\t\t<p><b>YENİ: sabit tarih aralıklı yarışmalar</b><br>Belirli başlangıç ve bitiş tarihi olan bir yarışma istiyorsanız, adminler bunu Grup Ayarları’ndan kurabilir (grup adına uzun basın). Üyeler aylık tablo yerine yeni özel liderlik tablosunu görür. Minimum 1 gün, maksimum 1 yıl.</p>\n\t\t\t\t\t<p><b>Bitiş tarihinden sonra grup sona erer mi?</b><br>Hayır. Grup normal şekilde devam eder. Bitiş tarihinden sonra özel liderlik tablosu, admin değiştirene veya temizleyene kadar o tarih aralığının sonuçlarını göstermeye devam eder.</p>\n\t\t\t\t\t<p><b>Bir adım yarışması nasıl \"başlatılır\"?</b><br>Grup oluşturulduktan sonra uygulamada başlatılacak veya durdurulacak bir şey yoktur; liderlik tabloları otomatik güncellenir. Katılımcıları planlanan başlangıçtan en az bir hafta önce davet edin ki StepUp’ı kurmaya zamanları olsun.</p>\n\t\t\t\t\t<p><b>Ödüller ve takdir</b><br>Ödüller eğlenceli olabilir ama gerekli değildir. Yalnızca takdir edilmek ve övünme hakkı kazanmak da aynı derecede motive edici olabilir.<br>“En çok adım” ödülleri bazen üst sıralarda sağlıksız rekabet yaratabilir ve diğer herkesin hevesini kırabilir. Belirli bir hedefe ulaşan herkes arasından kazananların kurayla seçilmesi gibi olumlu alternatifleri değerlendirin (ör. günde 10 bin adım veya bir ayda 300 bin adım).</p>\n\t\t\t\t\t<p><b>YENİ: gruplarda Mystery Mode 🎭</b><br>Mystery Mode’da bugünün adımları gizlenir ve liderlik tablosunda yalnızca sıralar görünür. Adım sayıları ertesi gün açıklanır. İş grupları için harikadır. Adminler bunu Grup Ayarları’ndan açabilir.</p>\n\t\t\t\t\t<p><b>Takım takım adım yarışması</b><br>StepUp şu anda doğrudan grup-grup liderlik tablosu göstermiyor, ancak her takım için ayrı grup oluşturup dışa aktarılan raporlarla takımları karşılaştırabilirsiniz.</p>\n\t\t\t\t\t<p><b>Grup raporlarını dışa aktarma</b><br>Grup adminleri Ayarlar > Grupları Yönet üzerinden herhangi bir tarih aralığı için rapor dışa aktarabilir (veya grup adına uzun basabilir).</p>\n\t\t\t\t\t<p><b>Grup sohbeti</b><br>Grup sohbeti üyelerin güncelleme paylaşmasını, birbirini motive etmesini ve dostça takılmasını sağlar. Adminler sohbeti veya taunts özelliğini kapatabilir, uygunsuz mesajları veya üyeleri kaldırabilir.</p>\n\t\t\t\t\t<p><b>Sorular veya geri bildirim?</b><br>Bize yazın: <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a>. Sorun yaşarsanız StepUp > Ayarlar > Yardım ve geri bildirim > Geri bildirim gönder üzerinden logları gönderin.</p>"
         },
         {
+          "id": "is-stepup-free",
           "q": "StepUp gerçekten tamamen ücretsiz mi? (Evet!)",
           "a": "StepUp’ın herkes tarafından erişilebilir olmasını istiyoruz, bu yüzden tamamen ÜCRETSİZDİR: temel özellikler ücretli duvarın arkasında değildir. Çalışmamızı reklamlar ve reklamları kaldırmak için isteğe bağlı uygulama içi satın almalarla destekliyoruz.",
           "html": "StepUp’ın herkes tarafından erişilebilir olmasını istiyoruz, bu yüzden tamamen ÜCRETSİZDİR: temel özellikler ücretli duvarın arkasında değildir. Çalışmamızı reklamlar ve reklamları kaldırmak için isteğe bağlı uygulama içi satın almalarla destekliyoruz."
         },
         {
+          "id": "available-worldwide",
           "q": "StepUp dünya çapında kullanılabilir mi? (Evet!)",
           "a": "StepUp dünya çapında ücretsiz olarak kullanılabilir. Şirketler, okullar, kamu kurumları, spor salonları, konferanslar ve topluluklar tarafından dünyanın her yerinde kullanılır.",
           "html": "StepUp dünya çapında ücretsiz olarak kullanılabilir.<br>Şirketler, okullar, kamu kurumları, spor salonları, konferanslar ve topluluklar tarafından dünyanın her yerinde kullanılır."
         },
         {
+          "id": "time-zones",
           "q": "StepUp farklı saat dilimlerini nasıl yönetir?",
           "a": "StepUp her kullanıcının günlük adım sayısını kendi yerel saat dilimine ve 24 saatlik gününe göre hesaplar. Örneğin Londra’daki bir kullanıcının günü Londra’da gece yarısı tamamlanırken, New York’taki bir kullanıcının günü birkaç saat sonra New York’ta gece yarısı tamamlanır.",
           "html": "StepUp her kullanıcının günlük adım sayısını kendi yerel saat dilimine ve 24 saatlik gününe göre hesaplar.<br>Örneğin Londra’daki bir kullanıcının günü Londra’da gece yarısı tamamlanırken, New York’taki bir kullanıcının günü birkaç saat sonra New York’ta gece yarısı tamamlanır."
         },
         {
+          "id": "privacy-gdpr-ccpa",
           "q": "StepUp GDPR/CCPA uyumlu mu? Verilerim nasıl işlenir?",
           "a": "StepUp GDPR/CCPA uyumludur ve modern güvenlik ve gizlilik uygulamalarını izler. Kişisel verilerinizi veya adım aktivite verilerinizi ASLA satmayız ya da paylaşmayız. Hesabınızı ve verilerinizi StepUp > Ayarlar > Yardım ve geri bildirim > Hesabı sil üzerinden hemen silebilirsiniz. Google AdMob kişiselleştirilmiş reklamları yalnızca isteğe bağlı onayınızla gösterilir. Daha fazla bilgi için gizlilik politikamıza bakın.",
           "html": "StepUp GDPR/CCPA uyumludur ve modern güvenlik ve gizlilik uygulamalarını izler.<br>Kişisel verilerinizi veya adım aktivite verilerinizi ASLA satmayız ya da paylaşmayız.<br>Hesabınızı ve verilerinizi StepUp &gt; Ayarlar &gt; Yardım ve geri bildirim &gt; Hesabı sil üzerinden hemen silebilirsiniz.<br>Google AdMob kişiselleştirilmiş reklamları yalnızca isteğe bağlı onayınızla gösterilir.<br>Daha fazla bilgi için <a href=\"/privacy/\">gizlilik politikamıza</a> bakın."
         },
         {
+          "id": "sync-wearables",
           "q": "Apple Watch, Fitbit, Garmin vb. nasıl senkronize edilir?",
           "a": "Giyilebilir cihazları senkronize etme: Apple Health veya Android Health Connect ile senkronize olan tüm cihazlar desteklenir: Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO ve daha fazlası. 1. Adım: StepUp’ı StepUp > Ayarlar > Giyilebilir cihazları senkronize et bölümünden Apple Health/Health Connect ile bağlayın. 2. Adım: Cihazınızdan/uygulamanızdan adımları Apple Health/Health Connect’e senkronize edin. Fitbit, Garmin & Samsung için doğrudan senkronizasyonu da destekliyoruz. Veri kaynağı önceliği: Apple Health ve Android Health Connect, birden fazla kaynaktan veri okurken öncelik sistemi kullanır. Cihaz adımları görünmüyorsa kaynak sırasını kontrol etmeniz gerekebilir. Sorun giderme: Önce cihazınızın uygulamasını açıp senkronize edin, ardından StepUp’ı açın. Olmazsa cihazı StepUp > Ayarlar > Giyilebilir cihazları senkronize et bölümünden çıkarıp tekrar bağlayın. Hâlâ olmazsa StepUp > Ayarlar > Yardım ve geri bildirim > Geri bildirim gönder üzerinden logları gönderin.",
           "html": "<b>Giyilebilir cihazları senkronize etme:</b><br>Apple Health veya Android Health Connect ile senkronize olan tüm cihazlar desteklenir: Apple Watch, Fitbit, Samsung, Garmin, Oura, Whoop, Withings, Xiaomi, Mi, Android Wear, Amazfit, Noise, boAT, OPPO ve daha fazlası.<br>1. Adım: StepUp’ı StepUp &gt; Ayarlar &gt; Giyilebilir cihazları senkronize et bölümünden Apple Health/Health Connect ile bağlayın.<br>2. Adım: Cihazınızdan/uygulamanızdan adımları Apple Health/Health Connect’e senkronize edin.<br>Fitbit, Garmin &amp; Samsung için doğrudan senkronizasyonu da destekliyoruz.<br><br><b>Veri kaynağı önceliği:</b><br>Apple Health ve Android Health Connect, birden fazla kaynaktan veri okurken öncelik sistemi kullanır. Cihaz adımları görünmüyorsa kaynak sırasını kontrol etmeniz gerekebilir.<br><br><b>Sorun giderme:</b><br>Önce cihazınızın uygulamasını açıp senkronize edin, ardından StepUp’ı açın.<br>Olmazsa cihazı StepUp &gt; Ayarlar &gt; Giyilebilir cihazları senkronize et bölümünden çıkarıp tekrar bağlayın.<br>Hâlâ olmazsa StepUp &gt; Ayarlar &gt; Yardım ve geri bildirim &gt; Geri bildirim gönder üzerinden logları gönderin."
         },
         {
+          "id": "manually-add-steps",
           "q": "Manuel adım ekleyebilir miyim? (Hayır)",
           "a": "Kötüye kullanımı önlemek için manuel eklenen adımlara izin vermiyoruz. StepUp tüm iPhone & Android akıllı telefonlarla ve Apple Health veya Android Health Connect ile senkronize olan giyilebilir cihazlarla çalışır.",
           "html": "Kötüye kullanımı önlemek için manuel eklenen adımlara izin vermiyoruz.<br>StepUp tüm iPhone &amp; Android akıllı telefonlarla ve Apple Health veya Android Health Connect ile senkronize olan giyilebilir cihazlarla çalışır."
         },
         {
+          "id": "add-friends",
           "q": "StepUp’ta nasıl arkadaş eklerim?",
           "a": "StepUp’a giriş yapın ve arkadaşlarınıza benzersiz davet bağlantınızı gönderin. Bağlantıya dokunup daveti kabul ettiklerinde onları StepUp’ta görürsünüz.",
           "html": "StepUp’a giriş yapın ve arkadaşlarınıza benzersiz davet bağlantınızı gönderin. Bağlantıya dokunup daveti kabul ettiklerinde onları StepUp’ta görürsünüz.<br>"
         },
         {
+          "id": "who-can-see-my-steps",
           "q": "Adımlarımı kim görebilir?",
           "a": "Varsayılan olarak StepUp’ta adımlarınızı sizden başka kimse göremez. Adım verilerinizi ASLA yayınlamayız veya paylaşmayız. Arkadaş eklediğinizde yalnızca arkadaşlarınız sizi ve adımlarınızı görebilir. Bir gruba katıldığınızda gruptaki diğer kişiler sizi görebilir. İstediğiniz kişiyi özel olarak gizleyebilir veya engelleyebilirsiniz; o sizi görmez, siz de onu görmezsiniz.",
           "html": "Varsayılan olarak StepUp’ta adımlarınızı sizden başka kimse göremez. Adım verilerinizi ASLA yayınlamayız veya paylaşmayız.<br>Arkadaş eklediğinizde yalnızca arkadaşlarınız sizi ve adımlarınızı görebilir. Bir gruba katıldığınızda gruptaki diğer kişiler sizi görebilir.<br>İstediğiniz kişiyi özel olarak gizleyebilir veya engelleyebilirsiniz; o sizi görmez, siz de onu görmezsiniz."
         },
         {
+          "id": "hide-block-friends",
           "q": "StepUp’ta arkadaşları nasıl gizler veya engellerim?",
           "a": "StepUp’ta bir arkadaşın üzerine uzun basarak onu özel olarak gizleyebilirsiniz. Gizli arkadaşları görmezsiniz, onlar da sizi görmez. StepUp > Ayarlar > Gizli arkadaşlar bölümünden tekrar gösterebilirsiniz.",
           "html": "StepUp’ta bir arkadaşın üzerine uzun basarak onu özel olarak gizleyebilirsiniz. Gizli arkadaşları görmezsiniz, onlar da sizi görmez. StepUp &gt; Ayarlar &gt; Gizli arkadaşlar bölümünden tekrar gösterebilirsiniz."
         },
         {
+          "id": "friends-groups-disappeared",
           "q": "Arkadaşlarım ve gruplarım kayboldu. Yardım!",
           "a": "Bu olmamalı. Olursa internet bağlantınızı kontrol edin, çıkış yapın (Ayarlar > Çıkış yap) ve orijinal giriş yöntemi ve hesabınızla tekrar giriş yapın. Olmazsa bize team@thestepupapp.com adresinden yazın. Not: belirli bir arkadaş eksikse, StepUp hesabını silmiş veya sizi gizlemiş olabilir.",
           "html": "Bu olmamalı. Olursa internet bağlantınızı kontrol edin, çıkış yapın (Ayarlar &gt; Çıkış yap) ve orijinal giriş yöntemi ve hesabınızla tekrar giriş yapın. Olmazsa bize <a href=\"mailto:team@thestepupapp.com\">team@thestepupapp.com</a> adresinden yazın.<br><br>Not: belirli bir arkadaş eksikse, StepUp hesabını silmiş veya sizi gizlemiş olabilir."
         },
         {
+          "id": "active-bot-chill-bot",
           "q": "Active Bot ve Chill Bot nedir? Gizleyebilir miyim?",
           "a": "Active Bot & Chill Bot, StepUp’ta yaklaşık 8K ve 3K adım atan sanal arkadaşlardır. Birçok kullanıcı kendini onlara göre tempolamayı sever. Üzerlerine dokunup sağ üstten “Hide” seçerek gizleyebilirsiniz.",
           "html": "Active Bot &amp; Chill Bot, StepUp’ta yaklaşık 8K ve 3K adım atan sanal arkadaşlardır. Birçok kullanıcı kendini onlara göre tempolamayı sever. Üzerlerine dokunup sağ üstten “Hide” seçerek gizleyebilirsiniz."
         },
         {
+          "id": "automatic-sync",
           "q": "StepUp adımları otomatik senkronize eder mi? Her gün açmalı mıyım?",
           "a": "StepUp adımlarınızı arka planda okumaya çalışır, ancak uygulama kapatılmışsa veya telefon düşük güç modundaysa bu çalışmaz. StepUp açıldığında yakın geçmişi senkronize edebilir; uygulamayı en az haftada bir, ideal olarak her gün açarsanız adımlar kaybolmaz.",
           "html": "StepUp adımlarınızı arka planda okumaya çalışır, ancak uygulama kapatılmışsa veya telefon düşük güç modundaysa bu çalışmaz.<br>StepUp açıldığında yakın geçmişi senkronize edebilir; uygulamayı en az haftada bir, ideal olarak her gün açarsanız adımlar kaybolmaz."
         },
         {
+          "id": "battery-usage",
           "q": "StepUp pili tüketir mi? (Hiç de değil!)",
           "a": "StepUp telefonunuzun yerleşik adım sensörünü/fitness takipçisini kullanır; bu arka planda pilinizi belirgin şekilde etkilemeden çalışır. StepUp adım saymak için GPS kullanmadığından pil dostudur. :)",
           "html": "StepUp telefonunuzun yerleşik adım sensörünü/fitness takipçisini kullanır; bu arka planda pilinizi belirgin şekilde etkilemeden çalışır. StepUp adım saymak için GPS kullanmadığından pil dostudur. :)"
         },
         {
+          "id": "new-phone",
           "q": "Yeni telefona nasıl geçerim?",
           "a": "Geçmeden önce eski telefonda StepUp’a giriş yaptığınızdan emin olun; böylece adım geçmişiniz hesabınıza kaydedilir. En son adımları senkronize etmek için eski telefonda StepUp’ı açın. Sonra yeni telefonda aynı hesapla giriş yapın. Bunu sabah yapmanız daha iyi olur, böylece yeni telefon günün tüm adımlarını kaydeder. Geçmiş ve grupların yeni telefonda göründüğünü doğruladıktan sonra eski telefonda StepUp’tan çıkış yapın. StepUp tek seferde bir telefondan takip edecek şekilde tasarlanmıştır; iki telefonda da giriş yapmak düzgün çalışmaz.",
           "html": "Geçmeden önce eski telefonda StepUp’a giriş yaptığınızdan emin olun; böylece adım geçmişiniz hesabınıza kaydedilir. En son adımları senkronize etmek için eski telefonda StepUp’ı açın.<br>Sonra yeni telefonda aynı hesapla giriş yapın. Bunu sabah yapmanız daha iyi olur, böylece yeni telefon günün tüm adımlarını kaydeder.<br>Geçmiş ve grupların yeni telefonda göründüğünü doğruladıktan sonra eski telefonda StepUp’tan çıkış yapın.<br>StepUp tek seferde bir telefondan takip edecek şekilde tasarlanmıştır; iki telefonda da giriş yapmak düzgün çalışmaz."
         },
         {
+          "id": "delete-account",
           "q": "StepUp hesabımı ve verilerimi nasıl silerim?",
           "a": "Hesabınızı ve verilerinizi StepUp > Ayarlar > Yardım ve geri bildirim > Hesabı sil bölümünden silebilirsiniz. Not: tüm hesap ve adım verileriniz hemen kalıcı olarak silinir ve geri alınamaz.",
           "html": "Hesabınızı ve verilerinizi StepUp &gt; Ayarlar &gt; Yardım ve geri bildirim &gt; Hesabı sil bölümünden silebilirsiniz.<br>Not: tüm hesap ve adım verileriniz hemen kalıcı olarak silinir ve geri alınamaz."
         },
         {
+          "id": "who-built-stepup",
           "q": "StepUp’ı kim yaptı?",
           "a": "Pratik, annesi ve kardeşlerini daha aktif olmaya teşvik etmek için sosyal, ilgi çekici ve eğlenceli bir adım takip uygulaması kullanmak istedi ama uygun bir tane bulamadı. Bu yüzden ekibiyle StepUp’ı, aktif olmayı daha eğlenceli ve sosyal hale getirme misyonuyla geliştiriyor.",
           "html": "<a href=\"https://www.linkedin.com/in/pratikstephen/\" target=\"_blank\" rel=\"noopener\">Pratik</a>, annesi ve kardeşlerini daha aktif olmaya teşvik etmek için sosyal, ilgi çekici ve eğlenceli bir adım takip uygulaması kullanmak istedi ama uygun bir tane bulamadı. Bu yüzden ekibiyle StepUp’ı, aktif olmayı daha eğlenceli ve sosyal hale getirme misyonuyla geliştiriyor."
         },
         {
           "open": true,
+          "id": "support-stepup",
           "q": "StepUp’ı seviyorum — sizi nasıl destekleyebilirim?",
           "a": "Aktif olmayı daha eğlenceli ve sosyal hale getirme misyonumuza katıldığınız için teşekkürler! 🙌 Arkadaşlarınızı, ailenizi ve iş arkadaşlarınızı davet ederseniz çok seviniriz. App Store ve Google Play Store yorumları daha fazla kişiye ulaşmamıza yardımcı olur. İsterseniz bizi desteklemek için bir kahve de ısmarlayabilirsiniz! ❤️",
           "html": "Aktif olmayı daha eğlenceli ve sosyal hale getirme misyonumuza katıldığınız için teşekkürler! 🙌<br>Arkadaşlarınızı, ailenizi ve iş arkadaşlarınızı davet ederseniz çok seviniriz.<br><a href=\"https://itunes.apple.com/app/id979101825\">App Store</a> ve <a href=\"https://play.google.com/store/apps/details?id=com.thestepupapp.stepup\">Google Play Store</a> yorumları daha fazla kişiye ulaşmamıza yardımcı olur.<br>İsterseniz bizi desteklemek için <a href=\"https://www.buymeacoffee.com/stepupapp\" target=\"_blank\" rel=\"noopener\">bir kahve de ısmarlayabilirsiniz</a>! ❤️"

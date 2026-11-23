@@ -35,6 +35,12 @@ Core facts:
 ## Product Context
 
 - [Step challenge FAQ](https://thestepupapp.com/#faq): Answers about organizing step challenges, groups, leaderboards, fixed date ranges, team-vs-team challenges, group chat, wearable sync, privacy, account deletion and troubleshooting.
+- [How to organise a step challenge](https://thestepupapp.com/#collapseWork): Creating groups, inviting members, date ranges, team challenges and leaderboards.
+- [Syncing wearables](https://thestepupapp.com/#sync-wearables): Syncing steps from Apple Watch, Fitbit, Garmin and other wearables via Apple Health and Android Health Connect.
+- [Automatic step sync](https://thestepupapp.com/#automatic-sync): Whether StepUp needs to be opened daily to sync steps.
+- [Who can see my steps](https://thestepupapp.com/#who-can-see-my-steps): Step visibility for friends and groups.
+- [Moving to a new phone](https://thestepupapp.com/#new-phone): Transferring a StepUp account to a new device.
+- [Deleting your account](https://thestepupapp.com/#delete-account): How to delete a StepUp account and its data.
 - [Example StepUp group invite](https://join.thestepupapp.com/nJq00b): Public invite link for the "StepUp In 2026" group.
 - [Organizer guidance and email templates](https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing): Additional guidance for people running step challenges.
 

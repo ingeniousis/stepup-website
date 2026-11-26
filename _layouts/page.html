@@ -1,0 +1,95 @@
+---
+---
+{% assign t = site.data.home.languages.en %}
+{% assign base_url = site.url | default: "https://thestepupapp.com" %}
+{% assign page_url = base_url | append: page.url %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ page.title | escape }}</title>
+	<meta name="description" content="{{ page.description | escape }}">
+	<meta name="theme-color" content="#16abbe">
+	<meta name="apple-itunes-app" content="app-id=979101825">
+	<link rel="canonical" href="{{ page_url }}">
+
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="{{ page_url }}">
+	<meta property="og:title" content="{{ page.og_title | default: page.title | escape }}">
+	<meta property="og:description" content="{{ page.description | escape }}">
+	<meta property="og:image" content="{{ base_url }}/images/imgs/HighFive.png">
+	<meta property="og:image:width" content="480">
+	<meta property="og:image:height" content="480">
+	<meta property="og:locale" content="en_US">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@StepUpApp">
+	<meta name="twitter:title" content="{{ page.og_title | default: page.title | escape }}">
+	<meta name="twitter:description" content="{{ page.description | escape }}">
+	<meta name="twitter:image" content="{{ base_url }}/images/imgs/HighFive.png">
+
+	<link rel="icon" href="/images/favicon.png">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L94LVQEZP"></script>
+	<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4L94LVQEZP');</script>
+{% include site-styles.html %}
+	<style>
+		.page-hero { padding: 110px 0 60px; } .page-hero h1 { color: var(--color-white); font-size: var(--fs-xl); font-weight: var(--fw-light); margin-bottom: 20px; } .page-hero .lead { font-size: var(--fs-md); margin-bottom: 30px; } .breadcrumbs { font-size: var(--fs-xs); margin-bottom: 18px; } .breadcrumbs a { color: var(--color-link-light); }
+		.section { padding: 70px 0; } .section.alt { background: var(--color-bg-light); } .section h2 { text-align: center; } .section-intro { max-width: 760px; margin: -10px auto 40px; text-align: center; } .prose { max-width: 760px; margin: 0 auto; } .prose h3 { margin-top: 30px; }
+		.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; counter-reset: step; } .steps li { background: var(--color-white); border-radius: 8px; padding: 24px 20px; box-shadow: 0 1px 3px rgba(0,0,0,.06); counter-increment: step; } .steps li::before { content: counter(step); display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: var(--color-bg-blue); color: var(--color-white); font-weight: var(--fw-bold); margin-bottom: 14px; } .steps h3 { margin: 0 0 10px; }
+		.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; } .cards.three { grid-template-columns: repeat(3, 1fr); } .card { background: var(--color-bg-light); border-radius: 8px; padding: 24px; } .section.alt .card { background: var(--color-white); box-shadow: 0 1px 3px rgba(0,0,0,.06); } .card h3 { margin: 0 0 12px; } .card p:last-child { margin-bottom: 0; }
+		.template { position: relative; margin: 0 0 30px; } .template pre { white-space: pre-wrap; word-wrap: break-word; font-family: inherit; font-size: var(--fs-sm); background: var(--color-white); border: 1px solid #d7e6e8; border-radius: 8px; padding: 24px; margin: 0; } .copy-btn { position: absolute; top: 12px; right: 12px; background: var(--color-bg-teal); color: var(--color-white); border: 0; border-radius: 6px; padding: 6px 14px; font: inherit; font-size: var(--fs-xs); font-weight: var(--fw-medium); cursor: pointer; } .copy-btn:hover { background: var(--color-text-heading); }
+		.cta { text-align: center; }
+		@media (max-width: 900px) { .page-hero { padding: 90px 0 40px; } .page-hero h1 { font-size: var(--fs-lg); } .steps { grid-template-columns: 1fr 1fr; } .cards, .cards.three { grid-template-columns: 1fr; } .section { padding: 50px 0; } }
+		@media (max-width: 560px) { .steps { grid-template-columns: 1fr; } .template pre { padding: 52px 16px 16px; } }
+	</style>
+</head>
+<body>
+	<nav class="nav"><div class="container nav-inner"><a class="nav-brand" href="/"><img src="/images/2026/logo/NewLogoRounded50Percent.png" alt="{{ t.images.logo }}" width="30" height="30"><span>StepUp</span></a><button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button><ul class="nav-links"><li><a href="/">Home</a></li><li><a href="#faq">FAQ</a></li><li><a href="#footer">{{ t.nav.contact }}</a></li></ul></div></nav>
+{{ content }}
+	{% if page.faqs %}<section class="faq" id="faq"><div class="container"><h2>{{ page.faq_title | default: "Frequently asked questions" }}</h2>{% for faq in page.faqs %}<details class="faq-item" id="{{ faq.id }}"><summary>{{ faq.q }}</summary><div class="faq-body"><p>{{ faq.a }}</p></div></details>{% endfor %}</div></section>{% endif %}
+{% include site-footer.html t=t %}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebPage",
+				"@id": "{{ page_url }}#webpage",
+				"url": "{{ page_url }}",
+				"name": {{ page.title | jsonify }},
+				"description": {{ page.description | jsonify }},
+				"isPartOf": { "@id": "{{ base_url }}/#website" },
+				"about": { "@id": "{{ base_url }}/#mobileapplication" },
+				"breadcrumb": { "@id": "{{ page_url }}#breadcrumb" },
+				"dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
+				"inLanguage": "en"
+			},
+			{
+				"@type": "BreadcrumbList",
+				"@id": "{{ page_url }}#breadcrumb",
+				"itemListElement": [
+					{ "@type": "ListItem", "position": 1, "name": "StepUp", "item": "{{ base_url }}/" },{% if page.parent_title %}
+					{ "@type": "ListItem", "position": 2, "name": {{ page.parent_title | jsonify }}, "item": "{{ base_url }}{{ page.parent_url }}" },{% endif %}
+					{ "@type": "ListItem", "position": {% if page.parent_title %}3{% else %}2{% endif %}, "name": {{ page.breadcrumb | default: page.title | jsonify }}, "item": "{{ page_url }}" }
+				]
+			}{% if page.faqs %},
+			{
+				"@type": "FAQPage",
+				"@id": "{{ page_url }}#faq",
+				"isPartOf": { "@id": "{{ page_url }}#webpage" },
+				"mainEntity": [
+					{% for faq in page.faqs %}{ "@type": "Question", "name": {{ faq.q | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | strip_html | jsonify }} } }{% unless forloop.last %},{% endunless %}
+					{% endfor %}
+				]
+			}{% endif %}
+		]
+	}
+	</script>
+	<script>(function () { function openFaq() { var id = decodeURIComponent(window.location.hash.slice(1)); var el = id && document.getElementById(id); if (el && el.tagName === 'DETAILS') el.open = true; } openFaq(); window.addEventListener('hashchange', openFaq); var toggle = document.querySelector('.nav-toggle'); var links = document.querySelector('.nav-links'); toggle.addEventListener('click', function () { var open = links.classList.toggle('open'); toggle.setAttribute('aria-expanded', open); }); links.addEventListener('click', function (e) { if (e.target.tagName === 'A') links.classList.remove('open'); }); document.querySelectorAll('.copy-btn').forEach(function (btn) { btn.addEventListener('click', function () { var text = btn.parentNode.querySelector('pre').innerText; var done = function () { btn.textContent = 'Copied!'; setTimeout(function () { btn.textContent = 'Copy'; }, 1500); }; if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done); } }); }); })();</script>
+</body>
+</html>

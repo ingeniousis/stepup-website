@@ -16,6 +16,9 @@ Core facts:
 
 ## Primary Pages
 
+- [How to run a step challenge](https://thestepupapp.com/step-challenge/): English guide for organizers, with challenge formats, tips, FAQ and email templates.
+- [Workplace step challenge](https://thestepupapp.com/workplace-step-challenge/): English guide for running a step challenge at work, with setup timeline, challenge ideas, fairness tips, a workplace FAQ and a weekly update email template.
+
 - [English homepage](https://thestepupapp.com/): Main English landing page with app overview, reviews, download links and FAQs.
 - [German homepage](https://thestepupapp.com/de/): German localized landing page.
 - [Spanish homepage](https://thestepupapp.com/es/): Spanish localized landing page.
@@ -42,7 +45,7 @@ Core facts:
 - [Moving to a new phone](https://thestepupapp.com/#new-phone): Transferring a StepUp account to a new device.
 - [Deleting your account](https://thestepupapp.com/#delete-account): How to delete a StepUp account and its data.
 - [Example StepUp group invite](https://join.thestepupapp.com/nJq00b): Public invite link for the "StepUp In 2026" group.
-- [Organizer guidance and email templates](https://docs.google.com/document/d/1sWPuoR_GZgQHK2Ss7dRhtVwHq9U8Yt8TS1CVYQ_nOaM/edit?usp=sharing): Additional guidance for people running step challenges.
+- [How to run a step challenge](https://thestepupapp.com/step-challenge/): Organizer guide covering setup, monthly, fixed-date and team vs team challenge formats, Mystery Mode, tips, an FAQ, and copyable invite email templates.
 
 ## Legal And Support
 
